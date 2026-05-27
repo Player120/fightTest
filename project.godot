@@ -8,11 +8,24 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="Novo Projeto de Jogo"
+run/main_scene="uid://8467xs8pwpkr"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Fight="*uid://bscddxw8s8ij7"
+
+[display]
+
+window/size/mode=2
 
 [physics]
 

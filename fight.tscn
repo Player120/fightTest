@@ -1,3 +1,175 @@
 [gd_scene format=3 uid="uid://8467xs8pwpkr"]
 
-[node name="Fight" type="Node2D" unique_id=1680262557]
+[ext_resource type="Texture2D" uid="uid://ckxuec6f7s536" path="res://Resources/Sprites/inova.jpg" id="1_3mnov"]
+[ext_resource type="Script" uid="uid://bscddxw8s8ij7" path="res://Scripts/fight.gd" id="1_4jl1m"]
+[ext_resource type="Script" uid="uid://63r1bof0duu4" path="res://Scripts/player_hp_number.gd" id="3_4jl1m"]
+[ext_resource type="Script" uid="uid://btt5caxteeso" path="res://Scripts/boss_hp_number.gd" id="3_hchht"]
+
+[sub_resource type="GDScript" id="GDScript_hchht"]
+script/source = "extends Control
+@onready var hpValue : Label = $hpNumber
+
+func _on_attack_pressed() -> void:
+	pass
+"
+
+[node name="Fight Area" type="Control" unique_id=1366971351]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4jl1m")
+
+[node name="EnemyArea" type="Control" parent="." unique_id=1736197428]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -199.0
+offset_bottom = 203.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="EnemySprite" type="Control" parent="EnemyArea" unique_id=1947164907]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Enemy" type="Sprite2D" parent="EnemyArea/EnemySprite" unique_id=734386346]
+position = Vector2(26, 18)
+scale = Vector2(3.48148, 1.98519)
+texture = ExtResource("1_3mnov")
+
+[node name="HappeningArea" type="Control" parent="." unique_id=366275189]
+custom_minimum_size = Vector2(1152, 120)
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="HappeningArea" unique_id=471898073]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.165656, 0.165656, 0.165656, 1)
+
+[node name="HappeningText" type="Label" parent="HappeningArea" unique_id=25491712]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 36
+text = "Teste asiudhasiduhausidhasiuhdusaidhsau"
+
+[node name="bossHpNumber" type="Label" parent="HappeningArea" unique_id=247728917]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -104.0
+offset_top = -29.0
+offset_right = -64.0
+offset_bottom = 29.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.8905049, 0, 0.0595209, 1)
+theme_override_font_sizes/font_size = 42
+text = "0"
+script = ExtResource("3_hchht")
+
+[node name="PlayerArea" type="Control" parent="." unique_id=595768932]
+custom_minimum_size = Vector2(1152, 120)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+script = SubResource("GDScript_hchht")
+
+[node name="ColorRect" type="ColorRect" parent="PlayerArea" unique_id=924690996]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.165656, 0.165656, 0.165656, 1)
+
+[node name="Attack" type="Button" parent="PlayerArea" unique_id=467103863]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -245.0
+offset_top = -32.5
+offset_right = 25.0
+offset_bottom = 32.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Attack"
+
+[node name="Heal" type="Button" parent="PlayerArea" unique_id=28209859]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.743056
+anchor_top = 0.5
+anchor_right = 0.743056
+anchor_bottom = 0.5
+offset_left = -245.0
+offset_top = -32.5
+offset_right = 25.0
+offset_bottom = 32.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Heal"
+metadata/_edit_use_anchors_ = true
+
+[node name="playerHpText" type="Label" parent="PlayerArea" unique_id=1562697856]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -22.5
+offset_right = 53.0
+offset_bottom = 22.5
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "HP:"
+
+[node name="playerHpNumber" type="Label" parent="PlayerArea" unique_id=1846373832]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 37.5
+offset_right = 112.0
+offset_bottom = 82.5
+theme_override_font_sizes/font_size = 32
+text = "0"
+script = ExtResource("3_4jl1m")
+
+[connection signal="pressed" from="PlayerArea/Attack" to="." method="_on_attack_pressed"]
