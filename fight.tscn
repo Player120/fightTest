@@ -81,7 +81,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 36
-text = "You encounter Big Gus"
+text = "Placeholder Text"
 
 [node name="bossHpNumber" type="Label" parent="HappeningArea" unique_id=247728917]
 layout_mode = 1
@@ -185,3 +185,4 @@ script = ExtResource("4_34m47")
 metadata/_custom_type_script = "uid://deuvyaeq4pnhc"
 
 [connection signal="pressed" from="PlayerArea/Attack" to="." method="_on_attack_pressed"]
+[connection signal="pressed" from="PlayerArea/Heal" to="." method="_on_heal_pressed"]
