@@ -1,11 +1,6 @@
-extends RefCounted
+extends Node
 class_name player
 
-var playerHealth : int = 100
-var playerOffense : int = 10
-
-func getPlayerHealth() -> int:
-	return playerHealth
-
-func getPlayerOffense() -> int:
-	return playerOffense
+var health : int = 100
+var offense : int = 70
+var alive : bool = true

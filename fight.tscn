@@ -4,6 +4,8 @@
 [ext_resource type="Script" uid="uid://bscddxw8s8ij7" path="res://Scripts/fight.gd" id="1_4jl1m"]
 [ext_resource type="Script" uid="uid://63r1bof0duu4" path="res://Scripts/player_hp_number.gd" id="3_4jl1m"]
 [ext_resource type="Script" uid="uid://btt5caxteeso" path="res://Scripts/boss_hp_number.gd" id="3_hchht"]
+[ext_resource type="Script" uid="uid://deuvyaeq4pnhc" path="res://Scripts/Classes/boss.gd" id="4_34m47"]
+[ext_resource type="Script" uid="uid://chaqdvvd5sas4" path="res://Scripts/Classes/player.gd" id="5_34m47"]
 
 [sub_resource type="GDScript" id="GDScript_hchht"]
 script/source = "extends Control
@@ -13,7 +15,7 @@ func _on_attack_pressed() -> void:
 	pass
 "
 
-[node name="Fight Area" type="Control" unique_id=1366971351]
+[node name="Fight Area" type="Control" unique_id=1366971351 node_paths=PackedStringArray("playerStatus", "bossStatus")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -21,6 +23,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_4jl1m")
+playerStatus = NodePath("player")
+bossStatus = NodePath("boss")
 
 [node name="EnemyArea" type="Control" parent="." unique_id=1736197428]
 layout_mode = 1
@@ -77,7 +81,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 36
-text = "Teste asiudhasiduhausidhasiuhdusaidhsau"
+text = "You encounter Big Gus"
 
 [node name="bossHpNumber" type="Label" parent="HappeningArea" unique_id=247728917]
 layout_mode = 1
@@ -171,5 +175,13 @@ offset_bottom = 82.5
 theme_override_font_sizes/font_size = 32
 text = "0"
 script = ExtResource("3_4jl1m")
+
+[node name="player" type="Node" parent="." unique_id=711917567]
+script = ExtResource("5_34m47")
+metadata/_custom_type_script = "uid://chaqdvvd5sas4"
+
+[node name="boss" type="Node" parent="." unique_id=93112790]
+script = ExtResource("4_34m47")
+metadata/_custom_type_script = "uid://deuvyaeq4pnhc"
 
 [connection signal="pressed" from="PlayerArea/Attack" to="." method="_on_attack_pressed"]
