@@ -1,107 +1,113 @@
 extends Control
 
+#region New Code Region
+#endregion
 # Element Variables
-@onready var playerHealthText : Label = $PlayerArea/playerHpNumber
-@onready var bossHealthText : Label = $HappeningArea/bossHpNumber
 @onready var happeningText : Label = $HappeningArea/HappeningText
-@onready var attackButton : Button = $PlayerArea/Attack
+@onready var playerArea: Control = $PlayerArea
+@onready var actionMenu : Control = $HappeningArea/ActionMenu
+@onready var playerHealthText : Label = playerArea.attributeLabel("hp")
+@onready var playerPsychicPointsText : Label = playerArea.attributeLabel("pp")
+@onready var bossHealthText : Label = $EnemyArea/EnemySprite/bossHpNumber
 
 # Class Variables
 @export var playerStatus : player
 @export var bossStatus : boss
+@export var userActions : actions
+@export var effects : statusEffects
 
 # Other Variables
-var textTimer : float = 2.0
+var textTimer : float = 1.0
+var isPlayerActionable = false
 
 func _ready() -> void:
 	randomize()
-	togglePlayerActions()
+	actionMenu.togglePlayerActions()
+	
+	playerStatus.healthLabel = playerHealthText
+	playerStatus.psychicPointsLabel = playerPsychicPointsText
+	bossStatus.healthLabel = bossHealthText
+	
 	await showHappeningText(["You encounter %s" % [bossStatus.charName], "Please choose your move"])
-	togglePlayerActions()
+	actionMenu.togglePlayerActions()
 
-func showHappeningText(messages : Array) -> void:
-	for text in messages:
+func showHappeningText(message) -> void:
+	for text in message:
 		happeningText.text = text
 		await get_tree().create_timer(textTimer).timeout
 
-func _on_attack_pressed() -> void:
-	if (playerStatus.alive):
-		playerAttack()
-
-func _on_heal_pressed() -> void:
-	if (playerStatus.alive):
-		playerHeal()
-
-func playerAttack() -> void:
-	togglePlayerActions()
-	playerStatus.action = "attack"
-	attack(playerStatus.offense, bossStatus.health, bossStatus.charName)
-
-func playerHeal() -> void:
-	togglePlayerActions()
-	playerStatus.action = "heal"
-	heal(playerStatus.health, playerStatus.charName)
-
-func bossAttack() -> void:
-	await showHappeningText(["%s is attacking!" % [bossStatus.charName]])
-	attack(bossStatus.offense, playerStatus.health, playerStatus.charName)
-
-func attack(attackerOffense, targetHealth, targetName) -> void:
-	var criticalChance : int = randi_range(1, 3)
-	var criticalMessage : String = ""
-	var criticalHit : bool = true if criticalChance == 1 else false
-	
-	var damage : int = randi_range(attackerOffense - 5, attackerOffense + 5)
-	if (criticalHit):
-		var criticalDamage : float = damage * 2.5
-		ceil(criticalDamage)
-		damage = criticalDamage
-		criticalMessage = "A critical hit! "
-	
-	targetHealth -= damage
-	
-	updateHealth(targetHealth, targetName)
-	await showHappeningText(["%s%d HP of damage to %s!" % [criticalMessage, damage, targetName]])
-	
-	testForDeath(targetHealth, targetName)
-
-func heal(userHealth, userName) -> void:
-	var healValue = randi_range(20, 64)
-	userHealth += healValue
-	
-	updateHealth(userHealth, userName)
-	await showHappeningText(["%s is healing!" % [userName], "%s recovered %d HP!" % [userName, healValue]])
-	bossAttack()
-
-func updateHealth(health, target) -> void:
-	if (health < 0):
-		health = 0
+func bossMove() -> void:
+	var bossAction : int = randi_range(1, 2)
+	print("BOSSMOVE:: Boss Action: %d" % [bossAction])
+	if (bossStatus.health > bossStatus.maxHealth * 0.35 || bossAction == 1):
+		bossStatus.action = "attack"
+		bossStatus.target = playerStatus
+	else:
+		bossStatus.action = "heal"
+		bossStatus.target = bossStatus
 		
-	if (target == playerStatus.charName):
-		playerStatus.health = health
-		playerHealthText.text = str(playerStatus.health)
-	else:
-		bossStatus.health = health
-		bossHealthText.text = str(bossStatus.health)
+	turnManager()
 
-func testForDeath(health : int, name : String) -> void:
-	if (name == playerStatus.charName):
-		if (health <= 0):
-			playerStatus.alive = false
-			showHappeningText(["You were hurt and beaten...", "You lost the battle..."])
-		else:
-			showHappeningText(["Please choose your move"])
-			togglePlayerActions()
-	else:
-		if (health <= 0):
-			bossStatus.alive = false
-			showHappeningText(["Big Gus was defeated!", "You won!"])
-		else:
-			bossAttack()
-
-func togglePlayerActions() -> void:
-	var playerArea : Control = $PlayerArea
-	var actionButtons : Array = playerArea.find_children("*", "BaseButton", true, false)
+func turnManager() -> void:
+	actionMenu.togglePlayerActions()
+	var charData = [
+		playerStatus,
+		bossStatus
+	]
+	charData.sort_custom(func(a, b): return a.speed > b.speed)
 	
-	for button in actionButtons:
-		button.disabled = !button.disabled
+	for userInfo in charData:
+		print("TURNMANAGER:: %s user targeted %s" % [userInfo.charName, userInfo.target])
+		
+		if (userInfo.statusEffect.has("burn")):
+			await effects.burn(userInfo)
+		
+		if (userInfo.alive):
+			if (!userInfo.statusEffect.has("freeze")):
+				await moveManager(userInfo, userInfo.target)
+			else:
+				await effects.freeze(userInfo)
+		
+		if (!userInfo.alive || !userInfo.target.alive):
+			var whoDied : String = ""
+			match false:
+				userInfo.alive:
+					whoDied += userInfo.charName + ", "
+				userInfo.target.alive:
+					whoDied += userInfo.target.charName + ","
+			print("TURNMANAGER:: %s has died. The battle should have ended." % [whoDied])
+			break
+	
+	if (playerStatus.alive && bossStatus.alive):
+		showHappeningText(["Please choose your move"])
+		actionMenu.togglePlayerActions()
+
+func moveManager(userName : Node, targetName : Node):
+	print("MOVEMANAGER:: %s did the action %s to %s" % [userName.charName, userName.action, targetName])
+	match userName.action:
+		"attack":
+			await userActions.attack(userName, userName.target)
+			print("MATCH (moveManager):: Target health AFTER attack: %d" % [userName.target.health])
+		"heal":
+			await userActions.heal(userName, userName.target)
+			print("MATCH (moveManager):: Target health AFTER heal: %d" % [userName.target.health])
+		"psi":
+			await userActions.psi(userName, userName.target)
+		_:
+			await showHappeningText(["Something went wrong. Please reset the application."])
+
+func updateHealthText(target : Node) -> void:
+	print("UPDATEHEALTHTEXT:: Target Health: %s" % [target.healthLabel])
+	if (target.health < 0):
+		target.health = 0
+	target.healthLabel.text = str(target.health)
+
+func updatePsychicPointsText(target : Node) -> void:
+	target.psychicPointsLabel.text = str(target.psychicPoints)
+
+func testForDeath(deffender : Node) -> void:
+	if (deffender.health <= 0):
+		deffender.alive = false
+		print("TESTFORDEATH:: %s died!" % [deffender.charName])
+		await get_tree().create_timer(textTimer).timeout
+		showHappeningText(deffender.deathMessage)

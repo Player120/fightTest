@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=3 uid="uid://dovu0pfktw7wb"]
+
+[ext_resource type="Script" uid="uid://qjlc43koktha" path="res://Scripts/player_window_container.gd" id="1_8u6vr"]
+
+[node name="PlayerWindowContainer" type="Control"]
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -160.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_8u6vr")
+
+[node name="WindowContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerWindow" type="Control" parent="WindowContainer"]
+custom_minimum_size = Vector2(230, 0)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="WindowContainer/PlayerWindow"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+color = Color(0.260579, 0.557714, 0.588707, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WindowContainer/PlayerWindow"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerName" type="Label" parent="WindowContainer/PlayerWindow/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "Player"
+horizontal_alignment = 1
+
+[node name="hpContainer" type="HBoxContainer" parent="WindowContainer/PlayerWindow/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="hpTitle" type="Label" parent="WindowContainer/PlayerWindow/VBoxContainer/hpContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_font_sizes/font_size = 32
+text = "HP:"
+
+[node name="Spacing" type="Control" parent="WindowContainer/PlayerWindow/VBoxContainer/hpContainer"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+
+[node name="hpNumber" type="Label" parent="WindowContainer/PlayerWindow/VBoxContainer/hpContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 32
+text = "000"
+
+[node name="ppContainer" type="HBoxContainer" parent="WindowContainer/PlayerWindow/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="ppTitle" type="Label" parent="WindowContainer/PlayerWindow/VBoxContainer/ppContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 32
+text = "PP:"
+
+[node name="Spacing" type="Control" parent="WindowContainer/PlayerWindow/VBoxContainer/ppContainer"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+
+[node name="ppNumber" type="Label" parent="WindowContainer/PlayerWindow/VBoxContainer/ppContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "000"
