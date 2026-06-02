@@ -2,6 +2,7 @@ extends Node
 class_name actions
 
 @export var psiActions : psiMoves
+@export var darkArtsActions : darkArts
 
 func attack(attacker : Node, deffender : Node) -> void:
 	await owner.showHappeningText(["%s is attacking!" % [attacker.charName]])
@@ -20,9 +21,9 @@ func attack(attacker : Node, deffender : Node) -> void:
 			damage = ceil(criticalDamage)
 			criticalMessage = "A critical hit! "
 		
-		damageHandler(deffender, damage)
+		var damageMessage : String = "%s%d HP of damage to %s!" % [criticalMessage, damage, deffender.charName]
 		
-		await owner.showHappeningText(["%s%d HP of damage to %s!" % [criticalMessage, damage, deffender.charName]])
+		await damageHandler(deffender, damage, damageMessage)
 	else:
 		await owner.showHappeningText(["%s dodged with style!" % [deffender.charName]])
 
@@ -41,8 +42,8 @@ func heal(healer : Node, target : Node) -> void:
 	await owner.showHappeningText(["%s recovered %d HP!" % [target.charName, healValue]])
 
 func psi(user : Node, target : Node) -> void:
-	await owner.showHappeningText(["%s tried %s!" % [user.charName, user.psiName]])
-	match user.psiName:
+	await owner.showHappeningText(["%s tried %s!" % [user.charName, user.specialMoveName]])
+	match user.specialMoveName:
 		"PK Starstorm":
 			await psiActions.pkStarstorm(user, target)
 		"PK Fire":
@@ -52,8 +53,18 @@ func psi(user : Node, target : Node) -> void:
 		_:
 			await owner.showHappeningText(["Something went wrong: Invalid move in function psi() in actions.gd. Please restart the application."])
 
-func damageHandler(deffender : Node, damage : int) -> void:
+func darkArtsManager(user : Node, target : Node) -> void:
+	await owner.showHappeningText(["%s used the dreaded %s dark art!" % [user.charName, user.specialMoveName]])
+	match user.specialMoveName:
+		"Anti-Innovation":
+			await darkArtsActions.antiInnovation(user, target)
+		"Globalization":
+			await darkArtsActions.globalization(user, target)
+
+func damageHandler(deffender : Node, damage : int, message : String) -> void:
 	deffender.health -= damage
-	
 	owner.updateHealthText(deffender)
-	owner.testForDeath(deffender)
+	
+	await owner.showHappeningText([message])
+	
+	await owner.testForDeath(deffender)

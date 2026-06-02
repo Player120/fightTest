@@ -1,27 +1,25 @@
 extends Control
 
-@onready var playerWindowContainer : Control = $PlayerWindowContainer
-
 @export var playerStatus : player
 
 var hpNumber : int = 0
 
-func _ready() -> void:
-	updateValues("health", playerStatus.health)
-	updateValues("psychicPoints", playerStatus.psychicPoints)
+#func _ready() -> void:
+	#updateValues("health", playerStatus.health)
+	#updateValues("psychicPoints", playerStatus.psychicPoints)
 
-func attributeLabel(type) -> Label:
+func attributeLabel(type : String, playerWindowScene) -> Label:
 	match type:
 		"hp":
-			return playerWindowContainer.hpNumber
+			return playerWindowScene.hpNumber
 		"pp":
-			return playerWindowContainer.ppNumber
+			return playerWindowScene.ppNumber
 		_:
-			return playerWindowContainer.hpNumber
+			return playerWindowScene.hpNumber
 
-func updateValues(type : String, amount : int) -> void:
+func updateValues(type : String, amount : int, playerWindowScene) -> void:
 	match type:
 		"health":
-			playerWindowContainer.updateUIText(type, amount)
+			playerWindowScene.updateUIText(type, amount)
 		"psychicPoints":
-			playerWindowContainer.updateUIText(type, amount)
+			playerWindowScene.updateUIText(type, amount)

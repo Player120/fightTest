@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://61qee0l6w8dn"]
+[gd_scene format=3 uid="uid://61qee0l6w8dn"]
 
 [ext_resource type="Script" uid="uid://dc8wwwl3tpc6" path="res://Scripts/action_menu.gd" id="1_7wp0d"]
 
-[node name="ActionMenu" type="Control"]
+[node name="ActionMenu" type="Control" unique_id=1012500843]
 custom_minimum_size = Vector2(1152, 200)
 layout_mode = 3
 anchors_preset = 10
@@ -11,14 +11,14 @@ offset_bottom = 200.0
 grow_horizontal = 2
 script = ExtResource("1_7wp0d")
 
-[node name="Actions" type="Control" parent="."]
+[node name="Actions" type="Control" parent="." unique_id=1415464548]
 custom_minimum_size = Vector2(1152, 120)
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
 grow_horizontal = 2
 
-[node name="ColorRect" type="ColorRect" parent="Actions"]
+[node name="ColorRect" type="ColorRect" parent="Actions" unique_id=561226312]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -27,7 +27,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.336282, 0.40612, 0.473014, 1)
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Actions"]
+[node name="HBoxContainer" type="HBoxContainer" parent="Actions" unique_id=100344430]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
@@ -38,11 +38,11 @@ offset_bottom = 35.0
 grow_vertical = 2
 theme_override_constants/separation = 40
 
-[node name="Control" type="Control" parent="Actions/HBoxContainer"]
+[node name="Control" type="Control" parent="Actions/HBoxContainer" unique_id=1110714108]
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="Attack" type="Button" parent="Actions/HBoxContainer"]
+[node name="Attack" type="Button" parent="Actions/HBoxContainer" unique_id=665988876 groups=["actionButtons"]]
 custom_minimum_size = Vector2(180, 70)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -50,7 +50,7 @@ size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "Attack"
 
-[node name="Heal" type="Button" parent="Actions/HBoxContainer"]
+[node name="Heal" type="Button" parent="Actions/HBoxContainer" unique_id=717638976 groups=["actionButtons"]]
 custom_minimum_size = Vector2(180, 70)
 layout_mode = 2
 size_flags_horizontal = 0
@@ -58,15 +58,25 @@ size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "Heal"
 
-[node name="PSI" type="Button" parent="Actions/HBoxContainer"]
+[node name="Special" type="Button" parent="Actions/HBoxContainer" unique_id=1266947176 groups=["actionButtons"]]
 custom_minimum_size = Vector2(180, 70)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
-text = "PSI"
+text = "Special"
 
-[node name="PsiMenu" type="Control" parent="."]
+[node name="SpecialActions" type="Control" parent="." unique_id=848249982]
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="PsiMenu" type="Control" parent="SpecialActions" unique_id=1613941303 groups=["specialActions"]]
 clip_contents = true
 custom_minimum_size = Vector2(1152, 80)
 layout_mode = 1
@@ -77,7 +87,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="ColorRect" type="ColorRect" parent="PsiMenu"]
+[node name="ColorRect" type="ColorRect" parent="SpecialActions/PsiMenu" unique_id=321114140]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -86,7 +96,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.963474, 0.979621, 0, 1)
 
-[node name="HBoxContainer" type="HBoxContainer" parent="PsiMenu"]
+[node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/PsiMenu" unique_id=1890124182]
 custom_minimum_size = Vector2(1152, 80)
 layout_mode = 1
 anchors_preset = 15
@@ -96,11 +106,11 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 40
 
-[node name="Control" type="Control" parent="PsiMenu/HBoxContainer"]
+[node name="Control" type="Control" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=713737224]
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="PkStarstorm" type="Button" parent="PsiMenu/HBoxContainer"]
+[node name="PkStarstorm" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1286692231 groups=["psiButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -108,7 +118,7 @@ size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "PK Starstorm"
 
-[node name="PkFire" type="Button" parent="PsiMenu/HBoxContainer"]
+[node name="PkFire" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1210467658 groups=["psiButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -116,7 +126,7 @@ size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "PK Fire"
 
-[node name="PkFreeze" type="Button" parent="PsiMenu/HBoxContainer"]
+[node name="PkFreeze" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1910727990 groups=["psiButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -124,9 +134,61 @@ size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "PK Freeze"
 
-[connection signal="pressed" from="Actions/HBoxContainer/Attack" to="." method="_on_attack_pressed"]
-[connection signal="pressed" from="Actions/HBoxContainer/Heal" to="." method="_on_heal_pressed"]
-[connection signal="pressed" from="Actions/HBoxContainer/PSI" to="." method="_on_psi_pressed"]
-[connection signal="pressed" from="PsiMenu/HBoxContainer/PkStarstorm" to="." method="_on_pk_starstorm_pressed"]
-[connection signal="pressed" from="PsiMenu/HBoxContainer/PkFire" to="." method="_on_pk_fire_pressed"]
-[connection signal="pressed" from="PsiMenu/HBoxContainer/PkFreeze" to="." method="_on_pk_freeze_pressed"]
+[node name="DarkArtsMenu" type="Control" parent="SpecialActions" unique_id=1096402510 groups=["specialActions"]]
+clip_contents = true
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect" type="ColorRect" parent="SpecialActions/DarkArtsMenu" unique_id=127075431]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.49, 0, 0.98, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/DarkArtsMenu" unique_id=1907511499]
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="Control" type="Control" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=292401883]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Anti-Innovation" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=74782991 groups=["darkArtsButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "Anti-Innovation"
+
+[node name="Globalization" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=1599007742 groups=["darkArtsButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "Globalization"
+
+[node name="Placehoder" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=215284876 groups=["darkArtsButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "suporte idk
+"

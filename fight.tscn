@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://8467xs8pwpkr"]
+[gd_scene format=3 uid="uid://8467xs8pwpkr"]
 
 [ext_resource type="Texture2D" uid="uid://ckxuec6f7s536" path="res://Resources/Sprites/inova.jpg" id="1_3mnov"]
 [ext_resource type="Script" uid="uid://bscddxw8s8ij7" path="res://Scripts/fight.gd" id="1_4jl1m"]
@@ -6,13 +6,12 @@
 [ext_resource type="Script" uid="uid://jxs5a53vdoem" path="res://Scripts/player_area.gd" id="4_1u4tr"]
 [ext_resource type="Script" uid="uid://deuvyaeq4pnhc" path="res://Scripts/Classes/boss.gd" id="4_34m47"]
 [ext_resource type="PackedScene" uid="uid://61qee0l6w8dn" path="res://Prefabs/action_menu.tscn" id="4_hcub5"]
-[ext_resource type="Script" uid="uid://chaqdvvd5sas4" path="res://Scripts/Classes/player.gd" id="5_34m47"]
-[ext_resource type="PackedScene" uid="uid://dovu0pfktw7wb" path="res://Prefabs/player_window_container.tscn" id="5_y7cdv"]
 [ext_resource type="Script" uid="uid://qy2b5tvi1dh2" path="res://Scripts/Classes/actions.gd" id="9_hcub5"]
 [ext_resource type="Script" uid="uid://ceroc8ieltt1q" path="res://Scripts/Classes/psi_moves.gd" id="10_2ssja"]
+[ext_resource type="Script" uid="uid://br3r6abel1o8w" path="res://Scripts/Classes/dark_arts.gd" id="10_rgwgi"]
 [ext_resource type="Script" uid="uid://3gjojun5pwpi" path="res://Scripts/Classes/status_effects.gd" id="11_rgwgi"]
 
-[node name="Fight Area" type="Control" node_paths=PackedStringArray("playerStatus", "bossStatus", "userActions", "effects")]
+[node name="Fight Area" type="Control" unique_id=1809887241 node_paths=PackedStringArray("bossStatus", "userActions", "effects")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,12 +19,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_4jl1m")
-playerStatus = NodePath("player")
 bossStatus = NodePath("boss")
 userActions = NodePath("actions")
 effects = NodePath("statusEffects")
 
-[node name="EnemyArea" type="Control" parent="."]
+[node name="EnemyArea" type="Control" parent="." unique_id=1382238541]
 layout_mode = 1
 anchors_preset = 14
 anchor_top = 0.5
@@ -36,7 +34,7 @@ offset_bottom = 203.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="EnemySprite" type="Control" parent="EnemyArea"]
+[node name="EnemySprite" type="Control" parent="EnemyArea" unique_id=1156416765]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -50,12 +48,12 @@ offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Enemy" type="Sprite2D" parent="EnemyArea/EnemySprite"]
+[node name="Enemy" type="Sprite2D" parent="EnemyArea/EnemySprite" unique_id=1098609922]
 position = Vector2(26, 18)
 scale = Vector2(3.48148, 1.98519)
 texture = ExtResource("1_3mnov")
 
-[node name="bossHpNumber" type="Label" parent="EnemyArea/EnemySprite"]
+[node name="bossHpNumber" type="Label" parent="EnemyArea/EnemySprite" unique_id=1383421996]
 layout_mode = 1
 anchors_preset = 6
 anchor_left = 1.0
@@ -72,14 +70,14 @@ theme_override_font_sizes/font_size = 64
 text = "0"
 script = ExtResource("3_hchht")
 
-[node name="HappeningArea" type="Control" parent="."]
+[node name="HappeningArea" type="Control" parent="." unique_id=319200587]
 custom_minimum_size = Vector2(1152, 120)
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
 grow_horizontal = 2
 
-[node name="ColorRect" type="ColorRect" parent="HappeningArea"]
+[node name="ColorRect" type="ColorRect" parent="HappeningArea" unique_id=1965004978]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -88,7 +86,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.165656, 0.165656, 0.165656, 1)
 
-[node name="HappeningText" type="Label" parent="HappeningArea"]
+[node name="HappeningText" type="Label" parent="HappeningArea" unique_id=799280050]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -99,13 +97,12 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 36
 text = "Placeholder Text"
 
-[node name="ActionMenu" parent="HappeningArea" node_paths=PackedStringArray("playerStatus", "bossStatus") instance=ExtResource("4_hcub5")]
+[node name="ActionMenu" parent="HappeningArea" unique_id=1472340283 node_paths=PackedStringArray("bossStatus") instance=ExtResource("4_hcub5")]
 layout_mode = 1
 offset_bottom = 0.0
-playerStatus = NodePath("../../player")
 bossStatus = NodePath("../../boss")
 
-[node name="PlayerArea" type="Control" parent="." node_paths=PackedStringArray("playerStatus")]
+[node name="PlayerArea" type="Control" parent="." unique_id=1554892357]
 custom_minimum_size = Vector2(1152, 120)
 layout_mode = 1
 anchors_preset = 12
@@ -115,9 +112,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
 script = ExtResource("4_1u4tr")
-playerStatus = NodePath("../player")
 
-[node name="ColorRect" type="ColorRect" parent="PlayerArea"]
+[node name="ColorRect" type="ColorRect" parent="PlayerArea" unique_id=1933701095]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -126,29 +122,37 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.165656, 0.165656, 0.165656, 1)
 
-[node name="PlayerWindowContainer" parent="PlayerArea" instance=ExtResource("5_y7cdv")]
+[node name="WindowContainer" type="HBoxContainer" parent="PlayerArea" unique_id=337671634]
+custom_minimum_size = Vector2(1152, 160)
 layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -160.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 1
 
-[node name="player" type="Node" parent="."]
-script = ExtResource("5_34m47")
-metadata/_custom_type_script = "uid://chaqdvvd5sas4"
-
-[node name="boss" type="Node" parent="."]
+[node name="boss" type="Node" parent="." unique_id=727514025]
 script = ExtResource("4_34m47")
 metadata/_custom_type_script = "uid://deuvyaeq4pnhc"
 
-[node name="actions" type="Node" parent="." node_paths=PackedStringArray("psiActions")]
+[node name="actions" type="Node" parent="." unique_id=279999397 node_paths=PackedStringArray("psiActions", "darkArtsActions")]
 script = ExtResource("9_hcub5")
 psiActions = NodePath("../psiMoves")
+darkArtsActions = NodePath("../darkArts")
 metadata/_custom_type_script = "uid://qy2b5tvi1dh2"
 
-[node name="psiMoves" type="Node" parent="." node_paths=PackedStringArray("playerStatus")]
+[node name="psiMoves" type="Node" parent="." unique_id=2028885857]
 script = ExtResource("10_2ssja")
-playerStatus = NodePath("../player")
 metadata/_custom_type_script = "uid://ceroc8ieltt1q"
 
-[node name="statusEffects" type="Node" parent="." node_paths=PackedStringArray("playerStatus", "bossStatus")]
+[node name="statusEffects" type="Node" parent="." unique_id=662802077 node_paths=PackedStringArray("bossStatus")]
 script = ExtResource("11_rgwgi")
-playerStatus = NodePath("../player")
 bossStatus = NodePath("../boss")
 metadata/_custom_type_script = "uid://3gjojun5pwpi"
+
+[node name="darkArts" type="Node" parent="." unique_id=897384533]
+script = ExtResource("10_rgwgi")
+metadata/_custom_type_script = "uid://br3r6abel1o8w"
