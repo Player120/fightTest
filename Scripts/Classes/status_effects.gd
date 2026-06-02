@@ -20,7 +20,7 @@ func burn(affected : Node) -> void:
 
 func freeze(affected : Node) -> void:
 	var unfreeze : int = randi_range(1, 3)
-	if (unfreeze == 1):
+	if (unfreeze != 1):
 		await owner.showHappeningText(["%s is frozen and can't move!" % [affected.charName]])
 	elif (affected.alive):
 		affected.statusEffect.erase("freeze")

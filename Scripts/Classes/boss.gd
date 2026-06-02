@@ -2,10 +2,10 @@ extends Node
 class_name boss
 
 var charName : String = "Big Gus"
-var health : int = 300
-const maxHealth : int = 300
+var health : int = 600
+const maxHealth : int = 600
 var healthLabel : Label
-var offense : int = 40
+var offense : int = 75
 var speed : int = 10
 var determination : int = 10
 var alive : bool = true

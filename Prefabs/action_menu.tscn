@@ -191,3 +191,61 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "Logarithms"
+
+[node name="DevToolsMenu" type="Control" parent="SpecialActions" unique_id=851675512 groups=["specialActions"]]
+clip_contents = true
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect" type="ColorRect" parent="SpecialActions/DevToolsMenu" unique_id=1435782575]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.50158936, 0.16815108, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/DevToolsMenu" unique_id=598777167]
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="Control" type="Control" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1578466459]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Flippy Board" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=290622742 groups=["devToolsButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "Flippy Board"
+
+[node name="VS Code" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1960880585 groups=["devToolsButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "VS Code"
+
+[node name="Discord Call" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1617069814 groups=["devToolsButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 32
+text = "Discord Call"

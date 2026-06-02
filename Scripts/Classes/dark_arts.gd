@@ -11,12 +11,12 @@ func antiInnovation(user : Node, target : Node) -> void:
 		await owner.testForDeath(target)
 	else:
 		await owner.showHappeningText(["It did not work very well!", "The dark art backfired to %s!" % [user.charName]])
-		var damage : int = floor(user.health * 0.6)
-		var damageMessage : String = "%d HP of recoil damage to %s" % [damage, user.charName]
+		var damage : int = floor(user.health * 0.8)
+		var damageMessage : String = "%d HP of recoil damage to %s!" % [damage, user.charName]
 		await damageHandler(user, damage, damageMessage)
 
 func globalization(user : Node, target : Node) -> void:
-	var damage : int = randi_range(1, 212)
+	var damage : int = randi_range(1, 363)
 	await owner.showHappeningText(["Globalization deems equality.", "Globalization will make %s and %s lose %d HP!" % [user.charName, target.charName, damage]])
 	
 	await damageHandler(user, damage, "%d HP of equalization damage to %s!" % [damage, user.charName])

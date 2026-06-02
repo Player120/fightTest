@@ -8,6 +8,7 @@ extends Control
 @onready var specialActions : Control = $SpecialActions
 @onready var psiMenu : Control = $SpecialActions/PsiMenu
 @onready var darkArtsMenu : Control = $SpecialActions/DarkArtsMenu
+@onready var devToolsMenu : Control = $SpecialActions/DevToolsMenu
 
 signal playerChosenAction(actionType : String)
 
@@ -31,6 +32,10 @@ func _ready() -> void:
 	var darkArtsButtons: Array[Node] = get_tree().get_nodes_in_group("darkArtsButtons")
 	for button in darkArtsButtons:
 		button.pressed.connect(_on_darkArts_button_pressed.bind(button))
+	
+	var devToolsButtons: Array[Node] = get_tree().get_nodes_in_group("devToolsButtons")
+	for button in devToolsButtons:
+		button.pressed.connect(_on_devTools_button_pressed.bind(button))
 	# --------------------------------------------------------------
 	
 
@@ -49,6 +54,8 @@ func _on_button_pressed(pressedButton : Button) -> void:
 					toggleSpecialMenu(psiMenu)
 				"Dark Arts":
 					toggleSpecialMenu(darkArtsMenu)
+				"Dev Tools":
+					toggleSpecialMenu(devToolsMenu)
 		_:
 			print("Something went wrong in actions_menu.gd")
 
@@ -73,6 +80,17 @@ func _on_darkArts_button_pressed(pressedButton : Button) -> void:
 			currentPlayer.specialMoveName = "Logarithms"
 	toggleSpecialMenu(darkArtsMenu)
 	playerChosenAction.emit("dark arts")
+
+func _on_devTools_button_pressed(pressedButton : Button) -> void:
+	match pressedButton.name:
+		"Flippy Board":
+			currentPlayer.specialMoveName = "Flippy Board"
+		"VS Code":
+			currentPlayer.specialMoveName = "VS Code"
+		"Discord Call":
+			currentPlayer.specialMoveName = "Discord Call"
+	toggleSpecialMenu(devToolsMenu)
+	playerChosenAction.emit("dev tools")
 
 func toggleSpecialMenu(menu : Control) -> void:
 	menu.visible = !menu.visible

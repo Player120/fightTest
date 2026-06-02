@@ -3,6 +3,7 @@ class_name actions
 
 @export var psiActions : psiMoves
 @export var darkArtsActions : darkArts
+@export var developmentTools : devTools
 
 func attack(attacker : Node, deffender : Node) -> void:
 	await owner.showHappeningText(["%s is attacking!" % [attacker.charName]])
@@ -31,7 +32,7 @@ func attack(attacker : Node, deffender : Node) -> void:
 
 func heal(healer : Node, target : Node) -> void:
 	await owner.showHappeningText(["%s is healing!" % [healer.charName]])
-	var healValue : int = randi_range(20, 64)
+	var healValue : int = randi_range(30, 94) + (target.health * 0.1)
 	var newHealth : int = target.health + healValue
 	
 	if (newHealth <= target.maxHealth):
@@ -64,6 +65,16 @@ func darkArtsManager(user : Node, target : Node) -> void:
 			await darkArtsActions.globalization(user, target)
 		"Logarithms":
 			await darkArtsActions.logarithms(user, target)
+
+func devToolsManager(user : Node, target) -> void:
+	await owner.showHappeningText(["%s booted up the Dev Tools!" % [user.charName]])
+	match user.specialMoveName:
+		"Flippy Board":
+			await developmentTools.flippyBoard(user, target)
+		"VS Code":
+			await developmentTools.vsCode(user, target)
+		"Discord Call":
+			await developmentTools.discordCall(user, target)
 
 func damageHandler(deffender : Node, damage : int, message : String) -> void:
 	deffender.health -= damage

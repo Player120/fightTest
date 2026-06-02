@@ -32,15 +32,13 @@ var isSomeoneAlive = true
 func _ready() -> void:
 	randomize()
 	actionMenu.togglePlayerActions()
-	await createPlayers.setup(3, windowContainer, actionMenu, playerArea, playerTeam, availablePlayers.info)
+	await createPlayers.setup(5, windowContainer, actionMenu, playerArea, playerTeam, availablePlayers.info)
 	
 	bossStatus.healthLabel = bossHealthText
 
 	await showHappeningText(["You encounter %s" % [bossStatus.charName], "Please choose your move"])
 	actionMenu.togglePlayerActions()
 	turnManager()
-
-
 
 func showHappeningText(message) -> void:
 	for text in message:
@@ -139,6 +137,10 @@ func moveManager(userName : Node, targetName : Node):
 				if userName is player:
 					userName.target = bossStatus
 				await userActions.darkArtsManager(userName, userName.target)
+			"dev tools":
+				if userName is player:
+					userName.target = playerTeam
+				await userActions.devToolsManager(userName, userName.target)
 			_:
 				pass
 	elif (userName is boss):

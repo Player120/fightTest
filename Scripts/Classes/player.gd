@@ -17,6 +17,6 @@ var specialMoveName : String = ""
 var alive : bool = true
 var action : String = ""
 var statusEffect : Array[String] = []
-var target : Node
+var target
 var deathMessage : String = "%s was hurt and beaten..." % [charName]
 var myUI : Control

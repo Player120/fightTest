@@ -5,7 +5,7 @@ func pkStarstorm(user : Node, target : Node) -> void:
 	const ppCost : int = 10
 	
 	if (await ppDepleteHandler(user, ppCost)):
-		var damage : int = randi_range(50, 70)
+		var damage : int = randi_range(70, 121)
 		
 		var damageMessage : String = "%d HP of ultra damage to %s!" % [damage, target.charName]
 		

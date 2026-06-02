@@ -17,7 +17,7 @@ func setup(
 		newPlayer.position = i + 1
 		newPlayer.health = data[i].health
 		newPlayer.maxHealth = newPlayer.health
-		newPlayer.powerPoints = 30
+		newPlayer.powerPoints = data[i].powerPoints
 		newPlayer.maxpowerPoints = newPlayer.powerPoints
 		newPlayer.offense = data[i].offense
 		newPlayer.speed = data[i].speed
