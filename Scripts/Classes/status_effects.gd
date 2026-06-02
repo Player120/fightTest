@@ -26,6 +26,20 @@ func freeze(affected : Node) -> void:
 		affected.statusEffect.erase("freeze")
 		await owner.showHappeningText(["%s has unfrozen!" % [affected.charName]])
 
+func confusion(affected : Node) -> void:
+	var stopConfusion : int = randi_range(1, 3)
+	print("STOPCONFUSION:: ", stopConfusion)
+	if (stopConfusion != 1):
+		var confusionMessages : Array[String] = ["is so confused!", "is acting a bit unusual...", "is feeling very funky...", "is completely lost!", "is daydreaming about innovation!"]
+		
+		var chosenMessage : String = confusionMessages.pick_random()
+		await owner.showHappeningText(["%s %s" % [affected.charName, chosenMessage]])
+		
+		affected.target = affected
+	else:
+		affected.statusEffect.erase("confusion")
+		await owner.showHappeningText(["%s felt lucid again!" % [affected.charName]])
+
 func damageHandler(deffender : Node, damage : int, message : String) -> void:
 	deffender.health -= damage
 	owner.updateHealthText(deffender)

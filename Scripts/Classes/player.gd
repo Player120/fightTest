@@ -5,14 +5,14 @@ var charName : String = "Player"
 var position : int = 0
 var health : int = 100
 var maxHealth : int = 100
-var psychicPoints : int = 50
-var maxPsychicPoints : int = 50
+var powerPoints : int = 50
+var maxpowerPoints : int = 50
 var offense : int = 25
 var speed : int = 12
 var determination : int = 30
 var specialAbility : String = ""
 var healthLabel : Label
-var psychicPointsLabel : Label
+var powerPointsLabel : Label
 var specialMoveName : String = ""
 var alive : bool = true
 var action : String = ""

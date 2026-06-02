@@ -9,9 +9,11 @@
 [ext_resource type="Script" uid="uid://qy2b5tvi1dh2" path="res://Scripts/Classes/actions.gd" id="9_hcub5"]
 [ext_resource type="Script" uid="uid://ceroc8ieltt1q" path="res://Scripts/Classes/psi_moves.gd" id="10_2ssja"]
 [ext_resource type="Script" uid="uid://br3r6abel1o8w" path="res://Scripts/Classes/dark_arts.gd" id="10_rgwgi"]
+[ext_resource type="Script" uid="uid://dkg1cg7utixog" path="res://Scripts/Classes/setup_team.gd" id="11_8u5ua"]
 [ext_resource type="Script" uid="uid://3gjojun5pwpi" path="res://Scripts/Classes/status_effects.gd" id="11_rgwgi"]
+[ext_resource type="Script" uid="uid://bkse3kxg843mr" path="res://Scripts/Classes/playerData.gd" id="12_8u5ua"]
 
-[node name="Fight Area" type="Control" unique_id=1809887241 node_paths=PackedStringArray("bossStatus", "userActions", "effects")]
+[node name="Fight Area" type="Control" unique_id=1809887241 node_paths=PackedStringArray("bossStatus", "userActions", "effects", "createPlayers", "availablePlayers")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,6 +24,8 @@ script = ExtResource("1_4jl1m")
 bossStatus = NodePath("boss")
 userActions = NodePath("actions")
 effects = NodePath("statusEffects")
+createPlayers = NodePath("setupTeam")
+availablePlayers = NodePath("playerData")
 
 [node name="EnemyArea" type="Control" parent="." unique_id=1382238541]
 layout_mode = 1
@@ -156,3 +160,11 @@ metadata/_custom_type_script = "uid://3gjojun5pwpi"
 [node name="darkArts" type="Node" parent="." unique_id=897384533]
 script = ExtResource("10_rgwgi")
 metadata/_custom_type_script = "uid://br3r6abel1o8w"
+
+[node name="setupTeam" type="Node" parent="." unique_id=1913941134]
+script = ExtResource("11_8u5ua")
+metadata/_custom_type_script = "uid://dkg1cg7utixog"
+
+[node name="playerData" type="Node" parent="." unique_id=1370055102]
+script = ExtResource("12_8u5ua")
+metadata/_custom_type_script = "uid://bkse3kxg843mr"

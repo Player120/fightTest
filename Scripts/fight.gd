@@ -6,7 +6,7 @@ extends Control
 @onready var happeningText : Label = $HappeningArea/HappeningText
 @onready var playerArea: Control = $PlayerArea
 #@onready var playerHealthText : Label = playerArea.attributeLabel("hp")
-#@onready var playerPsychicPointsText : Label = playerArea.attributeLabel("pp")
+#@onready var playerpowerPointsText : Label = playerArea.attributeLabel("pp")
 @onready var bossHealthText : Label = $EnemyArea/EnemySprite/bossHpNumber
 
 # Class Variables
@@ -14,10 +14,10 @@ extends Control
 @export var bossStatus : boss
 @export var userActions : actions
 @export var effects : statusEffects
+@export var createPlayers : setupTeam
+@export var availablePlayers : playerData
 
 # New Variables !!!
-var playerClass = preload("res://Scripts/Classes/player.gd")
-var playerWindowScene = preload("res://Prefabs/player_window.tscn")
 var playerTeam : Array[player] = []
 
 @onready var windowContainer = $PlayerArea/WindowContainer
@@ -26,13 +26,13 @@ var playerTeam : Array[player] = []
 
 
 # Other Variables
-var textTimer : float = 1.0
+var textTimer : float = 1.5
 var isSomeoneAlive = true
 
 func _ready() -> void:
 	randomize()
 	actionMenu.togglePlayerActions()
-	setupTeam(3)
+	await createPlayers.setup(3, windowContainer, actionMenu, playerArea, playerTeam, availablePlayers.info)
 	
 	bossStatus.healthLabel = bossHealthText
 
@@ -40,45 +40,7 @@ func _ready() -> void:
 	actionMenu.togglePlayerActions()
 	turnManager()
 
-func setupTeam(quantity : int) -> void:
-	for i in range(quantity):
-		# Setup player attributes
-		var newPlayer : Node = playerClass.new()
-		newPlayer.name = "Player_" + str(i + 1)
-		newPlayer.charName = "Player_" + str(i + 1) + "p"
-		newPlayer.position = i + 1
-		newPlayer.health = 100
-		newPlayer.maxHealth = newPlayer.health
-		newPlayer.psychicPoints = 30
-		newPlayer.maxPsychicPoints = 30
-		newPlayer.offense = 25
-		newPlayer.speed = 12
-		newPlayer.specialAbility = "Dark Arts"
-		newPlayer.deathMessage = "%s was hurt and beaten..." % [newPlayer.charName]
-		
-		# Creates UI window with name and HP/PP values
-		var newWindow : Control = playerWindowScene.instantiate()
-		windowContainer.add_child(newWindow)
-		
-		# Linking one with the other
-		# Passing the referenced data to the window to update health/name
-		newWindow.initializeWithPlayer(newPlayer)
-		
-		# Storing the window, hp label and pp label inside of the own player if it is needed
-		newPlayer.myUI = newWindow
-		newPlayer.healthLabel = newWindow.hpNumber
-		newPlayer.psychicPointsLabel = newWindow.ppNumber
-		
-		# Adding the node logic in the tree (as child of fight area)
-		add_child(newPlayer)
-		
-		# Stores the player in the turn array
-		playerTeam.append(newPlayer)
-		
-		# Attributes the hp and pp values to the labels for the first time
-		playerArea.updateValues("health", newPlayer.health, newPlayer.myUI)
-		playerArea.updateValues("psychicPoints", newPlayer.psychicPoints, newPlayer.myUI)
-		print("Player '%s' created" % [newPlayer])
+
 
 func showHappeningText(message) -> void:
 	for text in message:
@@ -144,12 +106,19 @@ func executeTurn(charOrder : Array[Node]) -> void:
 		
 		if (userInfo.statusEffect.has("burn") && userInfo.alive):
 			await effects.burn(userInfo)
-		
+		print("%s STATUSEFFECTS:: %s" % [userInfo.charName, userInfo.statusEffect])
 		if (userInfo.alive):
 			if (!userInfo.statusEffect.has("freeze")):
+				if (userInfo.statusEffect.has("confusion")):
+					print("HAS CONFUSION")
+					await effects.confusion(userInfo)
+				
 				await moveManager(userInfo, userInfo.target)
 			else:
 				await effects.freeze(userInfo)
+			
+		if (!isSomeoneAlive || !bossStatus.alive):
+			break
 
 func moveManager(userName : Node, targetName : Node):
 	print("MOVEMANAGER:: %s targeted %s" % [userName.charName, targetName.charName])
@@ -180,8 +149,8 @@ func updateHealthText(target : Node) -> void:
 		target.health = 0
 	target.healthLabel.text = str(target.health)
 
-func updatePsychicPointsText(target : Node) -> void:
-	target.psychicPointsLabel.text = str(target.psychicPoints)
+func updatepowerPointsText(target : Node) -> void:
+	target.powerPointsLabel.text = str(target.powerPoints)
 
 func testForDeath(deffender : Node) -> void:
 	if (deffender.health <= 0):
@@ -192,9 +161,10 @@ func testForDeath(deffender : Node) -> void:
 	isSomeoneAlive = playerTeam.any(
 		func(playerChecked): return playerChecked.alive == true
 	)
+	print("ISSOMEONEALIVE: ", isSomeoneAlive)
 	
 	if (!isSomeoneAlive || !bossStatus.alive):
-		endBattle()
+		await endBattle()
 
 func endBattle() -> void:
 	if (isSomeoneAlive):

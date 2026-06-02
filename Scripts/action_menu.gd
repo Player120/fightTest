@@ -69,6 +69,8 @@ func _on_darkArts_button_pressed(pressedButton : Button) -> void:
 			currentPlayer.specialMoveName = "Anti-Innovation"
 		"Globalization":
 			currentPlayer.specialMoveName = "Globalization"
+		"Logarithms":
+			currentPlayer.specialMoveName = "Logarithms"
 	toggleSpecialMenu(darkArtsMenu)
 	playerChosenAction.emit("dark arts")
 

@@ -184,11 +184,10 @@ size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
 text = "Globalization"
 
-[node name="Placehoder" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=215284876 groups=["darkArtsButtons"]]
+[node name="Logarithms" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=215284876 groups=["darkArtsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 32
-text = "suporte idk
-"
+text = "Logarithms"

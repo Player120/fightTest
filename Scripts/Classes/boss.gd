@@ -5,7 +5,7 @@ var charName : String = "Big Gus"
 var health : int = 300
 const maxHealth : int = 300
 var healthLabel : Label
-var offense : int = 35
+var offense : int = 40
 var speed : int = 10
 var determination : int = 10
 var alive : bool = true

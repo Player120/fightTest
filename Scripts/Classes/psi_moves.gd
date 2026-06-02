@@ -42,9 +42,9 @@ func pkFreeze(user : Node, target : Node) -> void:
 			await owner.showHappeningText(["%s was frozen!" % [target.charName]])
 
 func ppDepleteHandler(user : Node, amount : int) -> bool:
-	if (user.psychicPoints >= amount):
-		user.psychicPoints -= amount
-		owner.updatePsychicPointsText(user)
+	if (user.powerPoints >= amount):
+		user.powerPoints -= amount
+		owner.updatepowerPointsText(user)
 		return true
 	else:
 		await owner.showHappeningText(["Not enough PP!"])

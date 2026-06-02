@@ -9,13 +9,12 @@ var trackedPlayer : player
 func initializeWithPlayer(playerData : player) -> void:
 	trackedPlayer = playerData
 	nameText.text = trackedPlayer.charName
-	updateUIText("health", trackedPlayer.health)
 
 func updateUIText(stat : String, value : int) -> void:
 	match stat:
 		"health":
 			hpNumber.text = str(value)
-		"psychicPoints":
+		"powerPoints":
 			ppNumber.text = str(value)
 		_:
 			hpNumber.text = "something went wrong..."

@@ -11,6 +11,8 @@ func attack(attacker : Node, deffender : Node) -> void:
 	
 	if (dodgeChance > deffender.speed):
 		var damage : int = randi_range(attacker.offense - 5, attacker.offense + 10)
+		if (damage < 0):
+			damage = 0
 		
 		var criticalChance : int = randi_range(1, 100)
 		var criticalMessage : String = ""
@@ -60,6 +62,8 @@ func darkArtsManager(user : Node, target : Node) -> void:
 			await darkArtsActions.antiInnovation(user, target)
 		"Globalization":
 			await darkArtsActions.globalization(user, target)
+		"Logarithms":
+			await darkArtsActions.logarithms(user, target)
 
 func damageHandler(deffender : Node, damage : int, message : String) -> void:
 	deffender.health -= damage
