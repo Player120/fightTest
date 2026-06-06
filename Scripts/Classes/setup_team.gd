@@ -20,6 +20,7 @@ func setup(
 		newPlayer.powerPoints = data[i].powerPoints
 		newPlayer.maxpowerPoints = newPlayer.powerPoints
 		newPlayer.offense = data[i].offense
+		newPlayer.defense = data[i].defense
 		newPlayer.speed = data[i].speed
 		newPlayer.specialAbility = data[i].specialAbility
 		newPlayer.deathMessage = "%s was hurt and beaten..." % [newPlayer.charName]

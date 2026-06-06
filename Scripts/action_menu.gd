@@ -9,6 +9,8 @@ extends Control
 @onready var psiMenu : Control = $SpecialActions/PsiMenu
 @onready var darkArtsMenu : Control = $SpecialActions/DarkArtsMenu
 @onready var devToolsMenu : Control = $SpecialActions/DevToolsMenu
+@onready var caipiraPowersMenu : Control = $SpecialActions/CaipiraPowersMenu
+@onready var friendshipMagicMenu : Control = $SpecialActions/FriendshipMagic
 
 signal playerChosenAction(actionType : String)
 
@@ -36,7 +38,14 @@ func _ready() -> void:
 	var devToolsButtons: Array[Node] = get_tree().get_nodes_in_group("devToolsButtons")
 	for button in devToolsButtons:
 		button.pressed.connect(_on_devTools_button_pressed.bind(button))
-	# --------------------------------------------------------------
+	
+	var caipiraPowersButtons: Array[Node] = get_tree().get_nodes_in_group("caipiraPowersButtons")
+	for button in caipiraPowersButtons:
+		button.pressed.connect(_on_caipiraPowers_button_pressed.bind(button))
+	
+	var friendshipMagicButtons: Array[Node] = get_tree().get_nodes_in_group("friendshipMagicButtons")
+	for button in friendshipMagicButtons:
+		button.pressed.connect(_on_friendshipMagic_button_pressed.bind(button))	# --------------------------------------------------------------
 	
 
 func _on_button_pressed(pressedButton : Button) -> void:
@@ -56,6 +65,10 @@ func _on_button_pressed(pressedButton : Button) -> void:
 					toggleSpecialMenu(darkArtsMenu)
 				"Dev Tools":
 					toggleSpecialMenu(devToolsMenu)
+				"Caipira Powers":
+					toggleSpecialMenu(caipiraPowersMenu)
+				"Friendship Magic":
+					toggleSpecialMenu(friendshipMagicMenu)
 		_:
 			print("Something went wrong in actions_menu.gd")
 
@@ -91,6 +104,28 @@ func _on_devTools_button_pressed(pressedButton : Button) -> void:
 			currentPlayer.specialMoveName = "Discord Call"
 	toggleSpecialMenu(devToolsMenu)
 	playerChosenAction.emit("dev tools")
+
+func _on_caipiraPowers_button_pressed(pressedButton : Button) -> void:
+	match pressedButton.name:
+		"Thunderstorm":
+			currentPlayer.specialMoveName = "Thunderstorm"
+		"NatureBeam":
+			currentPlayer.specialMoveName = "Nature Beam"
+		"Organization":
+			currentPlayer.specialMoveName = "Organization"
+	toggleSpecialMenu(caipiraPowersMenu)
+	playerChosenAction.emit("caipira powers")
+
+func _on_friendshipMagic_button_pressed(pressedButton : Button) -> void:
+	match pressedButton.name:
+		"FriendshipStar":
+			currentPlayer.specialMoveName = "Friendship Star"
+		"PowerShield":
+			currentPlayer.specialMoveName = "Power Shield"
+		"RainbowComet":
+			currentPlayer.specialMoveName = "Rainbow Comet"
+	toggleSpecialMenu(friendshipMagicMenu)
+	playerChosenAction.emit("friendship magic")
 
 func toggleSpecialMenu(menu : Control) -> void:
 	menu.visible = !menu.visible

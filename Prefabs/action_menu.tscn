@@ -115,6 +115,8 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "The user raises their to the sky, and a storm of stars rains down on the enemy for heavy damage.
+PP Cost: 18"
 theme_override_font_sizes/font_size = 32
 text = "PK Starstorm"
 
@@ -123,6 +125,9 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "Fire bursts from the user's fingers and the enemy receives toasting damage, 
+with an average chance of being burned afterwards.
+PP Cost: 7"
 theme_override_font_sizes/font_size = 32
 text = "PK Fire"
 
@@ -131,6 +136,9 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "A heavy cold wind is summoned from the user's hand and 
+surrounds the enemy for freezing damage. Has a chance of freezing the enemy completely.
+PP Cost: 6"
 theme_override_font_sizes/font_size = 32
 text = "PK Freeze"
 
@@ -173,6 +181,10 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "A lethal dark art that can instantly erase  any trace of inovation from existence. 
+Has low chance of instantly killing an enemy, but if it fails, the user will receive
+heavy recoil damage.
+PP Cost: 0"
 theme_override_font_sizes/font_size = 32
 text = "Anti-Innovation"
 
@@ -181,6 +193,9 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "A dark art with inconsistent power that will take health from both the user and the target, 
+with the limit being the user's maximum health (not current).
+PP Cost: 0"
 theme_override_font_sizes/font_size = 32
 text = "Globalization"
 
@@ -189,6 +204,10 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "A dark art that puts thoughts about Logarithms into the enemy's mind, 
+and making them lose their mind in the process. If it fails and the enemy does not care, 
+the enemy's offense will raise sharply.
+PP Cost: 0"
 theme_override_font_sizes/font_size = 32
 text = "Logarithms"
 
@@ -210,7 +229,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0.50158936, 0.16815108, 1)
+color = Color(0.7818344, 0, 0.07608061, 1)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/DevToolsMenu" unique_id=598777167]
 custom_minimum_size = Vector2(1152, 80)
@@ -231,6 +250,10 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "The user starts a gaming session of Flippy Board, the best game in existence. 
+Due to the game's perfect quality and challenge, 
+the user feels motivated, raising their offense.
+PP Cost: 0"
 theme_override_font_sizes/font_size = 32
 text = "Flippy Board"
 
@@ -239,6 +262,9 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "Opens up Visual Studio Code for the user to find and fix complex 
+and unexplainable bugs in the TCC project, raising their determination.
+PP Cost: 0"
 theme_override_font_sizes/font_size = 32
 text = "VS Code"
 
@@ -247,5 +273,146 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "Opens up a Discord Call, where the entire party joins in the group chat and conversate and laugh, 
+recovering everyone's HP at the end of it.
+PP Cost: 0"
 theme_override_font_sizes/font_size = 32
 text = "Discord Call"
+
+[node name="CaipiraPowersMenu" type="Control" parent="SpecialActions" unique_id=1845113856 groups=["specialActions"]]
+clip_contents = true
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect" type="ColorRect" parent="SpecialActions/CaipiraPowersMenu" unique_id=538900528]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.18483254, 0.4931715, 0, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/CaipiraPowersMenu" unique_id=113932159]
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="Control" type="Control" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=645502553]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Thunderstorm" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1799221635 groups=["caipiraPowersButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "The user looks at the sky and summons an agressive weather of dark clouds and lightning strikes, that 
+have a chance of paralysing the enemy. The lightning strikes may miss.
+PP Cost: 14"
+theme_override_font_sizes/font_size = 32
+text = "Thunderstorm"
+
+[node name="NatureBeam" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1558302827 groups=["caipiraPowersButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "The user spends a turn closing their eyes and absorbing all of the surrounding power of nature in the
+ enviroment. Then in the next turn, the user fires a deadly beam of nature fury that deals heavy damage
+ and has a low chance of burning or freezing the enemy.
+PP Cost: 27"
+theme_override_font_sizes/font_size = 32
+text = "Nature Beam"
+
+[node name="Organization" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=252180253 groups=["caipiraPowersButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Summons the hardworking Organization Team to defend the user and fire multiple times 
+at the enemy in every turn. They will stay until they get tired and leave for lunch.
+PP Cost: 20"
+theme_override_font_sizes/font_size = 32
+text = "Organization"
+
+[node name="FriendshipMagic" type="Control" parent="SpecialActions" unique_id=751811426 groups=["specialActions"]]
+clip_contents = true
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect" type="ColorRect" parent="SpecialActions/FriendshipMagic" unique_id=1919553236]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.99099594, 0.00017673612, 0.8246057, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/FriendshipMagic" unique_id=1199531812]
+custom_minimum_size = Vector2(1152, 80)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="Control" type="Control" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=309618262]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="FriendshipStar" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=547048658 groups=["friendshipMagicButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "The user raises a magic wand in the air, and concentrates all of the party's energy to 
+fire a bright and deadly star at the enemy for heavy damage. 
+Deals more damage depending on how many party members are alive.
+PP Cost: 19"
+theme_override_font_sizes/font_size = 32
+text = "Friendship Star"
+
+[node name="PowerShield" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=1959976350 groups=["friendshipMagicButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Protects every single party member with a power shield, that will reduce and reflect 
+part of the damage taken back to the attacker. Special moves are not affected by it.
+PP Cost: 18"
+theme_override_font_sizes/font_size = 32
+text = "Power Shield Ω"
+
+[node name="RainbowComet" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=459811264 groups=["friendshipMagicButtons"]]
+custom_minimum_size = Vector2(180, 65)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "The user looks down, closes their eyes, closes their hands together, and chants a magical
+ spell that summons a rainbow comet above the party that raises everyone's friendship 
+bonds and fighting spirit, raising the entire party's offense, defense, speed and determination. 
+At the end, the comet will target and rain down on the enemy.
+PP Cost: 26"
+theme_override_font_sizes/font_size = 32
+text = "Rainbow Comet"

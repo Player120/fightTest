@@ -27,7 +27,8 @@ var playerTeam : Array[player] = []
 
 # Other Variables
 var textTimer : float = 1.5
-var isSomeoneAlive = true
+var isSomeoneAlive : bool = true
+var organizationActive : bool = false
 
 func _ready() -> void:
 	randomize()
@@ -46,13 +47,26 @@ func showHappeningText(message) -> void:
 		await get_tree().create_timer(textTimer).timeout
 
 func bossMove() -> void:
-	var bossAction : int = randi_range(1, 2)
-	if (bossStatus.health > bossStatus.maxHealth * 0.35 || bossAction == 1):
-		bossStatus.action = "attack"
+	var bossAction : int = randi_range(1, 6)
+	while true:
 		bossStatus.target = playerTeam.pick_random()
-	else:
-		bossStatus.action = "heal"
-		bossStatus.target = bossStatus
+		if (bossStatus.target.canBeTargeted):
+			break
+	
+	if (bossAction > 3):
+		bossStatus.action = "attack"
+	
+	match bossAction:
+		1:
+			bossStatus.action = "innovation"
+			bossStatus.target = bossStatus
+			bossStatus.specialMoveName = "Enroladinho"
+		2:
+			bossStatus.action = "innovation"
+			bossStatus.specialMoveName = "Dark Room"
+		3:
+			bossStatus.action = "innovation"
+			bossStatus.specialMoveName = "MySQL Hack"
 
 func turnManager() -> void:
 	while true:
@@ -62,28 +76,31 @@ func turnManager() -> void:
 		
 		charOrder.sort_custom(func(a, b): return a.speed > b.speed)
 		
-		for currentPlayer in charOrder:
+		for currentPlayer in playerTeam:
 			if (currentPlayer is player):
-				if (currentPlayer.alive):
+				if (currentPlayer.alive && !currentPlayer.statusEffect.has("charging")):
 					actionMenu.currentPlayer = currentPlayer
 					# ----------------------------------------
 					actionMenu.specialButton.text = currentPlayer.specialAbility
 					# ----------------------------------------
+					currentPlayer.myUI.backgroundColor.color = Color.CHARTREUSE
+					# ----------------------------------------
 					currentPlayer.action = await actionMenu.playerChosenAction
 					# ----------------------------------------
-					currentPlayer.myUI.visible = false
+					currentPlayer.myUI.backgroundColor.color = Color("428e96")
 					# ----------------------------------------
 					currentPlayer.target = bossStatus
+				elif (!currentPlayer.alive):
+					currentPlayer.action = "nothing"
 				else:
-					currentPlayer.action = "dead"
-			else:
-				bossMove()
+					currentPlayer.action = "caipira powers"
+		bossMove()
 		
 		actionMenu.togglePlayerActions()
 		print("TURN STARTED")
 		
 		await executeTurn(charOrder)
-			
+		
 		if (isSomeoneAlive && bossStatus.alive):
 			actionMenu.togglePlayerActions()
 			print("TURN ENDED")
@@ -91,10 +108,22 @@ func turnManager() -> void:
 			break
 
 func executeTurn(charOrder : Array[Node]) -> void:
+	var npc : player
+	if (organizationActive):
+		npc = player.new()
+		npc.name = "npc"
+		npc.charName = "Organization"
+		npc.action = "caipira powers"
+		npc.specialMoveName = "Organization"
+		npc.canBeTargeted = false
+		npc.target = bossStatus
+		charOrder.push_front(npc)
+		print(charOrder)
+	
 	for userInfo in charOrder:
 		print("CURRENTTURN: %s" % [userInfo.name])
-		if (userInfo is player):
-			userInfo.myUI.visible = true
+		if (userInfo is player && userInfo.alive && !(userInfo.name == "npc")):
+			userInfo.myUI.backgroundColor.color = Color.CHARTREUSE
 		
 		# Test if there are no null targets (so it doesn't fucking crash):
 		if userInfo.target != null:
@@ -102,21 +131,41 @@ func executeTurn(charOrder : Array[Node]) -> void:
 		else:
 			print("Aviso: ", userInfo.name, " não possui nenhum alvo definido!")
 		
-		if (userInfo.statusEffect.has("burn") && userInfo.alive):
-			await effects.burn(userInfo)
-		print("%s STATUSEFFECTS:: %s" % [userInfo.charName, userInfo.statusEffect])
-		if (userInfo.alive):
-			if (!userInfo.statusEffect.has("freeze")):
-				if (userInfo.statusEffect.has("confusion")):
-					print("HAS CONFUSION")
-					await effects.confusion(userInfo)
-				
-				await moveManager(userInfo, userInfo.target)
-			else:
-				await effects.freeze(userInfo)
+		if (!(userInfo.name == "npc")):
+			if (userInfo.statusEffect.has("burn") && userInfo.alive):
+				await effects.burn(userInfo)
+			print("%s STATUSEFFECTS:: %s" % [userInfo.charName, userInfo.statusEffect])
+			if (userInfo.alive):
+				if (!userInfo.statusEffect.has("freeze")):
+					if (userInfo.statusEffect.has("confusion")):
+						print("HAS CONFUSION")
+						await effects.confusion(userInfo)
+					
+					var canMove = true
+					
+					if (userInfo.statusEffect.has("paralysis")):
+						canMove = await effects.paralysis(userInfo)
+					
+					if (canMove):
+						await moveManager(userInfo, userInfo.target)
+				else:
+					await effects.freeze(userInfo)
 			
-		if (!isSomeoneAlive || !bossStatus.alive):
-			break
+			if (userInfo is player && userInfo.alive):
+				userInfo.myUI.backgroundColor.color = Color("428e96")
+				
+			if (!isSomeoneAlive || !bossStatus.alive):
+				break
+		else:
+			match userInfo.charName:
+				"Organization":
+					await userActions.caipiraPowersManager(userInfo, userInfo.target)
+					var willLeave : int = randi_range(1, 4)
+					if (willLeave == 1):
+						await showHappeningText(["The Organization team got tired from all their hard work and went to lunch."])
+						organizationActive = false
+	
+	charOrder.erase(npc)
 
 func moveManager(userName : Node, targetName : Node):
 	print("MOVEMANAGER:: %s targeted %s" % [userName.charName, targetName.charName])
@@ -139,12 +188,21 @@ func moveManager(userName : Node, targetName : Node):
 				await userActions.darkArtsManager(userName, userName.target)
 			"dev tools":
 				if userName is player:
-					userName.target = playerTeam
-				await userActions.devToolsManager(userName, userName.target)
+					var possibleTargets : Array = [playerTeam, userName]
+					await userActions.devToolsManager(userName, possibleTargets)
+			"caipira powers":
+				if userName is player:
+					await userActions.caipiraPowersManager(userName, userName.target)
+			"friendship magic":
+				if userName is player:
+					await userActions.friendshipMagicManager(userName, userName.target, playerTeam)
+			"innovation":
+				if userName is boss:
+					await userActions.innovationManager(userName, userName.target, playerTeam)
 			_:
 				pass
 	elif (userName is boss):
-		await showHappeningText(["%s is already dead idiot!" % [targetName.charName]])
+		await showHappeningText(["%s is attacking!" % [userName.charName], "%s is already dead idiot!" % [targetName.charName]])
 
 func updateHealthText(target : Node) -> void:
 	if (target.health < 0):
@@ -158,6 +216,10 @@ func testForDeath(deffender : Node) -> void:
 	if (deffender.health <= 0):
 		deffender.alive = false
 		print("TESTFORDEATH:: %s died!" % [deffender.charName])
+		
+		if (deffender is player):
+			deffender.myUI.backgroundColor.color = Color.RED
+		
 		await showHappeningText([deffender.deathMessage])
 	
 	isSomeoneAlive = playerTeam.any(

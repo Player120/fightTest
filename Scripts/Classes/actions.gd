@@ -4,16 +4,26 @@ class_name actions
 @export var psiActions : psiMoves
 @export var darkArtsActions : darkArts
 @export var developmentTools : devTools
+@export var caipiraAbilities : caipiraPowers
+@export var friendshipMagicPowers : friendshipMagic
+@export var innovationTactics : innovationTechnique
+@export var effects : statusEffects
 
-func attack(attacker : Node, deffender : Node) -> void:
+func attack(attacker : Node, defender : Node) -> void:
 	await owner.showHappeningText(["%s is attacking!" % [attacker.charName]])
 	
 	var dodgeChance : int = randi_range(1, 100)
 	
-	if (dodgeChance > deffender.speed):
+	if (dodgeChance > defender.speed):
+		const constantScale : float = 100.0
+		var defenseMultiplier : float = constantScale / (constantScale + defender.defense)
+		
 		var damage : int = randi_range(attacker.offense - 5, attacker.offense + 10)
-		if (damage < 0):
-			damage = 0
+		if (damage <= 0):
+			damage = 1
+		var test = damage
+		damage = ceil(damage * defenseMultiplier)
+		print("DAMAGE:: ", damage)
 		
 		var criticalChance : int = randi_range(1, 100)
 		var criticalMessage : String = ""
@@ -24,15 +34,15 @@ func attack(attacker : Node, deffender : Node) -> void:
 			damage = ceil(criticalDamage)
 			criticalMessage = "A critical hit! "
 		
-		var damageMessage : String = "%s%d HP of damage to %s!" % [criticalMessage, damage, deffender.charName]
+		var damageMessage : String = "%s%d HP of damage to %s!" % [criticalMessage, damage, defender.charName]
 		
-		await damageHandler(deffender, damage, damageMessage)
+		await damageHandler(attacker, defender, damage, damageMessage, criticalMessage)
 	else:
-		await owner.showHappeningText(["%s dodged with style!" % [deffender.charName]])
+		await owner.showHappeningText(["%s dodged with style!" % [defender.charName]])
 
 func heal(healer : Node, target : Node) -> void:
 	await owner.showHappeningText(["%s is healing!" % [healer.charName]])
-	var healValue : int = randi_range(30, 94) + (target.health * 0.1)
+	var healValue : int = randi_range(50, 94) + (target.health * 0.1)
 	var newHealth : int = target.health + healValue
 	
 	if (newHealth <= target.maxHealth):
@@ -66,20 +76,55 @@ func darkArtsManager(user : Node, target : Node) -> void:
 		"Logarithms":
 			await darkArtsActions.logarithms(user, target)
 
-func devToolsManager(user : Node, target) -> void:
+func devToolsManager(user : Node, possibleTargets : Array) -> void:
 	await owner.showHappeningText(["%s booted up the Dev Tools!" % [user.charName]])
 	match user.specialMoveName:
 		"Flippy Board":
-			await developmentTools.flippyBoard(user, target)
+			user.target = possibleTargets[1]
+			await developmentTools.flippyBoard(user, user.target)
 		"VS Code":
-			await developmentTools.vsCode(user, target)
+			user.target = possibleTargets[1]
+			await developmentTools.vsCode(user, user.target)
 		"Discord Call":
-			await developmentTools.discordCall(user, target)
+			user.target = possibleTargets[0]
+			await developmentTools.discordCall(user, user.target)
 
-func damageHandler(deffender : Node, damage : int, message : String) -> void:
-	deffender.health -= damage
-	owner.updateHealthText(deffender)
-	
-	await owner.showHappeningText([message])
-	
-	await owner.testForDeath(deffender)
+func caipiraPowersManager(user : Node, target : Node):
+	match user.specialMoveName:
+		"Thunderstorm":
+			await caipiraAbilities.thunderStorm(user, target)
+		"Nature Beam":
+			await caipiraAbilities.natureBeam(user, target)
+		"Organization":
+			await caipiraAbilities.organizationActivate(user, target)
+
+func friendshipMagicManager(user : Node, target : Node, playerTeam : Array[player]):
+	match user.specialMoveName:
+		"Friendship Star":
+			await friendshipMagicPowers.friendshipStar(user, target, playerTeam)
+		"Power Shield":
+			await friendshipMagicPowers.powerShield(user, playerTeam)
+		"Rainbow Comet":
+			await friendshipMagicPowers.rainbowComet(user, target, playerTeam)
+	# TODO: Add the friendship magic moves, including their entries in the manager, the script class, and the move's functions in there
+
+func innovationManager(user : Node, target : Node, playerTeam : Array[player]):
+	match user.specialMoveName:
+		"Enroladinho":
+			await innovationTactics.enroladinho(user, playerTeam)
+		"Dark Room":
+			await innovationTactics.darkRoom(user, playerTeam)
+		"MySQL Hack":
+			await innovationTactics.mysqlHack(user)
+
+
+func damageHandler(attacker : Node, defender : Node, damage : int, message : String, criticalMessage : String) -> void:
+	if (defender.statusEffect.has("shield") && attacker.action == "attack"):
+		await effects.shield(attacker, defender, damage, criticalMessage)
+	else:
+		defender.health -= damage
+		owner.updateHealthText(defender)
+		
+		await owner.showHappeningText([message])
+		
+		await owner.testForDeath(defender)

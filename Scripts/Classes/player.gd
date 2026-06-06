@@ -8,6 +8,7 @@ var maxHealth : int = 100
 var powerPoints : int = 50
 var maxpowerPoints : int = 50
 var offense : int = 25
+var defense : int = 25
 var speed : int = 12
 var determination : int = 30
 var specialAbility : String = ""
@@ -20,3 +21,5 @@ var statusEffect : Array[String] = []
 var target
 var deathMessage : String = "%s was hurt and beaten..." % [charName]
 var myUI : Control
+var canBeTargeted = true
+var shieldHealth : int = 0

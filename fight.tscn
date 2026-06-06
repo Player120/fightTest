@@ -7,12 +7,15 @@
 [ext_resource type="Script" uid="uid://deuvyaeq4pnhc" path="res://Scripts/Classes/boss.gd" id="4_34m47"]
 [ext_resource type="PackedScene" uid="uid://61qee0l6w8dn" path="res://Prefabs/action_menu.tscn" id="4_hcub5"]
 [ext_resource type="Script" uid="uid://qy2b5tvi1dh2" path="res://Scripts/Classes/actions.gd" id="9_hcub5"]
-[ext_resource type="Script" uid="uid://ceroc8ieltt1q" path="res://Scripts/Classes/psi_moves.gd" id="10_2ssja"]
-[ext_resource type="Script" uid="uid://br3r6abel1o8w" path="res://Scripts/Classes/dark_arts.gd" id="10_rgwgi"]
+[ext_resource type="Script" uid="uid://ceroc8ieltt1q" path="res://Scripts/Classes/Special Moves/psi_moves.gd" id="10_2ssja"]
+[ext_resource type="Script" uid="uid://br3r6abel1o8w" path="res://Scripts/Classes/Special Moves/dark_arts.gd" id="10_rgwgi"]
 [ext_resource type="Script" uid="uid://dkg1cg7utixog" path="res://Scripts/Classes/setup_team.gd" id="11_8u5ua"]
 [ext_resource type="Script" uid="uid://3gjojun5pwpi" path="res://Scripts/Classes/status_effects.gd" id="11_rgwgi"]
 [ext_resource type="Script" uid="uid://bkse3kxg843mr" path="res://Scripts/Classes/playerData.gd" id="12_8u5ua"]
-[ext_resource type="Script" uid="uid://72nfrde4py4e" path="res://Scripts/Classes/dev_tools.gd" id="13_i4q7v"]
+[ext_resource type="Script" uid="uid://72nfrde4py4e" path="res://Scripts/Classes/Special Moves/dev_tools.gd" id="13_i4q7v"]
+[ext_resource type="Script" uid="uid://b2e5mum13qgbr" path="res://Scripts/Classes/Special Moves/caipira_powers.gd" id="14_a4egk"]
+[ext_resource type="Script" uid="uid://lcvnsi2itx3l" path="res://Scripts/Classes/Special Moves/friendship_magic.gd" id="15_8o1o4"]
+[ext_resource type="Script" uid="uid://dswwpj3lqnga8" path="res://Scripts/Classes/Special Moves/innovation_technique.gd" id="16_he0cp"]
 
 [node name="Fight Area" type="Control" unique_id=1809887241 node_paths=PackedStringArray("bossStatus", "userActions", "effects", "createPlayers", "availablePlayers")]
 layout_mode = 3
@@ -143,11 +146,15 @@ alignment = 1
 script = ExtResource("4_34m47")
 metadata/_custom_type_script = "uid://deuvyaeq4pnhc"
 
-[node name="actions" type="Node" parent="." unique_id=279999397 node_paths=PackedStringArray("psiActions", "darkArtsActions", "developmentTools")]
+[node name="actions" type="Node" parent="." unique_id=279999397 node_paths=PackedStringArray("psiActions", "darkArtsActions", "developmentTools", "caipiraAbilities", "friendshipMagicPowers", "innovationTactics", "effects")]
 script = ExtResource("9_hcub5")
 psiActions = NodePath("../psiMoves")
 darkArtsActions = NodePath("../darkArts")
 developmentTools = NodePath("../devTools")
+caipiraAbilities = NodePath("../caipiraPowers")
+friendshipMagicPowers = NodePath("../friendshipMagic")
+innovationTactics = NodePath("../innovationTechnique")
+effects = NodePath("../statusEffects")
 metadata/_custom_type_script = "uid://qy2b5tvi1dh2"
 
 [node name="psiMoves" type="Node" parent="." unique_id=2028885857]
@@ -174,3 +181,15 @@ metadata/_custom_type_script = "uid://bkse3kxg843mr"
 [node name="devTools" type="Node" parent="." unique_id=20666656]
 script = ExtResource("13_i4q7v")
 metadata/_custom_type_script = "uid://72nfrde4py4e"
+
+[node name="caipiraPowers" type="Node" parent="." unique_id=844097578]
+script = ExtResource("14_a4egk")
+metadata/_custom_type_script = "uid://b2e5mum13qgbr"
+
+[node name="friendshipMagic" type="Node" parent="." unique_id=1664612815]
+script = ExtResource("15_8o1o4")
+metadata/_custom_type_script = "uid://lcvnsi2itx3l"
+
+[node name="innovationTechnique" type="Node" parent="." unique_id=1447017213]
+script = ExtResource("16_he0cp")
+metadata/_custom_type_script = "uid://dswwpj3lqnga8"

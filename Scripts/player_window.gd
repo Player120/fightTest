@@ -3,6 +3,7 @@ extends Control
 @onready var nameText : Label = $VBoxContainer/PlayerName
 @onready var hpNumber : Label = $VBoxContainer/hpContainer/hpNumber
 @onready var ppNumber : Label = $VBoxContainer/ppContainer/ppNumber
+@onready var backgroundColor : ColorRect = $ColorRect
 
 var trackedPlayer : player
 
