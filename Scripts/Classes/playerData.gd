@@ -11,6 +11,8 @@ var info : Array[Dictionary] = [
 		"speed": 22,
 		"determination": 35,
 		"specialAbility": "PSI",
+		"themeColor": "eee411",
+		"sprite": "res://Resources/Sprites/Characters/rafa.svg"
 	},
 	{
 		"charName": "Otávio",
@@ -21,6 +23,8 @@ var info : Array[Dictionary] = [
 		"speed": 14,
 		"determination": 20,
 		"specialAbility": "Dark Arts",
+		"themeColor": "7d00fa",
+		"sprite": "res://Resources/Sprites/Characters/otávio.svg"
 	},
 	{
 		"charName": "Gabriel",
@@ -31,6 +35,8 @@ var info : Array[Dictionary] = [
 		"speed": 7,
 		"determination": 20,
 		"specialAbility": "Dev Tools",
+		"themeColor": "c70013",
+		"sprite": "res://Resources/Sprites/Characters/gabriel.svg"
 	},
 	{
 		"charName": "Breno",
@@ -41,6 +47,8 @@ var info : Array[Dictionary] = [
 		"speed": 18,
 		"determination": 30,
 		"specialAbility": "Caipira Powers",
+		"themeColor": "2f7e00",
+		"sprite": "res://Resources/Sprites/Characters/breno.svg"
 	},
 	{
 		"charName": "Neto",
@@ -51,5 +59,7 @@ var info : Array[Dictionary] = [
 		"speed": 30,
 		"determination": 14,
 		"specialAbility": "Friendship Magic",
+		"themeColor": "fd00d2",
+		"sprite": "res://Resources/Sprites/Characters/neto.svg"
 	},
 ]

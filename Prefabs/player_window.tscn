@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://dovu0pfktw7wb"]
 
-[ext_resource type="Script" uid="uid://qjlc43koktha" path="res://Scripts/player_window.gd" id="1_8u6vr"]
+[ext_resource type="Script" uid="uid://qjlc43koktha" path="res://Scripts/UI/player_window.gd" id="1_8u6vr"]
+[ext_resource type="Texture2D" uid="uid://ccvlxxunu1ai8" path="res://Resources/Sprites/Characters/rafa.svg" id="2_bjlgi"]
+[ext_resource type="Texture2D" uid="uid://dypx4ukbq0r5e" path="res://Resources/Sprites/Background/playerWindowUI.svg" id="2_s6f2e"]
+[ext_resource type="Script" uid="uid://qfeuvny3aylv" path="res://Scripts/UI/player_sprite.gd" id="3_reb84"]
 
 [node name="PlayerWindow" type="Control" unique_id=1711051288]
 custom_minimum_size = Vector2(230, 160)
@@ -15,7 +18,19 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 script = ExtResource("1_8u6vr")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1773324119]
+[node name="PlayerSprite" type="TextureRect" parent="." unique_id=2033031215]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -45.0
+offset_right = 45.0
+offset_bottom = 228.0
+grow_horizontal = 2
+texture = ExtResource("2_bjlgi")
+script = ExtResource("3_reb84")
+
+[node name="BackgroundSprite" type="TextureRect" parent="." unique_id=858263512]
 custom_minimum_size = Vector2(230, 0)
 layout_mode = 1
 anchors_preset = 15
@@ -24,7 +39,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_vertical = 3
-color = Color(0.260579, 0.557714, 0.588707, 1)
+texture = ExtResource("2_s6f2e")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1704125711]
 layout_mode = 1
@@ -37,7 +52,6 @@ grow_vertical = 2
 [node name="PlayerName" type="Label" parent="VBoxContainer" unique_id=1033902404]
 custom_minimum_size = Vector2(230, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 36
 text = "Player"
 horizontal_alignment = 1
 
@@ -49,7 +63,6 @@ alignment = 1
 [node name="hpTitle" type="Label" parent="VBoxContainer/hpContainer" unique_id=1712429601]
 layout_mode = 2
 size_flags_horizontal = 0
-theme_override_font_sizes/font_size = 32
 text = "HP:"
 
 [node name="Spacing" type="Control" parent="VBoxContainer/hpContainer" unique_id=1858373902]
@@ -59,7 +72,6 @@ layout_mode = 2
 [node name="hpNumber" type="Label" parent="VBoxContainer/hpContainer" unique_id=405620777]
 layout_mode = 2
 size_flags_horizontal = 8
-theme_override_font_sizes/font_size = 32
 text = "000"
 
 [node name="ppContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1910489820]
@@ -70,7 +82,6 @@ alignment = 1
 [node name="ppTitle" type="Label" parent="VBoxContainer/ppContainer" unique_id=476260226]
 layout_mode = 2
 size_flags_horizontal = 8
-theme_override_font_sizes/font_size = 32
 text = "PP:"
 
 [node name="Spacing" type="Control" parent="VBoxContainer/ppContainer" unique_id=713299388]
@@ -79,5 +90,4 @@ layout_mode = 2
 
 [node name="ppNumber" type="Label" parent="VBoxContainer/ppContainer" unique_id=1826466251]
 layout_mode = 2
-theme_override_font_sizes/font_size = 32
 text = "000"

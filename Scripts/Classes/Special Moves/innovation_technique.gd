@@ -13,7 +13,15 @@ func enroladinho(user : Node, playerTeam : Array[player]):
 	var updatedStats : int = 0 # Unique variable to show how much each stat increased in the happening text
 	
 	updatedStats = randi_range(150, 360) # For health
-	user.target.health += updatedStats
+	# --------------------------------------------------------
+	var newHealth : int = user.target.health + updatedStats
+	
+	if (newHealth <= user.target.maxHealth):
+		user.target.health = newHealth
+	else:
+		updatedStats = user.target.maxHealth - user.target.health
+		user.target.health = user.target.maxHealth
+	# --------------------------------------------------------
 	owner.updateHealthText(user.target)
 	await owner.showHappeningText(["%s recovered %d HP!" % [user.target.charName, updatedStats]])
 	

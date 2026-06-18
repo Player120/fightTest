@@ -21,5 +21,7 @@ var statusEffect : Array[String] = []
 var target
 var deathMessage : String = "%s was hurt and beaten..." % [charName]
 var myUI : Control
+var themeColor : Color
 var canBeTargeted = true
 var shieldHealth : int = 0
+var sprite : String = ""

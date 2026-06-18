@@ -1,70 +1,20 @@
 [gd_scene format=3 uid="uid://61qee0l6w8dn"]
 
-[ext_resource type="Script" uid="uid://dc8wwwl3tpc6" path="res://Scripts/action_menu.gd" id="1_7wp0d"]
+[ext_resource type="Theme" uid="uid://scic7eex2tj2" path="res://Resources/Themes/actionMenuTheme.tres" id="1_5jcrk"]
+[ext_resource type="Script" uid="uid://dc8wwwl3tpc6" path="res://Scripts/UI/action_menu.gd" id="1_7wp0d"]
+[ext_resource type="Texture2D" uid="uid://b835lipnge4ju" path="res://Resources/Sprites/Background/happeningBackground.svg" id="2_c6etk"]
+[ext_resource type="Texture2D" uid="uid://b4bq4dhk0lcjm" path="res://Resources/Sprites/Background/specialMenuBackground.svg" id="3_t34d1"]
+[ext_resource type="Script" uid="uid://bv7212clsou0w" path="res://Scripts/UI/special_actions.gd" id="4_kamps"]
 
 [node name="ActionMenu" type="Control" unique_id=1012500843]
-custom_minimum_size = Vector2(1152, 200)
+custom_minimum_size = Vector2(1152, 120)
 layout_mode = 3
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 200.0
+offset_bottom = 120.0
 grow_horizontal = 2
+theme = ExtResource("1_5jcrk")
 script = ExtResource("1_7wp0d")
-
-[node name="Actions" type="Control" parent="." unique_id=1415464548]
-custom_minimum_size = Vector2(1152, 120)
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-grow_horizontal = 2
-
-[node name="ColorRect" type="ColorRect" parent="Actions" unique_id=561226312]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.336282, 0.40612, 0.473014, 1)
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Actions" unique_id=100344430]
-layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_top = -35.0
-offset_right = 670.0
-offset_bottom = 35.0
-grow_vertical = 2
-theme_override_constants/separation = 40
-
-[node name="Control" type="Control" parent="Actions/HBoxContainer" unique_id=1110714108]
-custom_minimum_size = Vector2(10, 0)
-layout_mode = 2
-
-[node name="Attack" type="Button" parent="Actions/HBoxContainer" unique_id=665988876 groups=["actionButtons"]]
-custom_minimum_size = Vector2(180, 70)
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_font_sizes/font_size = 32
-text = "Attack"
-
-[node name="Heal" type="Button" parent="Actions/HBoxContainer" unique_id=717638976 groups=["actionButtons"]]
-custom_minimum_size = Vector2(180, 70)
-layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
-theme_override_font_sizes/font_size = 32
-text = "Heal"
-
-[node name="Special" type="Button" parent="Actions/HBoxContainer" unique_id=1266947176 groups=["actionButtons"]]
-custom_minimum_size = Vector2(180, 70)
-layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 4
-theme_override_font_sizes/font_size = 32
-text = "Special"
 
 [node name="SpecialActions" type="Control" parent="." unique_id=848249982]
 custom_minimum_size = Vector2(1152, 80)
@@ -73,8 +23,19 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -80.0
 grow_horizontal = 2
 grow_vertical = 0
+script = ExtResource("4_kamps")
+
+[node name="SpecialActionsBackground" type="TextureRect" parent="SpecialActions" unique_id=257824797]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_t34d1")
 
 [node name="PsiMenu" type="Control" parent="SpecialActions" unique_id=1613941303 groups=["specialActions"]]
 clip_contents = true
@@ -86,15 +47,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
-
-[node name="ColorRect" type="ColorRect" parent="SpecialActions/PsiMenu" unique_id=321114140]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.963474, 0.979621, 0, 1)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/PsiMenu" unique_id=1890124182]
 custom_minimum_size = Vector2(1152, 80)
@@ -115,9 +67,9 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user raises their to the sky, and a storm of stars rains down on the enemy for heavy damage.
+tooltip_text = "The user raises their arms to the sky, and a storm of 
+stars rains down on the enemy for heavy damage.
 PP Cost: 18"
-theme_override_font_sizes/font_size = 32
 text = "PK Starstorm"
 
 [node name="PkFire" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1210467658 groups=["psiButtons"]]
@@ -128,7 +80,6 @@ size_flags_vertical = 4
 tooltip_text = "Fire bursts from the user's fingers and the enemy receives toasting damage, 
 with an average chance of being burned afterwards.
 PP Cost: 7"
-theme_override_font_sizes/font_size = 32
 text = "PK Fire"
 
 [node name="PkFreeze" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1910727990 groups=["psiButtons"]]
@@ -139,7 +90,6 @@ size_flags_vertical = 4
 tooltip_text = "A heavy cold wind is summoned from the user's hand and 
 surrounds the enemy for freezing damage. Has a chance of freezing the enemy completely.
 PP Cost: 6"
-theme_override_font_sizes/font_size = 32
 text = "PK Freeze"
 
 [node name="DarkArtsMenu" type="Control" parent="SpecialActions" unique_id=1096402510 groups=["specialActions"]]
@@ -152,15 +102,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
-
-[node name="ColorRect" type="ColorRect" parent="SpecialActions/DarkArtsMenu" unique_id=127075431]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.49, 0, 0.98, 1)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/DarkArtsMenu" unique_id=1907511499]
 custom_minimum_size = Vector2(1152, 80)
@@ -185,7 +126,6 @@ tooltip_text = "A lethal dark art that can instantly erase  any trace of inovati
 Has low chance of instantly killing an enemy, but if it fails, the user will receive
 heavy recoil damage.
 PP Cost: 0"
-theme_override_font_sizes/font_size = 32
 text = "Anti-Innovation"
 
 [node name="Globalization" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=1599007742 groups=["darkArtsButtons"]]
@@ -196,7 +136,6 @@ size_flags_vertical = 4
 tooltip_text = "A dark art with inconsistent power that will take health from both the user and the target, 
 with the limit being the user's maximum health (not current).
 PP Cost: 0"
-theme_override_font_sizes/font_size = 32
 text = "Globalization"
 
 [node name="Logarithms" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=215284876 groups=["darkArtsButtons"]]
@@ -208,7 +147,6 @@ tooltip_text = "A dark art that puts thoughts about Logarithms into the enemy's 
 and making them lose their mind in the process. If it fails and the enemy does not care, 
 the enemy's offense will raise sharply.
 PP Cost: 0"
-theme_override_font_sizes/font_size = 32
 text = "Logarithms"
 
 [node name="DevToolsMenu" type="Control" parent="SpecialActions" unique_id=851675512 groups=["specialActions"]]
@@ -221,15 +159,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
-
-[node name="ColorRect" type="ColorRect" parent="SpecialActions/DevToolsMenu" unique_id=1435782575]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.7818344, 0, 0.07608061, 1)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/DevToolsMenu" unique_id=598777167]
 custom_minimum_size = Vector2(1152, 80)
@@ -254,7 +183,6 @@ tooltip_text = "The user starts a gaming session of Flippy Board, the best game 
 Due to the game's perfect quality and challenge, 
 the user feels motivated, raising their offense.
 PP Cost: 0"
-theme_override_font_sizes/font_size = 32
 text = "Flippy Board"
 
 [node name="VS Code" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1960880585 groups=["devToolsButtons"]]
@@ -265,7 +193,6 @@ size_flags_vertical = 4
 tooltip_text = "Opens up Visual Studio Code for the user to find and fix complex 
 and unexplainable bugs in the TCC project, raising their determination.
 PP Cost: 0"
-theme_override_font_sizes/font_size = 32
 text = "VS Code"
 
 [node name="Discord Call" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1617069814 groups=["devToolsButtons"]]
@@ -276,7 +203,6 @@ size_flags_vertical = 4
 tooltip_text = "Opens up a Discord Call, where the entire party joins in the group chat and conversate and laugh, 
 recovering everyone's HP at the end of it.
 PP Cost: 0"
-theme_override_font_sizes/font_size = 32
 text = "Discord Call"
 
 [node name="CaipiraPowersMenu" type="Control" parent="SpecialActions" unique_id=1845113856 groups=["specialActions"]]
@@ -289,15 +215,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
-
-[node name="ColorRect" type="ColorRect" parent="SpecialActions/CaipiraPowersMenu" unique_id=538900528]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.18483254, 0.4931715, 0, 1)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/CaipiraPowersMenu" unique_id=113932159]
 custom_minimum_size = Vector2(1152, 80)
@@ -321,7 +238,6 @@ size_flags_vertical = 4
 tooltip_text = "The user looks at the sky and summons an agressive weather of dark clouds and lightning strikes, that 
 have a chance of paralysing the enemy. The lightning strikes may miss.
 PP Cost: 14"
-theme_override_font_sizes/font_size = 32
 text = "Thunderstorm"
 
 [node name="NatureBeam" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1558302827 groups=["caipiraPowersButtons"]]
@@ -333,7 +249,6 @@ tooltip_text = "The user spends a turn closing their eyes and absorbing all of t
  enviroment. Then in the next turn, the user fires a deadly beam of nature fury that deals heavy damage
  and has a low chance of burning or freezing the enemy.
 PP Cost: 27"
-theme_override_font_sizes/font_size = 32
 text = "Nature Beam"
 
 [node name="Organization" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=252180253 groups=["caipiraPowersButtons"]]
@@ -344,7 +259,6 @@ size_flags_vertical = 4
 tooltip_text = "Summons the hardworking Organization Team to defend the user and fire multiple times 
 at the enemy in every turn. They will stay until they get tired and leave for lunch.
 PP Cost: 20"
-theme_override_font_sizes/font_size = 32
 text = "Organization"
 
 [node name="FriendshipMagic" type="Control" parent="SpecialActions" unique_id=751811426 groups=["specialActions"]]
@@ -357,15 +271,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 0
-
-[node name="ColorRect" type="ColorRect" parent="SpecialActions/FriendshipMagic" unique_id=1919553236]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.99099594, 0.00017673612, 0.8246057, 1)
 
 [node name="HBoxContainer" type="HBoxContainer" parent="SpecialActions/FriendshipMagic" unique_id=1199531812]
 custom_minimum_size = Vector2(1152, 80)
@@ -390,7 +295,6 @@ tooltip_text = "The user raises a magic wand in the air, and concentrates all of
 fire a bright and deadly star at the enemy for heavy damage. 
 Deals more damage depending on how many party members are alive.
 PP Cost: 19"
-theme_override_font_sizes/font_size = 32
 text = "Friendship Star"
 
 [node name="PowerShield" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=1959976350 groups=["friendshipMagicButtons"]]
@@ -401,8 +305,7 @@ size_flags_vertical = 4
 tooltip_text = "Protects every single party member with a power shield, that will reduce and reflect 
 part of the damage taken back to the attacker. Special moves are not affected by it.
 PP Cost: 18"
-theme_override_font_sizes/font_size = 32
-text = "Power Shield Ω"
+text = "Power Shield"
 
 [node name="RainbowComet" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=459811264 groups=["friendshipMagicButtons"]]
 custom_minimum_size = Vector2(180, 65)
@@ -414,5 +317,65 @@ tooltip_text = "The user looks down, closes their eyes, closes their hands toget
 bonds and fighting spirit, raising the entire party's offense, defense, speed and determination. 
 At the end, the comet will target and rain down on the enemy.
 PP Cost: 26"
-theme_override_font_sizes/font_size = 32
 text = "Rainbow Comet"
+
+[node name="Actions" type="Control" parent="." unique_id=1415464548]
+custom_minimum_size = Vector2(1152, 120)
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="ColorRect" type="ColorRect" parent="Actions" unique_id=561226312]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.336282, 0.40612, 0.473014, 1)
+
+[node name="TextureRect" type="TextureRect" parent="Actions" unique_id=437632104]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_c6etk")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Actions" unique_id=100344430]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -35.0
+offset_right = 670.0
+offset_bottom = 35.0
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="Control" type="Control" parent="Actions/HBoxContainer" unique_id=1110714108]
+custom_minimum_size = Vector2(10, 0)
+layout_mode = 2
+
+[node name="Attack" type="Button" parent="Actions/HBoxContainer" unique_id=665988876 groups=["actionButtons"]]
+custom_minimum_size = Vector2(180, 70)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Attack"
+
+[node name="Heal" type="Button" parent="Actions/HBoxContainer" unique_id=717638976 groups=["actionButtons"]]
+custom_minimum_size = Vector2(180, 70)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+text = "Heal"
+
+[node name="Special" type="Button" parent="Actions/HBoxContainer" unique_id=1266947176 groups=["actionButtons"]]
+custom_minimum_size = Vector2(180, 70)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+text = "Special"

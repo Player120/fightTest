@@ -24,6 +24,8 @@ func setup(
 		newPlayer.speed = data[i].speed
 		newPlayer.specialAbility = data[i].specialAbility
 		newPlayer.deathMessage = "%s was hurt and beaten..." % [newPlayer.charName]
+		newPlayer.themeColor = data[i].themeColor
+		newPlayer.sprite = data[i].sprite
 		
 		# Creates UI window with name and HP/PP values
 		var newWindow : Control = playerWindowScene.instantiate()

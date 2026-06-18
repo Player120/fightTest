@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4nj6tq8ngjrx"
+path="res://.godot/imported/Coração verde e amarelo - Dr. Guilherme Berton.mp3-349db110bb3754e2051e66a4260ef2fa.mp3str"
+
+[deps]
+
+source_file="res://Resources/Music/Coração verde e amarelo - Dr. Guilherme Berton.mp3"
+dest_files=["res://.godot/imported/Coração verde e amarelo - Dr. Guilherme Berton.mp3-349db110bb3754e2051e66a4260ef2fa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

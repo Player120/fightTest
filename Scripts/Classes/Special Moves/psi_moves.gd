@@ -1,10 +1,21 @@
 extends Node
 class_name psiMoves
 
+const animations = preload("res://Prefabs/visual_effects.tscn")
+
 func pkStarstorm(user : Node, target : Node) -> void:
 	const ppCost : int = 18
 	
 	if (await ppDepleteHandler(user, ppCost)):
+		var vfx = animations.instantiate()
+		add_child(vfx)
+		
+		if (randi_range(1, 2) == 1):
+			vfx.startAnimation("PK Starstorm")
+		else:
+			vfx.startAnimation("PK Starstorm 2")
+		await vfx.tree_exited
+		
 		var damage : int = randi_range(144, 277)
 		
 		var damageMessage : String = "%d HP of ultra super star damage to %s!" % [damage, target.charName]

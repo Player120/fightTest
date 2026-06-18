@@ -1,0 +1,27 @@
+[gd_resource type="Theme" format=3 uid="uid://scic7eex2tj2"]
+
+[ext_resource type="Texture2D" uid="uid://ccmh2l5waipk3" path="res://Resources/Sprites/Button/buttonNormal.svg" id="1_cn53i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cn53i"]
+bg_color = Color(0.10980392, 0.10980392, 0.10980392, 0.24705882)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_klk2x"]
+texture = ExtResource("1_cn53i")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pxsl3"]
+texture = ExtResource("1_cn53i")
+texture_margin_left = 25.0
+texture_margin_right = 25.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kxbks"]
+texture = ExtResource("1_cn53i")
+
+[resource]
+Button/styles/focus = SubResource("StyleBoxFlat_cn53i")
+Button/styles/hover = SubResource("StyleBoxTexture_klk2x")
+Button/styles/normal = SubResource("StyleBoxTexture_pxsl3")
+Button/styles/pressed = SubResource("StyleBoxTexture_kxbks")

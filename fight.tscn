@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://8467xs8pwpkr"]
 
-[ext_resource type="Texture2D" uid="uid://ckxuec6f7s536" path="res://Resources/Sprites/inova.jpg" id="1_3mnov"]
-[ext_resource type="Script" uid="uid://bscddxw8s8ij7" path="res://Scripts/fight.gd" id="1_4jl1m"]
-[ext_resource type="Script" uid="uid://btt5caxteeso" path="res://Scripts/boss_hp_number.gd" id="3_hchht"]
-[ext_resource type="Script" uid="uid://jxs5a53vdoem" path="res://Scripts/player_area.gd" id="4_1u4tr"]
+[ext_resource type="Texture2D" uid="uid://ckxuec6f7s536" path="res://Resources/Sprites/Characters/inova.jpg" id="1_3mnov"]
+[ext_resource type="Script" uid="uid://bscddxw8s8ij7" path="res://Scripts/Gameplay/fight.gd" id="1_4jl1m"]
+[ext_resource type="Script" uid="uid://btt5caxteeso" path="res://Scripts/UI/boss_hp_number.gd" id="3_hchht"]
+[ext_resource type="Script" uid="uid://jxs5a53vdoem" path="res://Scripts/UI/player_area.gd" id="4_1u4tr"]
 [ext_resource type="Script" uid="uid://deuvyaeq4pnhc" path="res://Scripts/Classes/boss.gd" id="4_34m47"]
 [ext_resource type="PackedScene" uid="uid://61qee0l6w8dn" path="res://Prefabs/action_menu.tscn" id="4_hcub5"]
+[ext_resource type="Texture2D" uid="uid://b835lipnge4ju" path="res://Resources/Sprites/Background/happeningBackground.svg" id="4_xgr32"]
+[ext_resource type="Script" uid="uid://cceuceg2xna77" path="res://Scripts/Gameplay/music_manager.gd" id="6_5morp"]
 [ext_resource type="Script" uid="uid://qy2b5tvi1dh2" path="res://Scripts/Classes/actions.gd" id="9_hcub5"]
 [ext_resource type="Script" uid="uid://ceroc8ieltt1q" path="res://Scripts/Classes/Special Moves/psi_moves.gd" id="10_2ssja"]
 [ext_resource type="Script" uid="uid://br3r6abel1o8w" path="res://Scripts/Classes/Special Moves/dark_arts.gd" id="10_rgwgi"]
@@ -85,25 +87,30 @@ anchors_preset = 10
 anchor_right = 1.0
 grow_horizontal = 2
 
-[node name="ColorRect" type="ColorRect" parent="HappeningArea" unique_id=1965004978]
+[node name="BackgroundSprite" type="TextureRect" parent="HappeningArea" unique_id=1370510805]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.165656, 0.165656, 0.165656, 1)
+texture = ExtResource("4_xgr32")
 
 [node name="HappeningText" type="Label" parent="HappeningArea" unique_id=799280050]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 15.0
+offset_top = 5.0
+offset_right = 15.0
+offset_bottom = 5.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 36
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "Placeholder Text"
+autowrap_mode = 3
+max_lines_visible = 2
 
 [node name="ActionMenu" parent="HappeningArea" unique_id=1472340283 node_paths=PackedStringArray("bossStatus") instance=ExtResource("4_hcub5")]
 layout_mode = 1
@@ -141,6 +148,11 @@ offset_top = -160.0
 grow_horizontal = 2
 grow_vertical = 0
 alignment = 1
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="." unique_id=2085493538]
+script = ExtResource("6_5morp")
+
+[node name="ButtonSoundEffect" type="AudioStreamPlayer" parent="." unique_id=253018458]
 
 [node name="boss" type="Node" parent="." unique_id=727514025]
 script = ExtResource("4_34m47")

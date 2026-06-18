@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2sb8fgccv8fw"
+path="res://.godot/imported/MUSICA PARA MISTERIO - MUSIC FOR MYSTERY - MUSICA PARA RADIO Y TV - Chris Fernández.mp3-73e0e477fdf87330a375592bd30505e8.mp3str"
+
+[deps]
+
+source_file="res://Resources/Music/MUSICA PARA MISTERIO - MUSIC FOR MYSTERY - MUSICA PARA RADIO Y TV - Chris Fernández.mp3"
+dest_files=["res://.godot/imported/MUSICA PARA MISTERIO - MUSIC FOR MYSTERY - MUSICA PARA RADIO Y TV - Chris Fernández.mp3-73e0e477fdf87330a375592bd30505e8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
