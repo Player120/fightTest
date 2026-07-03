@@ -1,7 +1,18 @@
 extends Node
 class_name darkArts
 
+const animations = preload("res://Prefabs/visual_effects.tscn")
+
 func antiInnovation(user : Node, target : Node) -> void:
+	var vfx = animations.instantiate()
+	add_child(vfx)
+	
+	if (randi_range(1, 2) == 1):
+		vfx.startAnimation("Anti-Innovation")
+	else:
+		vfx.startAnimation("Anti-Innovation 2")
+	await vfx.tree_exited
+	
 	var instaKill : int = randi_range(1, 4)
 	
 	if (instaKill == 1):
@@ -16,6 +27,12 @@ func antiInnovation(user : Node, target : Node) -> void:
 		await damageHandler(user, damage, damageMessage)
 
 func globalization(user : Node, target : Node) -> void:
+	var vfx = animations.instantiate()
+	add_child(vfx)
+	
+	vfx.startAnimation("Globalization")
+	await vfx.tree_exited
+	
 	var damage : int = randi_range(1, user.maxHealth)
 	await owner.showHappeningText(["Globalization deems equality.", "Globalization will make %s and %s lose %d HP!" % [user.charName, target.charName, damage]])
 	
@@ -24,11 +41,17 @@ func globalization(user : Node, target : Node) -> void:
 		await damageHandler(target, damage, "%d HP of equalization damage to %s!" % [damage, target.charName])
 
 func logarithms(user : Node, target : Node) -> void:
+	var vfx = animations.instantiate()
+	add_child(vfx)
+	
+	vfx.startAnimation("Logarithms")
+	await vfx.tree_exited
+	
 	await owner.showHappeningText(["%s learned about the horrors of Logarithms!" % [target.charName]])
 	var willCare : int = randi_range(1, 2)
 	
 	if (willCare == 1 && !target.statusEffect.has("confusion")):
-		await owner.showHappeningText(["%s felt lost trying to comprehend the incomprehensible complexity!" % [target.charName]])
+		await owner.showHappeningText(["%s felt lost trying to comprehend the incomprehensible complexity of nonsense!" % [target.charName]])
 		target.statusEffect.append("confusion")
 	elif (!target.statusEffect.has("confusion")):
 		await owner.showHappeningText(["%s did not care and felt extremely angry!" % [target.charName]])

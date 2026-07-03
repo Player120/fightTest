@@ -26,6 +26,15 @@ func pkFire(user : Node, target : Node):
 	const ppCost : int = 7
 	
 	if (await ppDepleteHandler(user, ppCost)):
+		var vfx = animations.instantiate()
+		add_child(vfx)
+		
+		if (randi_range(1, 2) == 1):
+			vfx.startAnimation("PK Fire")
+		else:
+			vfx.startAnimation("PK Fire 2")
+		await vfx.tree_exited
+		
 		var damage : int = randi_range(42, 101)
 		var willBurn : int = randi_range(1, 2)
 		
@@ -41,6 +50,12 @@ func pkFreeze(user : Node, target : Node) -> void:
 	const ppCost : int = 6
 	
 	if (await ppDepleteHandler(user, ppCost)):
+		var vfx = animations.instantiate()
+		add_child(vfx)
+		
+		vfx.startAnimation("PK Freeze")
+		await vfx.tree_exited
+		
 		var damage : int = randi_range(51, 87)
 		var willFreeze : int = randi_range(1, 3)
 		

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwikvo2yctoeo"
+path="res://.godot/imported/PSI Hypnosis O - MCCircuitDC (720p, h264).wav-75d4ebf8e8ed046449f4863971fe914f.sample"
+
+[deps]
+
+source_file="res://Resources/Sound Effects/Visual Effects/Dark Arts/PSI Hypnosis O - MCCircuitDC (720p, h264).wav"
+dest_files=["res://.godot/imported/PSI Hypnosis O - MCCircuitDC (720p, h264).wav-75d4ebf8e8ed046449f4863971fe914f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

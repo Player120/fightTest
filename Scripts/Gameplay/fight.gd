@@ -28,7 +28,7 @@ var playerTeam : Array[player] = []
 
 
 # Other Variables
-var textTimer : float = 0.3
+var textTimer : float = 1.0
 var isSomeoneAlive : bool = true
 var organizationActive : bool = false
 
@@ -125,6 +125,7 @@ func turnManager() -> void:
 			break
 
 func executeTurn(charOrder : Array[Node]) -> void:
+	var bossMoves : int = 0
 	var npc : player
 	if (organizationActive):
 		npc = player.new()
@@ -170,14 +171,19 @@ func executeTurn(charOrder : Array[Node]) -> void:
 			
 			if (userInfo is player && bossStatus.alive):
 				userInfo.myUI.playerSpriteMove("down")
-				
+			
 			if (!isSomeoneAlive || !bossStatus.alive):
 				break
+			
+			if (userInfo is boss && bossStatus.alive && bossMoves < 1):
+				bossMove()
+				charOrder.push_front(bossStatus)
+				bossMoves += 1
 		else:
 			match userInfo.charName:
 				"Organization":
 					await userActions.caipiraPowersManager(userInfo, userInfo.target)
-					var willLeave : int = randi_range(1, 4)
+					var willLeave : int = randi_range(1, 1)
 					if (willLeave == 1):
 						await showHappeningText(["The Organization team got tired from all their hard work and went to lunch."])
 						organizationActive = false

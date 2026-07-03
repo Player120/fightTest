@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvew5i5rirkm"
+path="res://.godot/imported/PSI Flash e - MCCircuitDC (720p, h264).wav-42b3d3e299a0940dcd236d14f9db8d97.sample"
+
+[deps]
+
+source_file="res://Resources/Sound Effects/Visual Effects/Dark Arts/PSI Flash e - MCCircuitDC (720p, h264).wav"
+dest_files=["res://.godot/imported/PSI Flash e - MCCircuitDC (720p, h264).wav-42b3d3e299a0940dcd236d14f9db8d97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

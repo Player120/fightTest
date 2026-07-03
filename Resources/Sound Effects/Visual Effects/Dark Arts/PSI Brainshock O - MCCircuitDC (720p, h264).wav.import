@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6uayhoo4bl7n"
+path="res://.godot/imported/PSI Brainshock O - MCCircuitDC (720p, h264).wav-d0d254deafeb4b8cabeda0ff7c488d58.sample"
+
+[deps]
+
+source_file="res://Resources/Sound Effects/Visual Effects/Dark Arts/PSI Brainshock O - MCCircuitDC (720p, h264).wav"
+dest_files=["res://.godot/imported/PSI Brainshock O - MCCircuitDC (720p, h264).wav-d0d254deafeb4b8cabeda0ff7c488d58.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
