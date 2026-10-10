@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://elp0068gqlkk"
+path="res://.godot/imported/PSI Rockin Ω.wav-734a19f8bc8057832866167ed1d949f2.sample"
+
+[deps]
+
+source_file="res://Resources/Sound Effects/Visual Effects/Friendship Magic/PSI Rockin Ω.wav"
+dest_files=["res://.godot/imported/PSI Rockin Ω.wav-734a19f8bc8057832866167ed1d949f2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

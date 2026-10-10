@@ -1,0 +1,398 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b2y48u4yf2xi2"]
+
+[ext_resource type="Texture2D" uid="uid://p0ssodqxso44" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000001.png" id="1_exmqq"]
+[ext_resource type="Texture2D" uid="uid://dpycjn5vj1bno" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000002.png" id="2_0exal"]
+[ext_resource type="Texture2D" uid="uid://c2ur5kacl5wl3" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000003.png" id="3_vfadg"]
+[ext_resource type="Texture2D" uid="uid://bfnlrdlt8aukp" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000004.png" id="4_jpe2e"]
+[ext_resource type="Texture2D" uid="uid://dkgku0gfpwuf1" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000005.png" id="5_2ioi6"]
+[ext_resource type="Texture2D" uid="uid://hh6hydr3562c" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000006.png" id="6_i7jbr"]
+[ext_resource type="Texture2D" uid="uid://becupucigyjtw" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000007.png" id="7_r01yv"]
+[ext_resource type="Texture2D" uid="uid://dasd68qije5h6" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000008.png" id="8_4q0ko"]
+[ext_resource type="Texture2D" uid="uid://dfmfsq141o4n1" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000009.png" id="9_t6077"]
+[ext_resource type="Texture2D" uid="uid://dllsvdvi4im8s" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000010.png" id="10_geh78"]
+[ext_resource type="Texture2D" uid="uid://b4qbfxxi4f22f" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000011.png" id="11_ur7ly"]
+[ext_resource type="Texture2D" uid="uid://cby3ukd5pi8st" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000012.png" id="12_rbhn7"]
+[ext_resource type="Texture2D" uid="uid://bidbh8rauyjxg" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000013.png" id="13_8qkg1"]
+[ext_resource type="Texture2D" uid="uid://dm0t6mtn5mey6" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000014.png" id="14_j4mi6"]
+[ext_resource type="Texture2D" uid="uid://ipvu6m8eadqh" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000015.png" id="15_pb8pn"]
+[ext_resource type="Texture2D" uid="uid://qvesd85llfj5" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000016.png" id="16_uyjln"]
+[ext_resource type="Texture2D" uid="uid://pfpmfuruiiva" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000017.png" id="17_ja3dy"]
+[ext_resource type="Texture2D" uid="uid://bm3q6me4sdemt" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000018.png" id="18_f1ksp"]
+[ext_resource type="Texture2D" uid="uid://cl67g801sq2mj" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000019.png" id="19_eaj0l"]
+[ext_resource type="Texture2D" uid="uid://ddghw60lwuiat" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000020.png" id="20_27vbr"]
+[ext_resource type="Texture2D" uid="uid://0qut8biouplw" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000021.png" id="21_du5qi"]
+[ext_resource type="Texture2D" uid="uid://fsvcq0x4i7vq" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000022.png" id="22_ktio0"]
+[ext_resource type="Texture2D" uid="uid://d127cgc841pe1" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000023.png" id="23_ptyc6"]
+[ext_resource type="Texture2D" uid="uid://bg7jdwf8rpwy" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000024.png" id="24_eph62"]
+[ext_resource type="Texture2D" uid="uid://d2tftm8pr5ul0" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000025.png" id="25_h46as"]
+[ext_resource type="Texture2D" uid="uid://ct64wna1b0wmp" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000026.png" id="26_50m3m"]
+[ext_resource type="Texture2D" uid="uid://cdpbanmvb4c8m" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000027.png" id="27_q8t57"]
+[ext_resource type="Texture2D" uid="uid://drbgoatf4iwub" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000028.png" id="28_iyu04"]
+[ext_resource type="Texture2D" uid="uid://dysods3xcuoga" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000029.png" id="29_tdx5p"]
+[ext_resource type="Texture2D" uid="uid://pg7o33j24o0j" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000030.png" id="30_7g3sx"]
+[ext_resource type="Texture2D" uid="uid://cv0kqwjh75fks" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000031.png" id="31_dm3f6"]
+[ext_resource type="Texture2D" uid="uid://ds21m1lhn2ami" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000032.png" id="32_enewo"]
+[ext_resource type="Texture2D" uid="uid://cy8au6dv8b14x" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000033.png" id="33_eft5x"]
+[ext_resource type="Texture2D" uid="uid://j0fxr2scloby" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000034.png" id="34_rt4nw"]
+[ext_resource type="Texture2D" uid="uid://w4ktnt35etow" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000035.png" id="35_7jwe8"]
+[ext_resource type="Texture2D" uid="uid://dx30mld6mm53s" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000036.png" id="36_6wjx0"]
+[ext_resource type="Texture2D" uid="uid://rox3yls0xwju" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000037.png" id="37_u204h"]
+[ext_resource type="Texture2D" uid="uid://c2vcbulxap4t8" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000038.png" id="38_xuj5p"]
+[ext_resource type="Texture2D" uid="uid://cdv5e600n8wdi" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000039.png" id="39_tktih"]
+[ext_resource type="Texture2D" uid="uid://5h5h4unjo6yj" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000040.png" id="40_37844"]
+[ext_resource type="Texture2D" uid="uid://lt6xl6ycfry6" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000041.png" id="41_hw7qb"]
+[ext_resource type="Texture2D" uid="uid://bqnchnylae8x1" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000042.png" id="42_xor4p"]
+[ext_resource type="Texture2D" uid="uid://v0q6qjwpy0th" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000043.png" id="43_j7c78"]
+[ext_resource type="Texture2D" uid="uid://6bkueesrntu6" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000044.png" id="44_gyjr0"]
+[ext_resource type="Texture2D" uid="uid://d1s6704ab1tt0" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000045.png" id="45_1xp72"]
+[ext_resource type="Texture2D" uid="uid://c7h2cc8yinkmo" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000046.png" id="46_raxpo"]
+[ext_resource type="Texture2D" uid="uid://cr441rg3idgn2" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000047.png" id="47_sxv4r"]
+[ext_resource type="Texture2D" uid="uid://6sjvgnnk614u" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000048.png" id="48_457qq"]
+[ext_resource type="Texture2D" uid="uid://dmqlwh557wvo0" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000049.png" id="49_2xndh"]
+[ext_resource type="Texture2D" uid="uid://doycop2nf2001" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000050.png" id="50_rb474"]
+[ext_resource type="Texture2D" uid="uid://ca6eocqopxvgf" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000051.png" id="51_l0ii1"]
+[ext_resource type="Texture2D" uid="uid://byjposwu8c6wb" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000052.png" id="52_6sd2i"]
+[ext_resource type="Texture2D" uid="uid://bep8jxfrcfv6r" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000053.png" id="53_n6ogx"]
+[ext_resource type="Texture2D" uid="uid://b5pdjssnxuoji" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000054.png" id="54_pc521"]
+[ext_resource type="Texture2D" uid="uid://do5gc4cgnbocl" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000055.png" id="55_7ebg8"]
+[ext_resource type="Texture2D" uid="uid://peuxnhm12cla" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000056.png" id="56_xl5gu"]
+[ext_resource type="Texture2D" uid="uid://td7u2n2mhdy2" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000057.png" id="57_u7iwe"]
+[ext_resource type="Texture2D" uid="uid://d4ufde404vft" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000058.png" id="58_hwljq"]
+[ext_resource type="Texture2D" uid="uid://dpeg1pjcfa62n" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000059.png" id="59_i7eu6"]
+[ext_resource type="Texture2D" uid="uid://beptv66x4f382" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000060.png" id="60_m416n"]
+[ext_resource type="Texture2D" uid="uid://cwl2tvcrjpa74" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000061.png" id="61_lmbvo"]
+[ext_resource type="Texture2D" uid="uid://cp5hru14flesh" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000062.png" id="62_y67hq"]
+[ext_resource type="Texture2D" uid="uid://dxcw25f8w7kma" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000063.png" id="63_uer7q"]
+[ext_resource type="Texture2D" uid="uid://xalsbcnxokfi" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000064.png" id="64_ysxcg"]
+[ext_resource type="Texture2D" uid="uid://d0efwt5tcrf06" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000065.png" id="65_e5mx6"]
+[ext_resource type="Texture2D" uid="uid://pn371ftup0fk" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000066.png" id="66_18vln"]
+[ext_resource type="Texture2D" uid="uid://4bqn0hhymiiq" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000067.png" id="67_6lkdf"]
+[ext_resource type="Texture2D" uid="uid://u3jyl8b8rin" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000068.png" id="68_hiryu"]
+[ext_resource type="Texture2D" uid="uid://bqjyrsx25hd8n" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000069.png" id="69_6s8t4"]
+[ext_resource type="Texture2D" uid="uid://c8pyqxmc0t6wt" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000070.png" id="70_a4srx"]
+[ext_resource type="Texture2D" uid="uid://ccrrxfm0kjewg" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000071.png" id="71_ueaki"]
+[ext_resource type="Texture2D" uid="uid://clgxfyo0y3m8b" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000072.png" id="72_7op4o"]
+[ext_resource type="Texture2D" uid="uid://bgom2p14cnmo1" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000073.png" id="73_h7oav"]
+[ext_resource type="Texture2D" uid="uid://bdmu1hrcl14fr" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000074.png" id="74_r25h1"]
+[ext_resource type="Texture2D" uid="uid://bo34hrelju21t" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000075.png" id="75_vve4r"]
+[ext_resource type="Texture2D" uid="uid://ccxx52pw1uq6g" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000076.png" id="76_u0tu6"]
+[ext_resource type="Texture2D" uid="uid://ba35j2bvgrmt8" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000077.png" id="77_vo1x6"]
+[ext_resource type="Texture2D" uid="uid://6w5dyjjsd7kj" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000078.png" id="78_1tu1s"]
+[ext_resource type="Texture2D" uid="uid://dv66ud4lukatt" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000079.png" id="79_ris5l"]
+[ext_resource type="Texture2D" uid="uid://b2p2o7vqg0np7" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000080.png" id="80_mta4d"]
+[ext_resource type="Texture2D" uid="uid://c3m246vfpigey" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000081.png" id="81_7hbrm"]
+[ext_resource type="Texture2D" uid="uid://cepda81v4r3rv" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000082.png" id="82_0qnvs"]
+[ext_resource type="Texture2D" uid="uid://dl7wh4u5irlr3" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000083.png" id="83_n71xp"]
+[ext_resource type="Texture2D" uid="uid://b42swajal5ntd" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000084.png" id="84_ygg3f"]
+[ext_resource type="Texture2D" uid="uid://ducffhgofx0a8" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000085.png" id="85_f55e0"]
+[ext_resource type="Texture2D" uid="uid://js8pojkkxqo1" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000086.png" id="86_sc4ao"]
+[ext_resource type="Texture2D" uid="uid://d11hocwmn7gv3" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000087.png" id="87_3eavc"]
+[ext_resource type="Texture2D" uid="uid://ddm075lnlfm3x" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000088.png" id="88_5tdv2"]
+[ext_resource type="Texture2D" uid="uid://c5eusgvps4ysb" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000089.png" id="89_01e2p"]
+[ext_resource type="Texture2D" uid="uid://bt2vjcjgis13q" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000090.png" id="90_6cjpl"]
+[ext_resource type="Texture2D" uid="uid://dj43ocwurudm5" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000091.png" id="91_vhn4n"]
+[ext_resource type="Texture2D" uid="uid://dbn0jkbik8wpj" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000092.png" id="92_25wvo"]
+[ext_resource type="Texture2D" uid="uid://e2mjluc8fvhw" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000093.png" id="93_b4evu"]
+[ext_resource type="Texture2D" uid="uid://bk4bxuglauq6j" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000094.png" id="94_hbxkg"]
+[ext_resource type="Texture2D" uid="uid://dwfsxtgavse3t" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000095.png" id="95_hdr68"]
+[ext_resource type="Texture2D" uid="uid://cjtxxiyl7rb6e" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000096.png" id="96_uwjr8"]
+[ext_resource type="Texture2D" uid="uid://c7d6kgskvvqet" path="res://Resources/Animations/Frienship Powers/Power Shield/PSI Shield B - MCCircuitDC (720p, h264)_000097.png" id="97_ujaxd"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_exmqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0exal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vfadg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jpe2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2ioi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_i7jbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_r01yv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4q0ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_t6077")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_geh78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ur7ly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_rbhn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_8qkg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_j4mi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_pb8pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_uyjln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ja3dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_f1ksp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_eaj0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_27vbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_du5qi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ktio0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ptyc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_eph62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_h46as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_50m3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_q8t57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_iyu04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_tdx5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_7g3sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_dm3f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_enewo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_eft5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_rt4nw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_7jwe8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_6wjx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_u204h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_xuj5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_tktih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_37844")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_hw7qb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_xor4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_j7c78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_gyjr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1xp72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_raxpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_sxv4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_457qq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_2xndh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_rb474")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_l0ii1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_6sd2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_n6ogx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_pc521")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_7ebg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_xl5gu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_u7iwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_hwljq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_i7eu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_m416n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_lmbvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_y67hq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_uer7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_ysxcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_e5mx6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_18vln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_6lkdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_hiryu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_6s8t4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_a4srx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_ueaki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_7op4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_h7oav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_r25h1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_vve4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_u0tu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_vo1x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_1tu1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_ris5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_mta4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_7hbrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_0qnvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_n71xp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_ygg3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_f55e0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_sc4ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_3eavc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_5tdv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_01e2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_6cjpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_vhn4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_25wvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_b4evu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_hbxkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_hdr68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_uwjr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_ujaxd")
+}],
+"loop": false,
+"name": &"Power Shield",
+"speed": 30.0
+}]

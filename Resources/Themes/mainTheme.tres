@@ -8,6 +8,8 @@
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7qlvj"]
 texture = ExtResource("1_1vs27")
+expand_margin_left = 10.0
+expand_margin_right = 10.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7qlvj"]
 bg_color = Color(0.11, 0.11, 0.11, 0.24705882)
@@ -27,25 +29,29 @@ texture_margin_right = 25.0
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6m40w"]
 texture = ExtResource("3_7qlvj")
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1vs27"]
-content_margin_left = 8.0
-content_margin_top = 8.0
-content_margin_right = 8.0
-content_margin_bottom = 8.0
-bg_color = Color(0.3854925, 0.38549256, 0.38549232, 0.78039217)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_026rk"]
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_behnk"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.38431373, 0.38431373, 0.38431373, 0.78039217)
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2
 border_width_bottom = 2
 border_color = Color(0, 0, 0, 1)
-corner_radius_top_left = 5
-corner_radius_top_right = 5
-corner_radius_bottom_right = 5
-corner_radius_bottom_left = 5
-expand_margin_left = 8.0
-expand_margin_top = 2.0
-expand_margin_right = 8.0
-expand_margin_bottom = 2.0
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
 
 [resource]
 Button/colors/font_color = Color(0, 0, 0, 1)
@@ -74,4 +80,5 @@ Button/styles/normal = SubResource("StyleBoxTexture_026rk")
 Button/styles/pressed = SubResource("StyleBoxTexture_6m40w")
 Label/font_sizes/font_size = 48
 TooltipLabel/font_sizes/font_size = 24
-TooltipLabel/styles/normal = SubResource("StyleBoxFlat_1vs27")
+TooltipLabel/styles/normal = SubResource("StyleBoxFlat_026rk")
+TooltipPanel/styles/panel = SubResource("StyleBoxFlat_behnk")

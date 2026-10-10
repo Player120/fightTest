@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://b835lipnge4ju" path="res://Resources/Sprites/Background/happeningBackground.svg" id="2_c6etk"]
 [ext_resource type="Texture2D" uid="uid://b4bq4dhk0lcjm" path="res://Resources/Sprites/Background/specialMenuBackground.svg" id="3_t34d1"]
 [ext_resource type="Script" uid="uid://bv7212clsou0w" path="res://Scripts/UI/special_actions.gd" id="4_kamps"]
+[ext_resource type="Script" uid="uid://qk11ogunc0ag" path="res://Scripts/UI/tooltip_formating.gd" id="6_e734a"]
 
 [node name="ActionMenu" type="Control" unique_id=1012500843]
 custom_minimum_size = Vector2(1152, 120)
@@ -62,35 +63,37 @@ theme_override_constants/separation = 40
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="PkStarstorm" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1286692231 groups=["psiButtons"]]
+[node name="PkStarstorm" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1286692231 groups=["actionButtons", "psiButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user raises their arms to the sky, and a storm of 
-stars rains down on the enemy for heavy damage.
-PP Cost: 18"
+tooltip_text = "The user raises their arms to the sky, and a storm of stars rains down on all enemies for heavy damage.
+PP Cost: 20"
 text = "PK Starstorm"
+script = ExtResource("6_e734a")
 
-[node name="PkFire" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1210467658 groups=["psiButtons"]]
+[node name="PkFire" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1210467658 groups=["actionButtons", "psiButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "Fire bursts from the user's fingers and the enemy receives toasting damage, 
-with an average chance of being burned afterwards.
-PP Cost: 7"
+tooltip_text = "Fire bursts from the user's fingers and all enemies receives toasting damage, with a 1/2 chance of being burned afterwards.
+PP Cost: 8"
 text = "PK Fire"
+script = ExtResource("6_e734a")
+tooltipSize = 450.0
 
-[node name="PkFreeze" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1910727990 groups=["psiButtons"]]
+[node name="PkFreeze" type="Button" parent="SpecialActions/PsiMenu/HBoxContainer" unique_id=1910727990 groups=["actionButtons", "psiButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "A heavy cold wind is summoned from the user's hand and 
-surrounds the enemy for freezing damage. Has a chance of freezing the enemy completely.
+tooltip_text = "A heavy cold wind is summoned from the user's hand and surrounds an enemy for freezing damage. Has a 1/3 chance of freezing the enemy completely.
 PP Cost: 6"
 text = "PK Freeze"
+script = ExtResource("6_e734a")
+tooltipSize = 450.0
 
 [node name="DarkArtsMenu" type="Control" parent="SpecialActions" unique_id=1096402510 groups=["specialActions"]]
 clip_contents = true
@@ -117,37 +120,38 @@ theme_override_constants/separation = 40
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="Anti-Innovation" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=74782991 groups=["darkArtsButtons"]]
+[node name="Anti-Innovation" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=74782991 groups=["actionButtons", "darkArtsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "A lethal dark art that can instantly erase  any trace of inovation from existence. 
-Has low chance of instantly killing an enemy, but if it fails, the user will receive
-heavy recoil damage.
+tooltip_text = "A lethal dark art that can instantly erase any trace of inovation from existence. Targets all enemies. Has a low 1/4 chance of instantly killing an enemy, but if it fails, the user will receive heavy recoil damage.
 PP Cost: 0"
 text = "Anti-Innovation"
+script = ExtResource("6_e734a")
+tooltipSize = 500.0
 
-[node name="Globalization" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=1599007742 groups=["darkArtsButtons"]]
+[node name="Globalization" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=1599007742 groups=["actionButtons", "darkArtsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "A dark art with inconsistent power that will take health from both the user and the target, 
-with the limit being the user's maximum health (not current).
+tooltip_text = "A dark art with inconsistent power that will take health from both the user and the target, with the the target taking the amount of damage the user took multiplied by 4. The limit is the the user's maximum health (not current). Targets all enemies.
 PP Cost: 0"
 text = "Globalization"
+script = ExtResource("6_e734a")
+tooltipSize = 600.0
 
-[node name="Logarithms" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=215284876 groups=["darkArtsButtons"]]
+[node name="Logarithms" type="Button" parent="SpecialActions/DarkArtsMenu/HBoxContainer" unique_id=215284876 groups=["actionButtons", "darkArtsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "A dark art that puts thoughts about Logarithms into the enemy's mind, 
-and making them lose their mind in the process. If it fails and the enemy does not care, 
-the enemy's offense will raise sharply.
+tooltip_text = "A dark art that puts thoughts about Logarithms into all of the enemies's minds, making them lose their mind in the process, with a 1/2 chance of success. If it fails and the enemy does not care, the enemy's offense will raise sharply.
 PP Cost: 0"
 text = "Logarithms"
+script = ExtResource("6_e734a")
+tooltipSize = 550.0
 
 [node name="DevToolsMenu" type="Control" parent="SpecialActions" unique_id=851675512 groups=["specialActions"]]
 clip_contents = true
@@ -174,36 +178,38 @@ theme_override_constants/separation = 40
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="Flippy Board" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=290622742 groups=["devToolsButtons"]]
+[node name="Flippy Board" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=290622742 groups=["actionButtons", "devToolsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user starts a gaming session of Flippy Board, the best game in existence. 
-Due to the game's perfect quality and challenge, 
-the user feels motivated, raising their offense.
+tooltip_text = "The user starts a gaming session of Flippy Board, the best game in existence. Due to the game's perfect quality and challenge, the user feels motivated, raising their offense.
 PP Cost: 0"
 text = "Flippy Board"
+script = ExtResource("6_e734a")
+tooltipSize = 450.0
 
-[node name="VS Code" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1960880585 groups=["devToolsButtons"]]
+[node name="VS Code" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1960880585 groups=["actionButtons", "devToolsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "Opens up Visual Studio Code for the user to find and fix complex 
-and unexplainable bugs in the TCC project, raising their determination.
+tooltip_text = "Opens up Visual Studio Code for the user to find and fix complex and unexplainable bugs in the TCC project, raising their determination.
 PP Cost: 0"
 text = "VS Code"
+script = ExtResource("6_e734a")
+tooltipSize = 450.0
 
-[node name="Discord Call" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1617069814 groups=["devToolsButtons"]]
+[node name="Discord Call" type="Button" parent="SpecialActions/DevToolsMenu/HBoxContainer" unique_id=1617069814 groups=["actionButtons", "devToolsButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "Opens up a Discord Call, where the entire party joins in the group chat and conversate and laugh, 
-recovering everyone's HP at the end of it.
+tooltip_text = "Opens up a Discord Call, where the entire party joins in the group chat and conversate and laugh, recovering everyone's HP at the end of it.
 PP Cost: 0"
 text = "Discord Call"
+script = ExtResource("6_e734a")
+tooltipSize = 450.0
 
 [node name="CaipiraPowersMenu" type="Control" parent="SpecialActions" unique_id=1845113856 groups=["specialActions"]]
 clip_contents = true
@@ -230,36 +236,38 @@ theme_override_constants/separation = 40
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="Thunderstorm" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1799221635 groups=["caipiraPowersButtons"]]
+[node name="Thunderstorm" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1799221635 groups=["actionButtons", "caipiraPowersButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user looks at the sky and summons an agressive weather of dark clouds and lightning strikes, that 
-have a chance of paralysing the enemy. The lightning strikes may miss.
-PP Cost: 14"
+tooltip_text = "The user looks at the sky and summons an agressive weather of dark clouds and lightning strikes that will strike a random enemy, and that have a 1/10 chance of paralysing them. The lightning strikes may miss.
+PP Cost: 12"
 text = "Thunderstorm"
+script = ExtResource("6_e734a")
+tooltipSize = 550.0
 
-[node name="NatureBeam" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1558302827 groups=["caipiraPowersButtons"]]
+[node name="NatureBeam" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=1558302827 groups=["actionButtons", "caipiraPowersButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user spends a turn closing their eyes and absorbing all of the surrounding power of nature in the
- enviroment. Then in the next turn, the user fires a deadly beam of nature fury that deals heavy damage
- and has a low chance of burning or freezing the enemy.
-PP Cost: 27"
+tooltip_text = "The user spends a turn closing their eyes and absorbing all of the surrounding power of nature in the enviroment. Then in the next turn, the user fires a deadly beam of nature fury that deals heavy damage to all enemies and has a low chance of burning or freezing them.
+PP Cost: 26"
 text = "Nature Beam"
+script = ExtResource("6_e734a")
+tooltipSize = 650.0
 
-[node name="Organization" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=252180253 groups=["caipiraPowersButtons"]]
+[node name="Organization" type="Button" parent="SpecialActions/CaipiraPowersMenu/HBoxContainer" unique_id=252180253 groups=["actionButtons", "caipiraPowersButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "Summons the hardworking Organization Team to defend the user and fire multiple times 
-at the enemy in every turn. They will stay until they get tired and leave for lunch.
+tooltip_text = "Summons the hardworking Organization Team to defend the user and fire multiple times at random enemies in every turn. They will stay until they get tired and leave for lunch.
 PP Cost: 20"
 text = "Organization"
+script = ExtResource("6_e734a")
+tooltipSize = 500.0
 
 [node name="FriendshipMagic" type="Control" parent="SpecialActions" unique_id=751811426 groups=["specialActions"]]
 clip_contents = true
@@ -286,38 +294,38 @@ theme_override_constants/separation = 40
 custom_minimum_size = Vector2(10, 0)
 layout_mode = 2
 
-[node name="FriendshipStar" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=547048658 groups=["friendshipMagicButtons"]]
+[node name="FriendshipStar" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=547048658 groups=["actionButtons", "friendshipMagicButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user raises a magic wand in the air, and concentrates all of the party's energy to 
-fire a bright and deadly star at the enemy for heavy damage. 
-Deals more damage depending on how many party members are alive.
-PP Cost: 19"
+tooltip_text = "The user raises a magic wand in the air, and concentrates all of the party's energy to fire a bright and deadly star at the enemy team for heavy damage. Deals more damage depending on how many party members are alive.
+PP Cost: 23"
 text = "Friendship Star"
+script = ExtResource("6_e734a")
+tooltipSize = 550.0
 
-[node name="PowerShield" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=1959976350 groups=["friendshipMagicButtons"]]
+[node name="PowerShield" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=1959976350 groups=["actionButtons", "friendshipMagicButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "Protects every single party member with a power shield, that will reduce and reflect 
-part of the damage taken back to the attacker. Special moves are not affected by it.
+tooltip_text = "Protects every single party member with a power shield, that will reduce and reflect part of the damage taken from an attack or a special move back to the attacker. Some special moves are not affected by it.
 PP Cost: 18"
 text = "Power Shield"
+script = ExtResource("6_e734a")
+tooltipSize = 550.0
 
-[node name="RainbowComet" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=459811264 groups=["friendshipMagicButtons"]]
+[node name="RainbowComet" type="Button" parent="SpecialActions/FriendshipMagic/HBoxContainer" unique_id=459811264 groups=["actionButtons", "friendshipMagicButtons"]]
 custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "The user looks down, closes their eyes, closes their hands together, and chants a magical
- spell that summons a rainbow comet above the party that raises everyone's friendship 
-bonds and fighting spirit, raising the entire party's offense, defense, speed and determination. 
-At the end, the comet will target and rain down on the enemy.
-PP Cost: 26"
+tooltip_text = "The user looks down, closes their eyes, closes their hands together, and chants a magical spell that summons a rainbow comet above the party that raises everyone's friendship bonds and fighting spirit, raising the entire party's offense, defense, speed and determination. Everyone also recovers a small amount of Power Points. At the end, the comet will target and rain down on a random enemy for major damage.
+PP Cost: 28"
 text = "Rainbow Comet"
+script = ExtResource("6_e734a")
+tooltipSize = 650.0
 
 [node name="Actions" type="Control" parent="." unique_id=1415464548]
 custom_minimum_size = Vector2(1152, 120)
@@ -364,18 +372,76 @@ custom_minimum_size = Vector2(180, 70)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+tooltip_text = "Standard attack to one enemy, with damage based on the user's attack and the enemy's defense. Has a chance of a critical hit based on the user's determination."
 text = "Attack"
+script = ExtResource("6_e734a")
 
 [node name="Heal" type="Button" parent="Actions/HBoxContainer" unique_id=717638976 groups=["actionButtons"]]
 custom_minimum_size = Vector2(180, 70)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
+tooltip_text = "Recovers the user's HP by a random amount."
 text = "Heal"
+script = ExtResource("6_e734a")
 
 [node name="Special" type="Button" parent="Actions/HBoxContainer" unique_id=1266947176 groups=["actionButtons"]]
 custom_minimum_size = Vector2(180, 70)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
+tooltip_text = "Your character's unique special abilites!"
 text = "Special"
+script = ExtResource("6_e734a")
+tooltipSize = 360.0
+
+[node name="AskTarget" type="ColorRect" parent="." unique_id=315462372]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.2620001
+anchor_bottom = 1.2620001
+offset_top = -31.440002
+offset_right = 178.0
+offset_bottom = 31.559998
+grow_vertical = 2
+color = Color(0, 0, 0, 0.6392157)
+
+[node name="ToWho" type="Label" parent="AskTarget" unique_id=447434752]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -68.5
+offset_top = -26.000004
+offset_right = 68.5
+offset_bottom = 26.000004
+grow_horizontal = 2
+grow_vertical = 2
+text = "To who?"
+
+[node name="ColorRect" type="ColorRect" parent="AskTarget" unique_id=1169782367]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.848
+anchor_right = 1.848
+offset_left = -150.944
+offset_right = 151.056
+offset_bottom = 63.0
+color = Color(0, 0, 0, 0.34117648)
+
+[node name="TargetName" type="Label" parent="AskTarget/ColorRect" unique_id=135565948]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -137.5
+offset_top = -26.0
+offset_right = 137.5
+offset_bottom = 26.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Hover a target..."

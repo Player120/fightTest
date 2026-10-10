@@ -1,0 +1,294 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://com7p3ok32gnh"]
+
+[ext_resource type="Texture2D" uid="uid://s4xy0lr0pp2k" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000001.png" id="1_r7iw7"]
+[ext_resource type="Texture2D" uid="uid://cxke38c05s440" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000002.png" id="2_wjtg7"]
+[ext_resource type="Texture2D" uid="uid://bj3jp0d3v17pb" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000003.png" id="3_ft1pl"]
+[ext_resource type="Texture2D" uid="uid://c6wd3nqxnpunw" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000004.png" id="4_xl55h"]
+[ext_resource type="Texture2D" uid="uid://1yt88gdm5u65" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000005.png" id="5_k5721"]
+[ext_resource type="Texture2D" uid="uid://bkwef6n8rqwlx" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000006.png" id="6_gi36b"]
+[ext_resource type="Texture2D" uid="uid://csifxcjhyo51d" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000007.png" id="7_eeyl2"]
+[ext_resource type="Texture2D" uid="uid://bnsrd072x20wg" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000008.png" id="8_21186"]
+[ext_resource type="Texture2D" uid="uid://4am4gske6iay" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000009.png" id="9_v5n2n"]
+[ext_resource type="Texture2D" uid="uid://bdtrm0jti7jt7" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000010.png" id="10_csrql"]
+[ext_resource type="Texture2D" uid="uid://bfsxfgnevbmc1" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000011.png" id="11_dfek1"]
+[ext_resource type="Texture2D" uid="uid://cbepf2ji6b384" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000012.png" id="12_baxxq"]
+[ext_resource type="Texture2D" uid="uid://dtr10vkip2m2q" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000013.png" id="13_yows6"]
+[ext_resource type="Texture2D" uid="uid://cnblalnrgkhiy" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000014.png" id="14_d3q03"]
+[ext_resource type="Texture2D" uid="uid://dony3wmdogpsd" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000015.png" id="15_7g8ot"]
+[ext_resource type="Texture2D" uid="uid://fx85bvfw6he" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000016.png" id="16_btxmv"]
+[ext_resource type="Texture2D" uid="uid://dtxt0t83iesq3" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000017.png" id="17_hhrka"]
+[ext_resource type="Texture2D" uid="uid://dv44evwjtjccf" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000018.png" id="18_x3xn5"]
+[ext_resource type="Texture2D" uid="uid://dtbh7keh7gkjy" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000019.png" id="19_mujw4"]
+[ext_resource type="Texture2D" uid="uid://dct8is0578prx" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000020.png" id="20_edy6e"]
+[ext_resource type="Texture2D" uid="uid://oeox4k8ut7cl" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000021.png" id="21_7flqb"]
+[ext_resource type="Texture2D" uid="uid://dqubyicxh4g1o" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000022.png" id="22_pyjpk"]
+[ext_resource type="Texture2D" uid="uid://blq7ig6hh7rrc" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000023.png" id="23_j2yua"]
+[ext_resource type="Texture2D" uid="uid://cxwhdk86wfdak" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000024.png" id="24_gevqi"]
+[ext_resource type="Texture2D" uid="uid://4qcbdk24mjnr" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000025.png" id="25_q1ku4"]
+[ext_resource type="Texture2D" uid="uid://br5ce5fniqh42" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000026.png" id="26_1arto"]
+[ext_resource type="Texture2D" uid="uid://b8e5bk21bphb8" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000027.png" id="27_kx183"]
+[ext_resource type="Texture2D" uid="uid://bdguo1l1hv4h0" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000028.png" id="28_m7lrr"]
+[ext_resource type="Texture2D" uid="uid://bcv1ygpstfrh" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000029.png" id="29_8qv4s"]
+[ext_resource type="Texture2D" uid="uid://bua6h5sp25op4" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000030.png" id="30_cuiwx"]
+[ext_resource type="Texture2D" uid="uid://c6ehm8wdrbpds" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000031.png" id="31_rovxt"]
+[ext_resource type="Texture2D" uid="uid://c7hy8ej8rn8q1" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000032.png" id="32_ln8k6"]
+[ext_resource type="Texture2D" uid="uid://7ebcoh2vaehv" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000033.png" id="33_d67kw"]
+[ext_resource type="Texture2D" uid="uid://bw5vyk8rgfdvs" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000034.png" id="34_6a8er"]
+[ext_resource type="Texture2D" uid="uid://boguujoqgo2cs" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000035.png" id="35_cutuo"]
+[ext_resource type="Texture2D" uid="uid://b46bs7gc7kt7m" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000036.png" id="36_s3p24"]
+[ext_resource type="Texture2D" uid="uid://ds6ld8sixkxym" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000037.png" id="37_4y0ja"]
+[ext_resource type="Texture2D" uid="uid://pu1kjdnfyvv3" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000038.png" id="38_003p0"]
+[ext_resource type="Texture2D" uid="uid://cpox5ysqmaqe1" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000039.png" id="39_530nr"]
+[ext_resource type="Texture2D" uid="uid://c7im27hhqtk1o" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000040.png" id="40_fkuvc"]
+[ext_resource type="Texture2D" uid="uid://cvo8155sgpe5q" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000041.png" id="41_3tu12"]
+[ext_resource type="Texture2D" uid="uid://bbqe6cbgo4t1e" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000042.png" id="42_fh24e"]
+[ext_resource type="Texture2D" uid="uid://brjt8n4as5gds" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000043.png" id="43_ttf8g"]
+[ext_resource type="Texture2D" uid="uid://da3u2n7y2k440" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000044.png" id="44_ko2ku"]
+[ext_resource type="Texture2D" uid="uid://dpe67jjyhpac7" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000045.png" id="45_ghgc0"]
+[ext_resource type="Texture2D" uid="uid://b3u7350pafj36" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000046.png" id="46_712hr"]
+[ext_resource type="Texture2D" uid="uid://n7aoxq00yncd" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000047.png" id="47_4iu6e"]
+[ext_resource type="Texture2D" uid="uid://bown15tyfqp70" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000048.png" id="48_20iqt"]
+[ext_resource type="Texture2D" uid="uid://ds25kfqwfksqe" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000049.png" id="49_4vgbq"]
+[ext_resource type="Texture2D" uid="uid://bblg6w2mm2dx" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000050.png" id="50_nykmq"]
+[ext_resource type="Texture2D" uid="uid://cobxamc2heb76" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000051.png" id="51_gtbgq"]
+[ext_resource type="Texture2D" uid="uid://c2qcaqtt62pin" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000052.png" id="52_ajued"]
+[ext_resource type="Texture2D" uid="uid://dkk3cetchku0f" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000053.png" id="53_208wj"]
+[ext_resource type="Texture2D" uid="uid://2cm7uxiqo7og" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000054.png" id="54_usmko"]
+[ext_resource type="Texture2D" uid="uid://ly4i4vmn4ghy" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000055.png" id="55_aie23"]
+[ext_resource type="Texture2D" uid="uid://8annu65w1sh" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000056.png" id="56_78moq"]
+[ext_resource type="Texture2D" uid="uid://bffho5e8poyhs" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000057.png" id="57_4ed41"]
+[ext_resource type="Texture2D" uid="uid://br7sca68vg4b6" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000058.png" id="58_54o4d"]
+[ext_resource type="Texture2D" uid="uid://3yi2tj7bqwte" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000059.png" id="59_ootb0"]
+[ext_resource type="Texture2D" uid="uid://y0vjdm67fsp8" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000060.png" id="60_5i5io"]
+[ext_resource type="Texture2D" uid="uid://dq1mmpd4w1xvq" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000061.png" id="61_54jux"]
+[ext_resource type="Texture2D" uid="uid://bjh7ahr1ueev7" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000062.png" id="62_nbaf3"]
+[ext_resource type="Texture2D" uid="uid://cbh3dveea8qc1" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000063.png" id="63_q3hvr"]
+[ext_resource type="Texture2D" uid="uid://bxr3pm3bnq3j4" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000064.png" id="64_bdl0x"]
+[ext_resource type="Texture2D" uid="uid://dx1jp5h3trhet" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000065.png" id="65_g83jm"]
+[ext_resource type="Texture2D" uid="uid://dknhv6qcrrv7m" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000066.png" id="66_yt3nj"]
+[ext_resource type="Texture2D" uid="uid://lpjnhvin5dgl" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000067.png" id="67_oqjxx"]
+[ext_resource type="Texture2D" uid="uid://cnfm6fcjbpv6c" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000068.png" id="68_uyw7b"]
+[ext_resource type="Texture2D" uid="uid://i8c38oqwnyt6" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000069.png" id="69_xid7i"]
+[ext_resource type="Texture2D" uid="uid://dhfyxdpuc0sy2" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000070.png" id="70_7n2uw"]
+[ext_resource type="Texture2D" uid="uid://beq2l4o1phliy" path="res://Resources/Animations/Caipira Powers/Thunderstorm/PSI Thunder e O - MCCircuitDC (720p, h264)_000071.png" id="71_yc7ld"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_r7iw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wjtg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ft1pl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xl55h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_k5721")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gi36b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_eeyl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_21186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_v5n2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_csrql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dfek1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_baxxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_yows6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d3q03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7g8ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_btxmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hhrka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_x3xn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_mujw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_edy6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_7flqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_pyjpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_j2yua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_gevqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_q1ku4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1arto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kx183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_m7lrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8qv4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_cuiwx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_rovxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ln8k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_d67kw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_6a8er")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_cutuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_s3p24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_4y0ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_003p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_530nr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_fkuvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_3tu12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_fh24e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_ttf8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ko2ku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ghgc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_712hr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_4iu6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_20iqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_4vgbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_nykmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_gtbgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_ajued")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_208wj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_usmko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_aie23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_78moq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_4ed41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_54o4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ootb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_5i5io")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_54jux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_nbaf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_q3hvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_bdl0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_g83jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_yt3nj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_oqjxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_uyw7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_xid7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_7n2uw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_yc7ld")
+}],
+"loop": false,
+"name": &"Thunderstorm",
+"speed": 30.0
+}]

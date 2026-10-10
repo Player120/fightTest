@@ -1,0 +1,438 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ca7xxxe0j3x2w"]
+
+[ext_resource type="Texture2D" uid="uid://cjryxglmk84dr" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000001.png" id="1_cup8r"]
+[ext_resource type="Texture2D" uid="uid://dc73l4l5r1scj" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000002.png" id="2_bfkut"]
+[ext_resource type="Texture2D" uid="uid://dywok4x22tgfe" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000003.png" id="3_eaafo"]
+[ext_resource type="Texture2D" uid="uid://dpdewcem67x37" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000004.png" id="4_kjsf2"]
+[ext_resource type="Texture2D" uid="uid://dru57rqjaaiqt" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000005.png" id="5_o7vcp"]
+[ext_resource type="Texture2D" uid="uid://mrgw768fml2a" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000006.png" id="6_v6ofo"]
+[ext_resource type="Texture2D" uid="uid://cw0c0833vsmu6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000007.png" id="7_3qpxd"]
+[ext_resource type="Texture2D" uid="uid://dfogilgc2ulqo" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000008.png" id="8_iqx3q"]
+[ext_resource type="Texture2D" uid="uid://dhldm7s6ccm5r" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000009.png" id="9_1e05i"]
+[ext_resource type="Texture2D" uid="uid://fdjqjcsr0le" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000010.png" id="10_pf5b4"]
+[ext_resource type="Texture2D" uid="uid://dmssx55bkcgcu" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000011.png" id="11_4wn6r"]
+[ext_resource type="Texture2D" uid="uid://be67wjtmwlry6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000012.png" id="12_528g3"]
+[ext_resource type="Texture2D" uid="uid://epkm1cf0j5g8" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000013.png" id="13_dd4ii"]
+[ext_resource type="Texture2D" uid="uid://dlkvf52ol2ffx" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000014.png" id="14_ajlhl"]
+[ext_resource type="Texture2D" uid="uid://4irbmr6jutfw" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000015.png" id="15_d3s8u"]
+[ext_resource type="Texture2D" uid="uid://dtufuv0xi4n3s" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000016.png" id="16_plr5g"]
+[ext_resource type="Texture2D" uid="uid://52lkwfs6gofx" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000017.png" id="17_rrgwg"]
+[ext_resource type="Texture2D" uid="uid://mqcbymmdyvl5" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000018.png" id="18_kx0ug"]
+[ext_resource type="Texture2D" uid="uid://b8fjlx2panhha" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000019.png" id="19_eib5t"]
+[ext_resource type="Texture2D" uid="uid://df1k6nrl8mrhr" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000020.png" id="20_1yiu8"]
+[ext_resource type="Texture2D" uid="uid://cgos21onj5tiq" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000021.png" id="21_mseck"]
+[ext_resource type="Texture2D" uid="uid://b4pbn5ootjoui" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000022.png" id="22_qi7y5"]
+[ext_resource type="Texture2D" uid="uid://eot1t586le6e" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000023.png" id="23_ll8qm"]
+[ext_resource type="Texture2D" uid="uid://x1uwvholg5ls" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000024.png" id="24_bd7h8"]
+[ext_resource type="Texture2D" uid="uid://dpec0uaexkb54" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000025.png" id="25_3oaub"]
+[ext_resource type="Texture2D" uid="uid://b5jki3fi6qyt6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000026.png" id="26_gak3d"]
+[ext_resource type="Texture2D" uid="uid://thwi3otpcupx" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000027.png" id="27_0m7bw"]
+[ext_resource type="Texture2D" uid="uid://dg17xm23slofp" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000028.png" id="28_oq3yr"]
+[ext_resource type="Texture2D" uid="uid://b17ydjict6jr4" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000029.png" id="29_j3niv"]
+[ext_resource type="Texture2D" uid="uid://ctlcoa4k80x4w" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000030.png" id="30_ln1mj"]
+[ext_resource type="Texture2D" uid="uid://buo0snb73x7fg" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000031.png" id="31_hs6p6"]
+[ext_resource type="Texture2D" uid="uid://c86dofnfru78p" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000032.png" id="32_h6nvq"]
+[ext_resource type="Texture2D" uid="uid://dsfnehedad8gw" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000033.png" id="33_16qcp"]
+[ext_resource type="Texture2D" uid="uid://c1ax3a76wky33" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000034.png" id="34_jp2oi"]
+[ext_resource type="Texture2D" uid="uid://s23n7kjnwc36" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000035.png" id="35_c0634"]
+[ext_resource type="Texture2D" uid="uid://bcl14ryo7n3dh" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000036.png" id="36_u053e"]
+[ext_resource type="Texture2D" uid="uid://bvrav5kt2c7o8" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000037.png" id="37_wu6qp"]
+[ext_resource type="Texture2D" uid="uid://dpeowf0vyyh46" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000038.png" id="38_l6h37"]
+[ext_resource type="Texture2D" uid="uid://bpij0v66evl1s" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000039.png" id="39_humjj"]
+[ext_resource type="Texture2D" uid="uid://d4i58f76bbiwe" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000040.png" id="40_fjvkn"]
+[ext_resource type="Texture2D" uid="uid://bmkwpie1brihr" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000041.png" id="41_tpsy5"]
+[ext_resource type="Texture2D" uid="uid://fdeneqb2cnkh" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000042.png" id="42_adgx7"]
+[ext_resource type="Texture2D" uid="uid://cvo4ycmerky24" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000043.png" id="43_1usci"]
+[ext_resource type="Texture2D" uid="uid://dwpgror1m6op5" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000044.png" id="44_6f1mc"]
+[ext_resource type="Texture2D" uid="uid://di7y6x4qr0qk6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000045.png" id="45_16fmn"]
+[ext_resource type="Texture2D" uid="uid://dhwcgdynqg3hk" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000046.png" id="46_s7juo"]
+[ext_resource type="Texture2D" uid="uid://28wptxyydq48" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000047.png" id="47_3lcvx"]
+[ext_resource type="Texture2D" uid="uid://b4ldn5041tbvi" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000048.png" id="48_x2y3y"]
+[ext_resource type="Texture2D" uid="uid://cjveuwq6bvj0m" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000049.png" id="49_bvoyv"]
+[ext_resource type="Texture2D" uid="uid://dt3llcx8f525" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000050.png" id="50_n3lgq"]
+[ext_resource type="Texture2D" uid="uid://dceaprfcwc0fa" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000051.png" id="51_l1sqi"]
+[ext_resource type="Texture2D" uid="uid://dvk6xf6vhjetx" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000052.png" id="52_x2qgb"]
+[ext_resource type="Texture2D" uid="uid://llackqg56a4i" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000053.png" id="53_71172"]
+[ext_resource type="Texture2D" uid="uid://cdaqg0xdrpgo6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000054.png" id="54_6inyo"]
+[ext_resource type="Texture2D" uid="uid://bt20klam1t45w" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000055.png" id="55_dc07q"]
+[ext_resource type="Texture2D" uid="uid://caws32ro8ga4w" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000056.png" id="56_yn2cf"]
+[ext_resource type="Texture2D" uid="uid://ccfgdjlux0pk4" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000057.png" id="57_7cqln"]
+[ext_resource type="Texture2D" uid="uid://cgiafeyjkkqol" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000058.png" id="58_jvbar"]
+[ext_resource type="Texture2D" uid="uid://ohsl4amfv02o" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000059.png" id="59_syk02"]
+[ext_resource type="Texture2D" uid="uid://cmqarc87ga5d7" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000060.png" id="60_0yjef"]
+[ext_resource type="Texture2D" uid="uid://cv660xt4dkqef" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000061.png" id="61_afewt"]
+[ext_resource type="Texture2D" uid="uid://bsn877r53vncr" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000062.png" id="62_04qhe"]
+[ext_resource type="Texture2D" uid="uid://d4m3ngyr54mvj" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000063.png" id="63_0fyah"]
+[ext_resource type="Texture2D" uid="uid://cryh140md0a" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000064.png" id="64_3oota"]
+[ext_resource type="Texture2D" uid="uid://b6a0v65rsc2s" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000065.png" id="65_p4g3j"]
+[ext_resource type="Texture2D" uid="uid://jiy6euahf7iw" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000066.png" id="66_emlxu"]
+[ext_resource type="Texture2D" uid="uid://b6disbqxy20hf" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000067.png" id="67_4vjxn"]
+[ext_resource type="Texture2D" uid="uid://hoi6a8gm0i85" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000068.png" id="68_2dfaj"]
+[ext_resource type="Texture2D" uid="uid://iljpk6wfpsmp" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000069.png" id="69_hcjju"]
+[ext_resource type="Texture2D" uid="uid://o8c67t0xyxqh" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000070.png" id="70_51div"]
+[ext_resource type="Texture2D" uid="uid://c630slan1hkls" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000071.png" id="71_08v37"]
+[ext_resource type="Texture2D" uid="uid://btoii1uvhegt0" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000072.png" id="72_kg046"]
+[ext_resource type="Texture2D" uid="uid://2hasorkkmikv" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000073.png" id="73_bto6y"]
+[ext_resource type="Texture2D" uid="uid://cg7akux3w8mqc" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000074.png" id="74_1jvbl"]
+[ext_resource type="Texture2D" uid="uid://hhoerj4lbeoi" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000075.png" id="75_0m6ev"]
+[ext_resource type="Texture2D" uid="uid://bvquaxgopby8n" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000076.png" id="76_8hpjt"]
+[ext_resource type="Texture2D" uid="uid://bduiosuvh5s26" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000077.png" id="77_5g7qk"]
+[ext_resource type="Texture2D" uid="uid://do4lpvjnyetf6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000078.png" id="78_8abcg"]
+[ext_resource type="Texture2D" uid="uid://cl7uh55r8vkmk" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000079.png" id="79_6hbsl"]
+[ext_resource type="Texture2D" uid="uid://bllidhan0lr23" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000080.png" id="80_yx16s"]
+[ext_resource type="Texture2D" uid="uid://dnen8d2hhe8q1" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000081.png" id="81_p04h4"]
+[ext_resource type="Texture2D" uid="uid://dyjn7hwgp6xtb" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000082.png" id="82_2ukiq"]
+[ext_resource type="Texture2D" uid="uid://cohjdmvo7v0vj" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000083.png" id="83_wksjj"]
+[ext_resource type="Texture2D" uid="uid://u1fgq2snky78" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000084.png" id="84_7ysj7"]
+[ext_resource type="Texture2D" uid="uid://bqmox2jq7kxcc" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000085.png" id="85_wwelh"]
+[ext_resource type="Texture2D" uid="uid://cbiixpffpujp7" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000086.png" id="86_nrac2"]
+[ext_resource type="Texture2D" uid="uid://om383bv8ulwu" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000087.png" id="87_ftkpd"]
+[ext_resource type="Texture2D" uid="uid://cpatx23iods78" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000088.png" id="88_n2vtn"]
+[ext_resource type="Texture2D" uid="uid://cfr0hk72hjd3i" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000089.png" id="89_p3tw4"]
+[ext_resource type="Texture2D" uid="uid://bdrfb3p6tbom6" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000090.png" id="90_v7xbf"]
+[ext_resource type="Texture2D" uid="uid://bljlnc6c6rrwi" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000091.png" id="91_q3jd5"]
+[ext_resource type="Texture2D" uid="uid://ctry8c1yv71hg" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000092.png" id="92_gf02r"]
+[ext_resource type="Texture2D" uid="uid://cpm488re0upxf" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000093.png" id="93_52uub"]
+[ext_resource type="Texture2D" uid="uid://q8aeowhp1hn1" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000094.png" id="94_51oda"]
+[ext_resource type="Texture2D" uid="uid://dfwj0dl4kva5f" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000095.png" id="95_87rk8"]
+[ext_resource type="Texture2D" uid="uid://doiycmcqg22sd" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000096.png" id="96_g8p3i"]
+[ext_resource type="Texture2D" uid="uid://d4k70irc06spx" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000097.png" id="97_utdk4"]
+[ext_resource type="Texture2D" uid="uid://c4s0udw5kn0we" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000098.png" id="98_qoy1d"]
+[ext_resource type="Texture2D" uid="uid://dnecjrb4c5xvs" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000099.png" id="99_s8isf"]
+[ext_resource type="Texture2D" uid="uid://buyoip6dloo8" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000100.png" id="100_by4sj"]
+[ext_resource type="Texture2D" uid="uid://dl67soe18aqln" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000101.png" id="101_nete0"]
+[ext_resource type="Texture2D" uid="uid://be6uj8ulr30cy" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000102.png" id="102_2kflw"]
+[ext_resource type="Texture2D" uid="uid://cfovwhw0ujtyv" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000103.png" id="103_1khem"]
+[ext_resource type="Texture2D" uid="uid://wrxvuh8gtbgb" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000104.png" id="104_vd3pu"]
+[ext_resource type="Texture2D" uid="uid://d2phkplnisi4v" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000105.png" id="105_mnbtd"]
+[ext_resource type="Texture2D" uid="uid://cfv3oj8or46gx" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000106.png" id="106_at6lk"]
+[ext_resource type="Texture2D" uid="uid://p7v47kmi0srg" path="res://Resources/Animations/Dark Arts/Anti-Innovation/PSI Flash e - MCCircuitDC (720p, h264)_000107.png" id="107_cxkk3"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cup8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_bfkut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_eaafo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kjsf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_o7vcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_v6ofo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3qpxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_iqx3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1e05i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_pf5b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4wn6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_528g3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_dd4ii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ajlhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_d3s8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_plr5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_rrgwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_kx0ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_eib5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_1yiu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mseck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_qi7y5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ll8qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_bd7h8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_3oaub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gak3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_0m7bw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_oq3yr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_j3niv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ln1mj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_hs6p6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_h6nvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_16qcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_jp2oi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_c0634")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_u053e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_wu6qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_l6h37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_humjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_fjvkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_tpsy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_adgx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1usci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_6f1mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_16fmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_s7juo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_3lcvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_x2y3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_bvoyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_n3lgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_l1sqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_x2qgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_71172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_6inyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_dc07q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_yn2cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_7cqln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_jvbar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_syk02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_0yjef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_afewt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_04qhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_0fyah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_3oota")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_p4g3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_emlxu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_4vjxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_2dfaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_hcjju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_51div")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_08v37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_kg046")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_bto6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_1jvbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_0m6ev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_8hpjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_5g7qk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_8abcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_6hbsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_yx16s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_p04h4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_2ukiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_wksjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_7ysj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_wwelh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_nrac2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_ftkpd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_n2vtn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_p3tw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_v7xbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_q3jd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_gf02r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_52uub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_51oda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_87rk8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_g8p3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_utdk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_qoy1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_s8isf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_by4sj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_nete0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_2kflw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_1khem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_vd3pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_mnbtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_at6lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_cxkk3")
+}],
+"loop": false,
+"name": &"Anti-Innovation",
+"speed": 30.0
+}]

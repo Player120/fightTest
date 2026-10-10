@@ -6,7 +6,7 @@ var position : int = 0
 var health : int = 100
 var maxHealth : int = 100
 var powerPoints : int = 50
-var maxpowerPoints : int = 50
+var maxPowerPoints : int = 50
 var offense : int = 25
 var defense : int = 25
 var speed : int = 12
@@ -25,3 +25,5 @@ var themeColor : Color
 var canBeTargeted = true
 var shieldHealth : int = 0
 var sprite : String = ""
+var allyTeam : Array[player] = []
+var rivalTeam : Array[enemy] = []

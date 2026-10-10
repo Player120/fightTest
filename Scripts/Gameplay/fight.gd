@@ -4,33 +4,41 @@ extends Control
 #endregion
 # Element Variables
 @onready var happeningText : Label = $HappeningArea/HappeningText
-@onready var playerArea: Control = $PlayerArea
+@onready var happeningBackground : TextureRect = $HappeningArea/BackgroundSprite
+@onready var playerArea : Control = $PlayerArea
 #@onready var playerHealthText : Label = playerArea.attributeLabel("hp")
 #@onready var playerpowerPointsText : Label = playerArea.attributeLabel("pp")
-@onready var bossHealthText : Label = $EnemyArea/EnemySprite/bossHpNumber
+@onready var enemyArea : Control = $EnemyArea
+@onready var enemyContainer : HBoxContainer = $EnemyArea/EnemyContainer
+@onready var background : TextureRect = $EnemyArea/Background
 
 # Class Variables
 
-@export var bossStatus : boss
 @export var userActions : actions
 @export var effects : statusEffects
 @export var createPlayers : setupTeam
+@export var createEnemyTeam : setupEnemyTeam
 @export var availablePlayers : playerData
+@export var availableEnemies : enemyData
+@export var organizationTeam : organization
+@export var assignTeams : teamAssignments
 
 # New Variables !!!
 var playerTeam : Array[player] = []
+var enemyTeam : Array[enemy] = []
 
-@onready var windowContainer = $PlayerArea/WindowContainer
-@onready var actionMenu = $HappeningArea/ActionMenu
-@onready var backgroundMusic = $BackgroundMusic
-@onready var buttonSoundEffect = $ButtonSoundEffect
+@onready var windowContainer : HBoxContainer = $PlayerArea/WindowContainer
+@onready var actionMenu : Control = $HappeningArea/ActionMenu
+@onready var backgroundMusic : AudioStreamPlayer = $BackgroundMusic
+@onready var buttonSoundEffect : AudioStreamPlayer = $ButtonSoundEffect
 # New Variables !!!
 
 
 # Other Variables
 var textTimer : float = 1.0
-var isSomeoneAlive : bool = true
-var organizationActive : bool = false
+var isPlayerTeamAlive : bool = true
+var isEnemyTeamAlive : bool = true
+signal enterPressed
 
 func _ready() -> void:
 	randomize()
@@ -40,18 +48,32 @@ func _ready() -> void:
 	
 	setupButtonSounds(self)
 	
+	# Creates the player characters. Change the first number to change the amount of players (max of 5 by default), or checkout the playerData.gd file to create new players or modify pre-existing data
 	await createPlayers.setup(5, windowContainer, actionMenu, playerArea, playerTeam, availablePlayers.info)
 	
-	bossStatus.healthLabel = bossHealthText
-
-	await showHappeningText(["You encounter %s" % [bossStatus.charName], "Please choose your move"])
+	# Creates the enemy characters. Change the first number to change the amount of enemies (max of 3 by default), or checkout the enemyData.gd file to create new enemies or modify pre-existing data
+	await createEnemyTeam.setup(3, enemyArea, background, enemyContainer, enemyTeam, availableEnemies.info)
+	
+	assignTeams.assignRivals(playerTeam, enemyTeam)
+	assignTeams.assignTeams(playerTeam, enemyTeam)
+	assignTeams.assignAllies(playerTeam, enemyTeam)
+	
+	for foe in enemyTeam:
+		await showHappeningText(["You encounter %s" % [foe.charName]])
+	await showHappeningText(["Please choose your move"])
+	
 	actionMenu.togglePlayerActions()
 	turnManager()
+
+func _unhandled_input(event : InputEvent) -> void:
+	if event is InputEventKey and event.pressed and !event.is_echo():
+		if event.keycode == KEY_ENTER:
+			enterPressed.emit()
 
 func showHappeningText(message : Array) -> void:
 	for text in message:
 		happeningText.text = text
-		await get_tree().create_timer(textTimer).timeout
+		await enterPressed
 
 func setupButtonSounds(currentNode : Node) -> void:
 	if currentNode is Button:
@@ -60,96 +82,87 @@ func setupButtonSounds(currentNode : Node) -> void:
 	for child in currentNode.get_children():
 		setupButtonSounds(child)
 
-func bossMove() -> void:
-	var bossAction : int = randi_range(1, 6)
-	while true:
-		bossStatus.target = playerTeam.pick_random()
-		if (bossStatus.target.canBeTargeted):
-			break
-	
-	if (bossAction > 3):
-		bossStatus.action = "attack"
-	
-	match bossAction:
-		1:
-			bossStatus.action = "innovation"
-			bossStatus.target = bossStatus
-			bossStatus.specialMoveName = "Enroladinho"
-		2:
-			bossStatus.action = "innovation"
-			bossStatus.specialMoveName = "Dark Room"
-		3:
-			bossStatus.action = "innovation"
-			bossStatus.specialMoveName = "MySQL Hack"
+func enemyMove() -> void:
+	for foe in enemyTeam:
+		if (foe.alive):
+			var enemyAction : int = randi_range(1, 6)
+			if (enemyAction > 3):
+				foe.action = foe.specialAbility
+				foe.specialMoveName = foe.specialMoveList.pick_random()
+				foe.target = foe
+			else:
+				foe.action = "Attack"
+				print("ENEMY CHOSE ATTACK!!!!!!!!!!!")
+				foe.target = foe.rivalTeam.pick_random()
+			
+			if (foe.specialMoveName in Global.offensiveSpecialMoves and foe.action != "Attack"):
+				while true:
+					foe.target = foe.rivalTeam.pick_random()
+					if (foe.target.alive):
+						break
+			elif (foe.specialMoveName in Global.assistanceSpecialMoves and foe.action != "Attack"):
+				foe.target = foe
 
 func turnManager() -> void:
 	while true:
 		var charOrder : Array[Node] = []
-		charOrder.append(bossStatus)
+		charOrder.append_array(enemyTeam)
 		charOrder.append_array(playerTeam)
 		
 		charOrder.sort_custom(func(a, b): return a.speed > b.speed)
 		
 		for currentPlayer in playerTeam:
-			if (currentPlayer is player):
-				if (currentPlayer.alive && !currentPlayer.statusEffect.has("charging")):
-					actionMenu.currentPlayer = currentPlayer
-					actionMenu.changeColors()
-					# ----------------------------------------
-					actionMenu.specialButton.text = currentPlayer.specialAbility
-					# ----------------------------------------
-					# Move sprite up
-					currentPlayer.myUI.playerSpriteMove("up")
-					# ----------------------------------------
-					currentPlayer.action = await actionMenu.playerChosenAction
-					# ----------------------------------------
-					# Move sprite down
-					currentPlayer.myUI.playerSpriteMove("down")
-					# ----------------------------------------
-					currentPlayer.target = bossStatus
-				elif (!currentPlayer.alive):
-					currentPlayer.action = "nothing"
-				else:
-					currentPlayer.action = "caipira powers"
-		bossMove()
+			if (currentPlayer.alive && !currentPlayer.statusEffect.has("charging")):
+				actionMenu.currentPlayer = currentPlayer
+				Global.trackPlayer(currentPlayer)
+				actionMenu.changeColors()
+				# ----------------------------------------
+				actionMenu.specialButton.text = currentPlayer.specialAbility
+				# ----------------------------------------
+				# Move sprite up
+				currentPlayer.myUI.playerSpriteMove("up")
+				# ----------------------------------------
+				currentPlayer.action = await actionMenu.playerChosenAction
+				# ----------------------------------------
+				# Move sprite down
+				currentPlayer.myUI.playerSpriteMove("down")
+				#-----------------------------------------
+				print("FIGHT:: Player %s targeted %s" % [currentPlayer.charName, currentPlayer.target.charName])
+				# ----------------------------------------
+			elif (!currentPlayer.alive):
+				currentPlayer.action = "nothing"
+			else:
+				currentPlayer.action = "Caipira Powers"
+		enemyMove()
 		
 		actionMenu.togglePlayerActions()
 		print("TURN STARTED")
 		
+		if (Global.enemyOrganizationTeam != null): charOrder.push_front(Global.enemyOrganizationTeam)
+		
+		if (Global.playerOrganizationTeam != null): charOrder.push_front(Global.playerOrganizationTeam)
+		
 		await executeTurn(charOrder)
 		
-		if (isSomeoneAlive && bossStatus.alive):
+		if (isPlayerTeamAlive && isEnemyTeamAlive):
 			actionMenu.togglePlayerActions()
 			print("TURN ENDED")
 		else:
 			break
 
 func executeTurn(charOrder : Array[Node]) -> void:
-	var bossMoves : int = 0
-	var npc : player
-	if (organizationActive):
-		npc = player.new()
-		npc.name = "npc"
-		npc.charName = "Organization"
-		npc.action = "caipira powers"
-		npc.specialMoveName = "Organization"
-		npc.canBeTargeted = false
-		npc.target = bossStatus
-		charOrder.push_front(npc)
-		print(charOrder)
-	
 	for userInfo in charOrder:
 		print("CURRENTTURN: %s" % [userInfo.name])
-		if (userInfo is player && userInfo.alive && !(userInfo.name == "npc")):
+		if (userInfo is player and userInfo.alive):
 			userInfo.myUI.playerSpriteMove("up")
 		
-		# Test if there are no null targets (so it doesn't fucking crash):
+		# Test if there are no null targets (so it doesn't freaking crash):
 		if userInfo.target != null:
 			pass
 		else:
 			print("Aviso: ", userInfo.name, " não possui nenhum alvo definido!")
 		
-		if (!(userInfo.name == "npc")):
+		if (userInfo is not organization):
 			if (userInfo.statusEffect.has("burn") && userInfo.alive):
 				await effects.burn(userInfo)
 			print("%s STATUSEFFECTS:: %s" % [userInfo.charName, userInfo.statusEffect])
@@ -157,7 +170,7 @@ func executeTurn(charOrder : Array[Node]) -> void:
 				if (!userInfo.statusEffect.has("freeze")):
 					if (userInfo.statusEffect.has("confusion")):
 						print("HAS CONFUSION")
-						await effects.confusion(userInfo)
+						await effects.confusion(userInfo, playerTeam, enemyTeam)
 					
 					var canMove = true
 					
@@ -169,63 +182,50 @@ func executeTurn(charOrder : Array[Node]) -> void:
 				else:
 					await effects.freeze(userInfo)
 			
-			if (userInfo is player && bossStatus.alive):
+			if (userInfo is player && isEnemyTeamAlive):
 				userInfo.myUI.playerSpriteMove("down")
 			
-			if (!isSomeoneAlive || !bossStatus.alive):
+			if (!isPlayerTeamAlive || !isEnemyTeamAlive):
 				break
 			
-			if (userInfo is boss && bossStatus.alive && bossMoves < 1):
-				bossMove()
-				charOrder.push_front(bossStatus)
-				bossMoves += 1
-		else:
-			match userInfo.charName:
-				"Organization":
-					await userActions.caipiraPowersManager(userInfo, userInfo.target)
-					var willLeave : int = randi_range(1, 1)
-					if (willLeave == 1):
-						await showHappeningText(["The Organization team got tired from all their hard work and went to lunch."])
-						organizationActive = false
-	
-	charOrder.erase(npc)
+			if (userInfo is enemy && userInfo.alive && userInfo.enemyMoves < 1):
+				enemyMove()
+				charOrder.push_front(userInfo)
+				userInfo.enemyMoves += 1
+		elif (userInfo is organization):
+			await userActions.caipiraPowersManager(userInfo, userInfo.target)
+			var willLeave : int = randi_range(1, 19999999)
+			if (willLeave == 1):
+				await showHappeningText(["The Organization team got tired from all their hard work and went to lunch."])
+				
+				if (userInfo.side == "player"):
+					Global.playerOrganizationTeam = null
+				elif (userInfo.side == "enemy"):
+					Global.enemyOrganizationTeam = null
+				
+	for foe in enemyTeam:
+		foe.enemyMoves = 0
 
 func moveManager(userName : Node, targetName : Node):
 	print("MOVEMANAGER:: %s targeted %s" % [userName.charName, targetName.charName])
-	if (targetName.alive):
-		match userName.action:
-			"attack":
-				if userName is player:
-					userName.target = bossStatus
-				await userActions.attack(userName, userName.target)
-			"heal":
-				userName.target = userName
-				await userActions.heal(userName, userName.target)
-			"psi":
-				if userName is player:
-					userName.target = bossStatus
-				await userActions.psi(userName, userName.target)
-			"dark arts":
-				if userName is player:
-					userName.target = bossStatus
-				await userActions.darkArtsManager(userName, userName.target)
-			"dev tools":
-				if userName is player:
-					var possibleTargets : Array = [playerTeam, userName]
-					await userActions.devToolsManager(userName, possibleTargets)
-			"caipira powers":
-				if userName is player:
-					await userActions.caipiraPowersManager(userName, userName.target)
-			"friendship magic":
-				if userName is player:
-					await userActions.friendshipMagicManager(userName, userName.target, playerTeam)
-			"innovation":
-				if userName is boss:
-					await userActions.innovationManager(userName, userName.target, playerTeam)
-			_:
-				pass
-	elif (userName is boss):
-		await showHappeningText(["%s is attacking!" % [userName.charName], "%s is already dead idiot!" % [targetName.charName]])
+	match userName.action:
+		"Attack":
+			await userActions.attack(userName, userName.target)
+		"Heal":
+			userName.target = userName
+			await userActions.heal(userName, userName.target)
+		"PSI":
+			await userActions.psi(userName, userName.target)
+		"Dark Arts":
+			await userActions.darkArtsManager(userName, userName.target)
+		"Dev Tools":
+			await userActions.devToolsManager(userName, userName.target)
+		"Caipira Powers":
+			await userActions.caipiraPowersManager(userName, userName.target)
+		"Friendship Magic":
+			await userActions.friendshipMagicManager(userName, userName.target, playerTeam)
+		"Innovation":
+			await userActions.innovationManager(userName, userName.target, playerTeam)
 
 func updateHealthText(target : Node) -> void:
 	if (target.health < 0):
@@ -242,20 +242,30 @@ func testForDeath(deffender : Node) -> void:
 		
 		if (deffender is player):
 			deffender.myUI.background.modulate = Color.BLACK
+		else:
+			deffender.myUI.visible = false
 		
 		await showHappeningText([deffender.deathMessage])
 	
-	isSomeoneAlive = playerTeam.any(
+	isPlayerTeamAlive = playerTeam.any(
 		func(playerChecked): return playerChecked.alive == true
 	)
-	print("ISSOMEONEALIVE: ", isSomeoneAlive)
 	
-	if (!isSomeoneAlive || !bossStatus.alive):
+	isEnemyTeamAlive = enemyTeam.any(
+		func(enemyChecked): return enemyChecked.alive == true
+	)
+	
+	print("isPlayerTeamAlive: ", isPlayerTeamAlive)
+	
+	if (!isPlayerTeamAlive || !isEnemyTeamAlive):
 		await endBattle()
 
 func endBattle() -> void:
-	if (isSomeoneAlive):
+	if (isPlayerTeamAlive):
 		backgroundMusic.switchMusic("res://Resources/Music/Coração verde e amarelo - Dr. Guilherme Berton.mp3")
+		
+		# Signal that battle ended to trigger color change
+		happeningBackground.changeColors("victory")
 		
 		for member in playerTeam:
 			if (member.alive):
@@ -263,7 +273,14 @@ func endBattle() -> void:
 			else:
 				member.myUI.playerSpriteMove("down")
 		
-		await showHappeningText(["You won!"])
+		await showHappeningText(["You won! Vargem Grande do Sul and the universe are saved from Innovation!"])
 	else:
 		backgroundMusic.switchMusic("res://Resources/Music/MUSICA PARA MISTERIO - MUSIC FOR MYSTERY - MUSICA PARA RADIO Y TV - Chris Fernández.mp3")
-		await showHappeningText(["You lost the battle..."])
+		
+		for member in Global.playerTeam:
+			member.myUI.playerSpriteMove("down")
+		
+		# Signal that battle ended to trigger color change
+		happeningBackground.changeColors("defeat")
+		
+		await showHappeningText(["You lost the battle... Innovation will consume and destroy Vargem Grande do Sul and the entire universe... Humanity is doomed..."])

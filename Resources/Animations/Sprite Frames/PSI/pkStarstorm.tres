@@ -1,0 +1,378 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://crsmesdtb2n77"]
+
+[ext_resource type="Texture2D" uid="uid://bffoi2up8lkdq" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000001.png" id="1_i88fp"]
+[ext_resource type="Texture2D" uid="uid://cmol4n17ctks6" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000002.png" id="2_iy1ka"]
+[ext_resource type="Texture2D" uid="uid://b0te0gajo3mjp" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000003.png" id="3_cd05v"]
+[ext_resource type="Texture2D" uid="uid://cxujmt8x4jdy3" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000004.png" id="4_7u2vc"]
+[ext_resource type="Texture2D" uid="uid://cr5u4k8mwof0v" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000005.png" id="5_ewbhn"]
+[ext_resource type="Texture2D" uid="uid://dxkujrb4frkyo" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000006.png" id="6_p4shc"]
+[ext_resource type="Texture2D" uid="uid://bdnv00p6y5mm2" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000007.png" id="7_vq2cy"]
+[ext_resource type="Texture2D" uid="uid://bt1i5wdxg2tyn" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000008.png" id="8_ov3pv"]
+[ext_resource type="Texture2D" uid="uid://y4smk0rxm48c" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000009.png" id="9_v0pfk"]
+[ext_resource type="Texture2D" uid="uid://dja4a43tqqxf0" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000010.png" id="10_jcvd1"]
+[ext_resource type="Texture2D" uid="uid://bi10ockd1lsn7" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000011.png" id="11_ac8en"]
+[ext_resource type="Texture2D" uid="uid://xr4sc31865eb" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000012.png" id="12_6hsq5"]
+[ext_resource type="Texture2D" uid="uid://bnrmdjfqeybpg" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000013.png" id="13_x0kel"]
+[ext_resource type="Texture2D" uid="uid://sd32a0s8tgal" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000014.png" id="14_hlsgi"]
+[ext_resource type="Texture2D" uid="uid://c8blcn6myhpdj" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000015.png" id="15_a5bun"]
+[ext_resource type="Texture2D" uid="uid://cuoknvlvu3x28" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000016.png" id="16_ui2ak"]
+[ext_resource type="Texture2D" uid="uid://3vxgbtb0flbf" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000017.png" id="17_afbem"]
+[ext_resource type="Texture2D" uid="uid://cfdh5kr2ncbkj" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000018.png" id="18_lpx77"]
+[ext_resource type="Texture2D" uid="uid://du8hj0irjeqi2" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000019.png" id="19_8pywn"]
+[ext_resource type="Texture2D" uid="uid://bnrd72mqjcso2" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000020.png" id="20_ri28r"]
+[ext_resource type="Texture2D" uid="uid://bhxp82hjvp3h3" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000021.png" id="21_a1bie"]
+[ext_resource type="Texture2D" uid="uid://dcgydpaxu2sko" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000022.png" id="22_j66ro"]
+[ext_resource type="Texture2D" uid="uid://cmp5bbfuk7ocq" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000023.png" id="23_trs5l"]
+[ext_resource type="Texture2D" uid="uid://dt85ryj7as11l" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000024.png" id="24_aa4hk"]
+[ext_resource type="Texture2D" uid="uid://cq2p3kuj8wpum" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000025.png" id="25_v8bv3"]
+[ext_resource type="Texture2D" uid="uid://c0qp06qhuuarv" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000026.png" id="26_h075l"]
+[ext_resource type="Texture2D" uid="uid://dmfcpyssxrhhe" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000027.png" id="27_klvjl"]
+[ext_resource type="Texture2D" uid="uid://bvbkhg11qpv7c" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000028.png" id="28_spve1"]
+[ext_resource type="Texture2D" uid="uid://bf1xj1df14lfp" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000029.png" id="29_8v1eb"]
+[ext_resource type="Texture2D" uid="uid://byyqnhjkn6usg" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000030.png" id="30_vde7k"]
+[ext_resource type="Texture2D" uid="uid://wuuq8k3sks1f" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000031.png" id="31_rp7wu"]
+[ext_resource type="Texture2D" uid="uid://cktnpna1r05sg" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000032.png" id="32_50pad"]
+[ext_resource type="Texture2D" uid="uid://bwoc274cn3oli" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000033.png" id="33_ttaa8"]
+[ext_resource type="Texture2D" uid="uid://drcoy2yjmbjja" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000034.png" id="34_4bfpo"]
+[ext_resource type="Texture2D" uid="uid://c5eitknx5bc25" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000035.png" id="35_pstdh"]
+[ext_resource type="Texture2D" uid="uid://djwkexpens5ds" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000036.png" id="36_m4id1"]
+[ext_resource type="Texture2D" uid="uid://dbhnergy4qkxi" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000037.png" id="37_0ejd8"]
+[ext_resource type="Texture2D" uid="uid://btetrhu4rfngs" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000038.png" id="38_1y3ua"]
+[ext_resource type="Texture2D" uid="uid://b5xprgj0bhbeh" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000039.png" id="39_rgrtx"]
+[ext_resource type="Texture2D" uid="uid://cubpgbk61r2sb" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000040.png" id="40_6pqrg"]
+[ext_resource type="Texture2D" uid="uid://wlysews4aqnu" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000041.png" id="41_gxmt7"]
+[ext_resource type="Texture2D" uid="uid://crckujiio0wjq" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000042.png" id="42_k8554"]
+[ext_resource type="Texture2D" uid="uid://bgh7tm1lt4rmi" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000043.png" id="43_1rqhm"]
+[ext_resource type="Texture2D" uid="uid://bxw1h12q1nmxg" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000044.png" id="44_3jbnd"]
+[ext_resource type="Texture2D" uid="uid://c048w3yc4ar21" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000045.png" id="45_bntiy"]
+[ext_resource type="Texture2D" uid="uid://dq5ao4hk0nsdo" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000046.png" id="46_4vcfk"]
+[ext_resource type="Texture2D" uid="uid://dscl4ere0yfn8" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000047.png" id="47_0nsp1"]
+[ext_resource type="Texture2D" uid="uid://caa1we6njqd8" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000048.png" id="48_0w8t0"]
+[ext_resource type="Texture2D" uid="uid://dhj70xcig3qdm" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000049.png" id="49_54pym"]
+[ext_resource type="Texture2D" uid="uid://db10lb5nd11tc" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000050.png" id="50_8ybje"]
+[ext_resource type="Texture2D" uid="uid://p7dwll5162it" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000051.png" id="51_ll2hc"]
+[ext_resource type="Texture2D" uid="uid://dlkjdlfvraor8" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000052.png" id="52_o0112"]
+[ext_resource type="Texture2D" uid="uid://j8sheu527jwl" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000053.png" id="53_1ps5v"]
+[ext_resource type="Texture2D" uid="uid://j416guh33vxa" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000054.png" id="54_n532l"]
+[ext_resource type="Texture2D" uid="uid://bir3jlnbjuq1y" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000055.png" id="55_dxjst"]
+[ext_resource type="Texture2D" uid="uid://cquprys18rmpu" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000056.png" id="56_8rmqr"]
+[ext_resource type="Texture2D" uid="uid://c2quon8kqhpms" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000057.png" id="57_qieny"]
+[ext_resource type="Texture2D" uid="uid://cfbob1efwx7jh" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000058.png" id="58_4ejog"]
+[ext_resource type="Texture2D" uid="uid://d0c3mokxna0y" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000059.png" id="59_rgqw8"]
+[ext_resource type="Texture2D" uid="uid://ro0mwuwlmdvg" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000060.png" id="60_ygjrq"]
+[ext_resource type="Texture2D" uid="uid://bncm0lddnkylk" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000061.png" id="61_136s6"]
+[ext_resource type="Texture2D" uid="uid://be2edtre0vig1" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000062.png" id="62_0xhy1"]
+[ext_resource type="Texture2D" uid="uid://c40e24hiuh4ie" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000063.png" id="63_d6i2j"]
+[ext_resource type="Texture2D" uid="uid://xdk2e20ldqwv" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000064.png" id="64_gbj6m"]
+[ext_resource type="Texture2D" uid="uid://bgvvvyd0oq6ly" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000065.png" id="65_nd3vm"]
+[ext_resource type="Texture2D" uid="uid://cajodf7luxw6y" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000066.png" id="66_udw8s"]
+[ext_resource type="Texture2D" uid="uid://dr5xq7ra0lapn" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000067.png" id="67_84jo1"]
+[ext_resource type="Texture2D" uid="uid://chjy6nnwfa14q" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000068.png" id="68_gp80q"]
+[ext_resource type="Texture2D" uid="uid://vmo0uugh2616" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000069.png" id="69_wusd5"]
+[ext_resource type="Texture2D" uid="uid://dhrkdslsj1f8c" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000070.png" id="70_1l1ab"]
+[ext_resource type="Texture2D" uid="uid://bjs4h7x6rnnhl" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000071.png" id="71_p1s5k"]
+[ext_resource type="Texture2D" uid="uid://dggn8k6y2p6ms" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000072.png" id="72_rj517"]
+[ext_resource type="Texture2D" uid="uid://cx2607hkhf7bk" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000073.png" id="73_w8ld1"]
+[ext_resource type="Texture2D" uid="uid://bdu0ydbvwbefm" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000074.png" id="74_ibvmc"]
+[ext_resource type="Texture2D" uid="uid://cr38g2xrkpgty" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000075.png" id="75_gfcq3"]
+[ext_resource type="Texture2D" uid="uid://bb3njxxf676hm" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000076.png" id="76_yf44m"]
+[ext_resource type="Texture2D" uid="uid://0lp8velgimd6" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000077.png" id="77_enwer"]
+[ext_resource type="Texture2D" uid="uid://d55sygbsgtwn" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000078.png" id="78_40a5o"]
+[ext_resource type="Texture2D" uid="uid://c8s0rgxqjbdci" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000079.png" id="79_wk7xe"]
+[ext_resource type="Texture2D" uid="uid://bpjv52uinxsmi" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000080.png" id="80_ap8w8"]
+[ext_resource type="Texture2D" uid="uid://pjirgs1kpr1p" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000081.png" id="81_2njdp"]
+[ext_resource type="Texture2D" uid="uid://b0kyd2t7byfdb" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000082.png" id="82_6qif7"]
+[ext_resource type="Texture2D" uid="uid://d270nuujyqls1" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000083.png" id="83_mwkuu"]
+[ext_resource type="Texture2D" uid="uid://bwavkbr31im6d" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000084.png" id="84_mn663"]
+[ext_resource type="Texture2D" uid="uid://dfxf5am6u66km" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000085.png" id="85_84r4u"]
+[ext_resource type="Texture2D" uid="uid://ith2xtnkoy2l" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000086.png" id="86_8j662"]
+[ext_resource type="Texture2D" uid="uid://bbfllhin4vfl2" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000087.png" id="87_57ay4"]
+[ext_resource type="Texture2D" uid="uid://c147y0iowlscg" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000088.png" id="88_fw5t7"]
+[ext_resource type="Texture2D" uid="uid://dwontrvhybmii" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000089.png" id="89_xdu4b"]
+[ext_resource type="Texture2D" uid="uid://2b1ykc1rkswi" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000090.png" id="90_b2rmm"]
+[ext_resource type="Texture2D" uid="uid://8e2sd200l2kb" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000091.png" id="91_rym6n"]
+[ext_resource type="Texture2D" uid="uid://bp0hau1n7wiis" path="res://Resources/Animations/PSI/PK Starstorm/PSI Starstorm a - MCCircuitDC (720p, h264)_000092.png" id="92_or5aj"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_i88fp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_iy1ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cd05v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7u2vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ewbhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_p4shc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_vq2cy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ov3pv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_v0pfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_jcvd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ac8en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6hsq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_x0kel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hlsgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_a5bun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ui2ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_afbem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_lpx77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_8pywn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ri28r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_a1bie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_j66ro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_trs5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_aa4hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_v8bv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_h075l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_klvjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_spve1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8v1eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_vde7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_rp7wu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_50pad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ttaa8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_4bfpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pstdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_m4id1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_0ejd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_1y3ua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_rgrtx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6pqrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_gxmt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_k8554")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1rqhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_3jbnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_bntiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_4vcfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_0nsp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_0w8t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_54pym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_8ybje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_ll2hc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_o0112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_1ps5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_n532l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_dxjst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_8rmqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_qieny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_4ejog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_rgqw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_ygjrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_136s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_0xhy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_d6i2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_gbj6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_nd3vm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_udw8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_84jo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_gp80q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_wusd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_1l1ab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_p1s5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_rj517")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_w8ld1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_ibvmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_gfcq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_yf44m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_enwer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_40a5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_wk7xe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_ap8w8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_2njdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_6qif7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_mwkuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_mn663")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_84r4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_8j662")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_57ay4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_fw5t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_xdu4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_b2rmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_rym6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_or5aj")
+}],
+"loop": false,
+"name": &"PK Starstorm",
+"speed": 30.0
+}]

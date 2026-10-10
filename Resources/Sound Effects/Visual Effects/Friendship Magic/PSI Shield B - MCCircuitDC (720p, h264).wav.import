@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://csibq7nhxw125"
+path="res://.godot/imported/PSI Shield B - MCCircuitDC (720p, h264).wav-ad622ed57bc0cfb6c01bcd6649b8dd48.sample"
+
+[deps]
+
+source_file="res://Resources/Sound Effects/Visual Effects/Friendship Magic/PSI Shield B - MCCircuitDC (720p, h264).wav"
+dest_files=["res://.godot/imported/PSI Shield B - MCCircuitDC (720p, h264).wav-ad622ed57bc0cfb6c01bcd6649b8dd48.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

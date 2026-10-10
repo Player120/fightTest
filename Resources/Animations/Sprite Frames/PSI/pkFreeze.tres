@@ -1,0 +1,386 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cfnuwaek52qwd"]
+
+[ext_resource type="Texture2D" uid="uid://q25dci3qbtml" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000001.png" id="1_2qt7f"]
+[ext_resource type="Texture2D" uid="uid://lymghx2d0sgc" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000002.png" id="2_3v2ko"]
+[ext_resource type="Texture2D" uid="uid://bf7adkajj5g8k" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000003.png" id="3_0s704"]
+[ext_resource type="Texture2D" uid="uid://cbdacsrecwyk7" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000004.png" id="4_phkmb"]
+[ext_resource type="Texture2D" uid="uid://ctu6swe3s5t3g" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000005.png" id="5_8gdld"]
+[ext_resource type="Texture2D" uid="uid://4k56cd0uhl6u" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000006.png" id="6_n8mkd"]
+[ext_resource type="Texture2D" uid="uid://bwtcdi15krhc8" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000007.png" id="7_aug4g"]
+[ext_resource type="Texture2D" uid="uid://dbxa7w2dv4uj4" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000008.png" id="8_y26rf"]
+[ext_resource type="Texture2D" uid="uid://cdqe8lsttb46x" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000009.png" id="9_55l8t"]
+[ext_resource type="Texture2D" uid="uid://b7ryi1npbgmno" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000010.png" id="10_uy7ee"]
+[ext_resource type="Texture2D" uid="uid://jf0bnkr1qi00" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000011.png" id="11_3wejk"]
+[ext_resource type="Texture2D" uid="uid://baerv0h5cgrau" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000012.png" id="12_4kjmh"]
+[ext_resource type="Texture2D" uid="uid://m0ot4mua167y" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000013.png" id="13_6o1wb"]
+[ext_resource type="Texture2D" uid="uid://ftamqlski25i" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000014.png" id="14_veo0c"]
+[ext_resource type="Texture2D" uid="uid://cpbnsorvxw42i" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000015.png" id="15_l08ta"]
+[ext_resource type="Texture2D" uid="uid://p4kxg8vbgo1n" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000016.png" id="16_pktwf"]
+[ext_resource type="Texture2D" uid="uid://dx1uo8sxusauu" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000017.png" id="17_3svos"]
+[ext_resource type="Texture2D" uid="uid://hht06ix2um62" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000018.png" id="18_bpns2"]
+[ext_resource type="Texture2D" uid="uid://cfwf1ihyvg5d6" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000019.png" id="19_j6vfy"]
+[ext_resource type="Texture2D" uid="uid://bqpn6hbqe6mms" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000020.png" id="20_c8djk"]
+[ext_resource type="Texture2D" uid="uid://dnis2d4n6r1i" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000021.png" id="21_60urx"]
+[ext_resource type="Texture2D" uid="uid://dr54qr0dc8853" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000022.png" id="22_5c5a7"]
+[ext_resource type="Texture2D" uid="uid://cg8k8wbqnyh8x" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000023.png" id="23_67i3n"]
+[ext_resource type="Texture2D" uid="uid://c0v0yph18n0ju" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000024.png" id="24_mq1oq"]
+[ext_resource type="Texture2D" uid="uid://cettuj2tge3cb" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000025.png" id="25_yds07"]
+[ext_resource type="Texture2D" uid="uid://b1rxv7hnn7ffq" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000026.png" id="26_hc42d"]
+[ext_resource type="Texture2D" uid="uid://br60g2xc06tbo" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000027.png" id="27_a0xk0"]
+[ext_resource type="Texture2D" uid="uid://bq54ywvau21kh" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000028.png" id="28_xq0vg"]
+[ext_resource type="Texture2D" uid="uid://sd0i2wta65bc" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000029.png" id="29_4oom0"]
+[ext_resource type="Texture2D" uid="uid://cctjfjaiqyrh7" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000030.png" id="30_v6x3s"]
+[ext_resource type="Texture2D" uid="uid://blgegckhdc06u" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000031.png" id="31_ll7kg"]
+[ext_resource type="Texture2D" uid="uid://dt4evqx3thbnl" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000032.png" id="32_h1jy6"]
+[ext_resource type="Texture2D" uid="uid://jrynt6ifgeei" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000033.png" id="33_l4hq2"]
+[ext_resource type="Texture2D" uid="uid://cppyhjfm5ffig" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000034.png" id="34_y2ra0"]
+[ext_resource type="Texture2D" uid="uid://chu7204ofh74k" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000035.png" id="35_0t53y"]
+[ext_resource type="Texture2D" uid="uid://onubrk7o7wa3" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000036.png" id="36_uxpkk"]
+[ext_resource type="Texture2D" uid="uid://cstm1bgaupan7" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000037.png" id="37_8ik6n"]
+[ext_resource type="Texture2D" uid="uid://be3a2dmgpi1gf" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000038.png" id="38_7xuaj"]
+[ext_resource type="Texture2D" uid="uid://ct567hjo4tv5x" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000039.png" id="39_22hb3"]
+[ext_resource type="Texture2D" uid="uid://d2bild46fufkl" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000040.png" id="40_avprs"]
+[ext_resource type="Texture2D" uid="uid://dnb1ukla1f7p0" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000041.png" id="41_hw64k"]
+[ext_resource type="Texture2D" uid="uid://c32sofwcmurep" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000042.png" id="42_xpxgj"]
+[ext_resource type="Texture2D" uid="uid://b1osfsedv6ma0" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000043.png" id="43_0500m"]
+[ext_resource type="Texture2D" uid="uid://bc76rsyh5jjso" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000044.png" id="44_t4rv8"]
+[ext_resource type="Texture2D" uid="uid://cl3vriolbkvn0" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000045.png" id="45_q4c7u"]
+[ext_resource type="Texture2D" uid="uid://c71ignrl338ii" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000046.png" id="46_kok7v"]
+[ext_resource type="Texture2D" uid="uid://5hqv14yfod3y" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000047.png" id="47_cvyhs"]
+[ext_resource type="Texture2D" uid="uid://cnw0j1tebx3xl" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000048.png" id="48_ci826"]
+[ext_resource type="Texture2D" uid="uid://djfo3ab0rw34k" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000049.png" id="49_8ek7j"]
+[ext_resource type="Texture2D" uid="uid://e77oaqkc4adm" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000050.png" id="50_1bb5u"]
+[ext_resource type="Texture2D" uid="uid://bigg86nnwmc6a" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000051.png" id="51_fxyo8"]
+[ext_resource type="Texture2D" uid="uid://tsgea2c5a21o" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000052.png" id="52_vh1c4"]
+[ext_resource type="Texture2D" uid="uid://q76tuklhxad4" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000053.png" id="53_fefwi"]
+[ext_resource type="Texture2D" uid="uid://1tungnlwo70i" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000054.png" id="54_rfdlm"]
+[ext_resource type="Texture2D" uid="uid://dmoho0ttilsmr" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000055.png" id="55_nyi4y"]
+[ext_resource type="Texture2D" uid="uid://80e586iqd5r4" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000056.png" id="56_hu20m"]
+[ext_resource type="Texture2D" uid="uid://bae1q8jlftiom" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000057.png" id="57_l72p8"]
+[ext_resource type="Texture2D" uid="uid://bsvbeihtwwb2k" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000058.png" id="58_byex0"]
+[ext_resource type="Texture2D" uid="uid://no1ndi63feg8" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000059.png" id="59_h8ciq"]
+[ext_resource type="Texture2D" uid="uid://bg85rnvcq08t6" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000060.png" id="60_e5ok7"]
+[ext_resource type="Texture2D" uid="uid://eb85an73vba1" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000061.png" id="61_bkuio"]
+[ext_resource type="Texture2D" uid="uid://c7lsuxt6p8pgb" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000062.png" id="62_v10go"]
+[ext_resource type="Texture2D" uid="uid://c8dfv2kjughu" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000063.png" id="63_dk5yh"]
+[ext_resource type="Texture2D" uid="uid://ci30gy6byqwmo" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000064.png" id="64_fc2fc"]
+[ext_resource type="Texture2D" uid="uid://ceqjkv22s1ed1" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000065.png" id="65_r0lwd"]
+[ext_resource type="Texture2D" uid="uid://b5b13c0pycfbg" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000066.png" id="66_propw"]
+[ext_resource type="Texture2D" uid="uid://dce5ipe4c47xg" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000067.png" id="67_jo15u"]
+[ext_resource type="Texture2D" uid="uid://dj1vvses6ni04" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000068.png" id="68_uldcd"]
+[ext_resource type="Texture2D" uid="uid://ckt5xqe2sdvwf" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000069.png" id="69_7d482"]
+[ext_resource type="Texture2D" uid="uid://ca26jd7um7v8x" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000070.png" id="70_f30ta"]
+[ext_resource type="Texture2D" uid="uid://d20f3wvbgfhsu" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000071.png" id="71_8pl0r"]
+[ext_resource type="Texture2D" uid="uid://d3awl3lgmlwxk" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000072.png" id="72_wom80"]
+[ext_resource type="Texture2D" uid="uid://dt2ryg2air7i6" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000073.png" id="73_8eayf"]
+[ext_resource type="Texture2D" uid="uid://bdovwegwsfa2w" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000074.png" id="74_appjq"]
+[ext_resource type="Texture2D" uid="uid://csayy5fskgi84" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000075.png" id="75_ayody"]
+[ext_resource type="Texture2D" uid="uid://ccd62ftpd0rj3" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000076.png" id="76_nt16p"]
+[ext_resource type="Texture2D" uid="uid://ciaycg43lvt7b" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000077.png" id="77_v8o4o"]
+[ext_resource type="Texture2D" uid="uid://bdwuxfa2y1v71" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000078.png" id="78_3ql3n"]
+[ext_resource type="Texture2D" uid="uid://ckmqyk2bglsou" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000079.png" id="79_yb5nv"]
+[ext_resource type="Texture2D" uid="uid://bt3tew4k55wq8" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000080.png" id="80_skh2f"]
+[ext_resource type="Texture2D" uid="uid://dkxwf68uu4au8" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000081.png" id="81_kobje"]
+[ext_resource type="Texture2D" uid="uid://bin0qgxwausoc" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000082.png" id="82_jsimd"]
+[ext_resource type="Texture2D" uid="uid://bqsemnpv8k2wx" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000083.png" id="83_8nsnn"]
+[ext_resource type="Texture2D" uid="uid://dalusacjefy68" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000084.png" id="84_mjpe1"]
+[ext_resource type="Texture2D" uid="uid://x7tdq8m8u358" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000085.png" id="85_58302"]
+[ext_resource type="Texture2D" uid="uid://bvn5r4ahbykm1" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000086.png" id="86_etr74"]
+[ext_resource type="Texture2D" uid="uid://buul768ouxipe" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000087.png" id="87_cencs"]
+[ext_resource type="Texture2D" uid="uid://danjj4dygxy5w" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000088.png" id="88_5l1pq"]
+[ext_resource type="Texture2D" uid="uid://1jwabv2svch4" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000089.png" id="89_k4ear"]
+[ext_resource type="Texture2D" uid="uid://danrytbclwkrv" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000090.png" id="90_gexa7"]
+[ext_resource type="Texture2D" uid="uid://b0gdsq1r4xmm6" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000091.png" id="91_bdfbi"]
+[ext_resource type="Texture2D" uid="uid://bhwoio0kutvl2" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000092.png" id="92_dn8h4"]
+[ext_resource type="Texture2D" uid="uid://cl0vijaq6vxip" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000093.png" id="93_3v814"]
+[ext_resource type="Texture2D" uid="uid://d2gnjxe8c17og" path="res://Resources/Animations/PSI/PK Freeze/PSI Freeze O - MCCircuitDC (720p, h264)_000094.png" id="94_42you"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2qt7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_3v2ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0s704")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_phkmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8gdld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_n8mkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_aug4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_y26rf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_55l8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_uy7ee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3wejk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4kjmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_6o1wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_veo0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_l08ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pktwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_3svos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bpns2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_j6vfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_c8djk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_60urx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5c5a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_67i3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_mq1oq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_yds07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_hc42d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_a0xk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_xq0vg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_4oom0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_v6x3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ll7kg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_h1jy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_l4hq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_y2ra0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_0t53y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_uxpkk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_8ik6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_7xuaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_22hb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_avprs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_hw64k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_xpxgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_0500m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_t4rv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_q4c7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_kok7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_cvyhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ci826")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_8ek7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_1bb5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_fxyo8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_vh1c4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_fefwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_rfdlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_nyi4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_hu20m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_l72p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_byex0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_h8ciq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_e5ok7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_bkuio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_v10go")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_dk5yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_fc2fc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_r0lwd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_propw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_jo15u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_uldcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_7d482")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_f30ta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_8pl0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_wom80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_8eayf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_appjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_ayody")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_nt16p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_v8o4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_3ql3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_yb5nv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_skh2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_kobje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_jsimd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_8nsnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_mjpe1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_58302")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_etr74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_cencs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_5l1pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_k4ear")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_gexa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_bdfbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_dn8h4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_3v814")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_42you")
+}],
+"loop": false,
+"name": &"PK Freeze",
+"speed": 30.0
+}]

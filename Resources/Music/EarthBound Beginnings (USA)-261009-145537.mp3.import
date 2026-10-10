@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bohme41ltaok4"
+path="res://.godot/imported/EarthBound Beginnings (USA)-261009-145537.mp3-b39f92de4cf32f06e25d9c2c73dc2319.mp3str"
+
+[deps]
+
+source_file="res://Resources/Music/EarthBound Beginnings (USA)-261009-145537.mp3"
+dest_files=["res://.godot/imported/EarthBound Beginnings (USA)-261009-145537.mp3-b39f92de4cf32f06e25d9c2c73dc2319.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

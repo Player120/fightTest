@@ -1,0 +1,138 @@
+[gd_scene format=3 uid="uid://y4uq8qwj5goy"]
+
+[ext_resource type="Texture2D" uid="uid://bf1oho3xpsi2u" path="res://Resources/Sprites/Background/main_menu_background.png" id="1_oawc6"]
+[ext_resource type="Theme" uid="uid://b73treqs10hdc" path="res://Resources/Themes/titleScreenTheme.tres" id="1_sc2ac"]
+[ext_resource type="Script" uid="uid://dluyoeuorxlb3" path="res://Scripts/UI/character_naming.gd" id="2_dxdeg"]
+[ext_resource type="Texture2D" uid="uid://ccvlxxunu1ai8" path="res://Resources/Sprites/Characters/rafa.svg" id="4_dxdeg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dxdeg"]
+bg_color = Color(0.1867581, 0.20365289, 0.2842308, 0.42745098)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 70.0
+expand_margin_top = 40.0
+expand_margin_right = 70.0
+expand_margin_bottom = 30.0
+
+[node name="CharacterNaming" type="Control" unique_id=1797772430]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_sc2ac")
+script = ExtResource("2_dxdeg")
+
+[node name="Background" type="TextureRect" parent="." unique_id=2026493360]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_oawc6")
+expand_mode = 3
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=318909232]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.6745098)
+
+[node name="BackToStart" type="Button" parent="." unique_id=1752757682]
+custom_minimum_size = Vector2(210, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.014
+anchor_top = 0.015000001
+anchor_right = 0.014
+anchor_bottom = 0.015000001
+offset_left = -0.12800026
+offset_top = 0.27999973
+offset_right = 49.872
+offset_bottom = 40.28
+text = "Back to Start"
+
+[node name="NamingArea" type="PanelContainer" parent="." unique_id=661786301]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -219.0
+offset_top = -114.0
+offset_right = 219.0
+offset_bottom = 114.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dxdeg")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="NamingArea" unique_id=1939029394]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Character" type="TextureRect" parent="NamingArea/HBoxContainer" unique_id=1740689348]
+layout_mode = 2
+texture = ExtResource("4_dxdeg")
+
+[node name="Spacing" type="Control" parent="NamingArea/HBoxContainer" unique_id=455930782]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NamingArea/HBoxContainer" unique_id=204507255]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+
+[node name="Question" type="Label" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=8588225]
+layout_mode = 2
+text = "Please name him..."
+
+[node name="LineEdit" type="LineEdit" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=1188773329]
+custom_minimum_size = Vector2(310, 50)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 48
+
+[node name="Spacing" type="Control" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=1964759252]
+custom_minimum_size = Vector2(0, 5)
+layout_mode = 2
+
+[node name="DontCare" type="Button" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=853616382]
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_font_sizes/font_size = 32
+text = "Don't Care"
+
+[node name="Spacing 2" type="Control" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=187783868]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="Done" type="Button" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=1855471390]
+custom_minimum_size = Vector2(90, 0)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 32
+text = "Done"
+
+[connection signal="pressed" from="BackToStart" to="." method="_on_back_to_start_pressed"]
+[connection signal="text_changed" from="NamingArea/HBoxContainer/VBoxContainer/LineEdit" to="." method="_on_line_edit_text_changed"]
+[connection signal="pressed" from="NamingArea/HBoxContainer/VBoxContainer/DontCare" to="." method="_on_dont_care_pressed"]
+[connection signal="pressed" from="NamingArea/HBoxContainer/VBoxContainer/Done" to="." method="_on_done_pressed"]

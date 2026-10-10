@@ -1,0 +1,135 @@
+[gd_scene format=3 uid="uid://ifojj26lmtyl"]
+
+[ext_resource type="Texture2D" uid="uid://c47af3o40lcgt" path="res://Resources/Animations/Background Sprites/163.png" id="2_o8mqx"]
+[ext_resource type="Texture2D" uid="uid://0aeom3x5kdss" path="res://Resources/Animations/Background Sprites/165.png" id="4_8egfd"]
+[ext_resource type="Texture2D" uid="uid://d07lk86co1f5r" path="res://Resources/Animations/Background Sprites/169.png" id="8_2kbb1"]
+
+[sub_resource type="Animation" id="Animation_m4deb"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("FirstFrame:self_modulate:a")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SecondFrame:self_modulate:a")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ThirdFrame:self_modulate:a")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_4b2du"]
+resource_name = "Switch Sprites"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("FirstFrame:self_modulate:a")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.75, 0.25, 0.75]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SecondFrame:self_modulate:a")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.96666664),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [1.0, 0.5, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ThirdFrame:self_modulate:a")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [1.0, 0.75, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7k4pj"]
+_data = {
+&"RESET": SubResource("Animation_m4deb"),
+&"Switch Sprites": SubResource("Animation_4b2du")
+}
+
+[node name="BackgroundAnimation" type="Control" unique_id=286067431]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ThirdFrame" type="TextureRect" parent="." unique_id=878060960]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_2kbb1")
+expand_mode = 1
+
+[node name="SecondFrame" type="TextureRect" parent="." unique_id=615184520]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_8egfd")
+expand_mode = 2
+
+[node name="FirstFrame" type="TextureRect" parent="." unique_id=1582923888]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_o8mqx")
+expand_mode = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=295320654]
+libraries/ = SubResource("AnimationLibrary_7k4pj")
+autoplay = &"Switch Sprites"
+speed_scale = 0.25

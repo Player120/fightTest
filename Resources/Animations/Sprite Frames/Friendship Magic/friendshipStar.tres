@@ -1,0 +1,638 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dtlj1irf3t2lk"]
+
+[ext_resource type="Texture2D" uid="uid://cajfbtu5mi6fo" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000001.png" id="1_qghia"]
+[ext_resource type="Texture2D" uid="uid://j31ecmr7b7l4" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000002.png" id="2_58bsu"]
+[ext_resource type="Texture2D" uid="uid://b8oc26te6vq3k" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000003.png" id="3_jkh8n"]
+[ext_resource type="Texture2D" uid="uid://b7ybwrjh420cy" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000004.png" id="4_4lxnv"]
+[ext_resource type="Texture2D" uid="uid://ccxbtfrsy7fnm" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000005.png" id="5_4ef53"]
+[ext_resource type="Texture2D" uid="uid://cb3hh0rac7vlp" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000006.png" id="6_m0wvb"]
+[ext_resource type="Texture2D" uid="uid://dtokpdxlbr6pv" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000007.png" id="7_tno4f"]
+[ext_resource type="Texture2D" uid="uid://b254rfpcp7ihm" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000008.png" id="8_ast33"]
+[ext_resource type="Texture2D" uid="uid://fygscyj3jgdn" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000009.png" id="9_q0rj5"]
+[ext_resource type="Texture2D" uid="uid://b1ujut3q6v30h" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000010.png" id="10_cswyj"]
+[ext_resource type="Texture2D" uid="uid://bpxew5fwaty11" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000011.png" id="11_vgv8a"]
+[ext_resource type="Texture2D" uid="uid://bd58fsl7w0ls2" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000012.png" id="12_wswaw"]
+[ext_resource type="Texture2D" uid="uid://cpg3xmjlkymtc" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000013.png" id="13_3ahnt"]
+[ext_resource type="Texture2D" uid="uid://cph6i8o15who0" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000014.png" id="14_d6sts"]
+[ext_resource type="Texture2D" uid="uid://l3mb8gbn6oj8" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000015.png" id="15_eou06"]
+[ext_resource type="Texture2D" uid="uid://cv63hk75gihs4" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000016.png" id="16_7iawn"]
+[ext_resource type="Texture2D" uid="uid://c6ww3kugc2j7i" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000017.png" id="17_uwcoh"]
+[ext_resource type="Texture2D" uid="uid://saeg6813m1bd" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000018.png" id="18_k28fb"]
+[ext_resource type="Texture2D" uid="uid://dr5jh32jlsu55" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000019.png" id="19_6ohq5"]
+[ext_resource type="Texture2D" uid="uid://2wcimq14ehuf" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000020.png" id="20_srbwn"]
+[ext_resource type="Texture2D" uid="uid://gyo2y1ojx431" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000021.png" id="21_a7tib"]
+[ext_resource type="Texture2D" uid="uid://ddytekhv0j8qf" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000022.png" id="22_wnnr5"]
+[ext_resource type="Texture2D" uid="uid://cfbfbx8tpgsiu" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000023.png" id="23_kfoe0"]
+[ext_resource type="Texture2D" uid="uid://b026ofqd0bfk5" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000024.png" id="24_qt80u"]
+[ext_resource type="Texture2D" uid="uid://nmy745pctlqh" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000025.png" id="25_7slfp"]
+[ext_resource type="Texture2D" uid="uid://i6wtcqos2ohd" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000026.png" id="26_jdkj7"]
+[ext_resource type="Texture2D" uid="uid://qbn301lxh8ow" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000027.png" id="27_n0n76"]
+[ext_resource type="Texture2D" uid="uid://dydrvqour45sp" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000028.png" id="28_qgbrv"]
+[ext_resource type="Texture2D" uid="uid://ix6w0vi3m0ev" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000029.png" id="29_xk2ny"]
+[ext_resource type="Texture2D" uid="uid://lfcaq41s3qr2" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000030.png" id="30_76xgl"]
+[ext_resource type="Texture2D" uid="uid://blwuufs2428cx" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000031.png" id="31_ijrkr"]
+[ext_resource type="Texture2D" uid="uid://d3gp6do18gvah" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000032.png" id="32_o7ln4"]
+[ext_resource type="Texture2D" uid="uid://dnkmlu5ng0t3b" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000033.png" id="33_115wb"]
+[ext_resource type="Texture2D" uid="uid://dkxqbgifowxol" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000034.png" id="34_705k7"]
+[ext_resource type="Texture2D" uid="uid://m7h5ad05d7s2" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000035.png" id="35_450r5"]
+[ext_resource type="Texture2D" uid="uid://da6v6qp6nn8at" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000036.png" id="36_cs2y2"]
+[ext_resource type="Texture2D" uid="uid://cr4frjevwju3w" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000037.png" id="37_43ihl"]
+[ext_resource type="Texture2D" uid="uid://bi1kydt4gt1rs" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000038.png" id="38_3qh20"]
+[ext_resource type="Texture2D" uid="uid://cc8o6fj1ecnh1" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000039.png" id="39_kedxy"]
+[ext_resource type="Texture2D" uid="uid://ctl3wd7lani1i" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000040.png" id="40_6wyu7"]
+[ext_resource type="Texture2D" uid="uid://4jchcst4lcoa" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000041.png" id="41_v64ng"]
+[ext_resource type="Texture2D" uid="uid://bbp1cl8yy80i6" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000042.png" id="42_w22pa"]
+[ext_resource type="Texture2D" uid="uid://cnrou8youikpi" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000043.png" id="43_b67np"]
+[ext_resource type="Texture2D" uid="uid://7n55j7w407fx" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000044.png" id="44_a4m1g"]
+[ext_resource type="Texture2D" uid="uid://ivtchuirpna" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000045.png" id="45_n5wg8"]
+[ext_resource type="Texture2D" uid="uid://ckyqsdnjld2cw" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000046.png" id="46_8te2w"]
+[ext_resource type="Texture2D" uid="uid://b176spjctqvjh" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000047.png" id="47_2enb7"]
+[ext_resource type="Texture2D" uid="uid://cuslwnk45ko6k" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000048.png" id="48_m2p7v"]
+[ext_resource type="Texture2D" uid="uid://c56mici435hau" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000049.png" id="49_dx8e3"]
+[ext_resource type="Texture2D" uid="uid://clysqi36ccbhe" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000050.png" id="50_lg8si"]
+[ext_resource type="Texture2D" uid="uid://5sntgxgcbflo" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000051.png" id="51_cijfa"]
+[ext_resource type="Texture2D" uid="uid://dd4k5vk35eig1" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000052.png" id="52_c8dle"]
+[ext_resource type="Texture2D" uid="uid://bnj4xxwstrq0i" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000053.png" id="53_yyxon"]
+[ext_resource type="Texture2D" uid="uid://qdexdlrf0jaj" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000054.png" id="54_q24gj"]
+[ext_resource type="Texture2D" uid="uid://dvil5pd1mk01f" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000055.png" id="55_lhkbj"]
+[ext_resource type="Texture2D" uid="uid://meyy11ttj3tq" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000056.png" id="56_0pwkd"]
+[ext_resource type="Texture2D" uid="uid://xqkquu8ilfq4" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000057.png" id="57_2itur"]
+[ext_resource type="Texture2D" uid="uid://bb4ci57dd813f" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000058.png" id="58_4w5eo"]
+[ext_resource type="Texture2D" uid="uid://hhvnwmrh2hxo" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000059.png" id="59_8eumd"]
+[ext_resource type="Texture2D" uid="uid://c46170ln0g4rt" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000060.png" id="60_42gqq"]
+[ext_resource type="Texture2D" uid="uid://c5xd340760p1e" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000061.png" id="61_c3c3l"]
+[ext_resource type="Texture2D" uid="uid://cedgpyuduo7u4" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000062.png" id="62_0k8cy"]
+[ext_resource type="Texture2D" uid="uid://bdyc6ngwk66qq" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000063.png" id="63_imnxj"]
+[ext_resource type="Texture2D" uid="uid://cjvi82in56hws" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000064.png" id="64_tatx2"]
+[ext_resource type="Texture2D" uid="uid://cb8ej2wncf38r" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000065.png" id="65_lwqnl"]
+[ext_resource type="Texture2D" uid="uid://ulnkhfmua8bt" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000066.png" id="66_7u3rc"]
+[ext_resource type="Texture2D" uid="uid://dbfkpu01tb4bf" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000067.png" id="67_ak4jv"]
+[ext_resource type="Texture2D" uid="uid://8epofwv7rtbs" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000068.png" id="68_qa8by"]
+[ext_resource type="Texture2D" uid="uid://bmfe02e5qhkl0" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000069.png" id="69_dr8pp"]
+[ext_resource type="Texture2D" uid="uid://ctbjv7ed81jei" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000070.png" id="70_kwfs7"]
+[ext_resource type="Texture2D" uid="uid://cmpx2mekcvyip" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000071.png" id="71_bt75n"]
+[ext_resource type="Texture2D" uid="uid://dwud017e6v8wx" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000072.png" id="72_1nhd2"]
+[ext_resource type="Texture2D" uid="uid://euwqwgewg3al" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000073.png" id="73_lunqa"]
+[ext_resource type="Texture2D" uid="uid://dbh0k8gf0d6nj" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000074.png" id="74_h1o60"]
+[ext_resource type="Texture2D" uid="uid://cdgqhfcxqyiks" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000075.png" id="75_wtu2u"]
+[ext_resource type="Texture2D" uid="uid://80gl24q2wn3u" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000076.png" id="76_am8s3"]
+[ext_resource type="Texture2D" uid="uid://c8vyk0ddn6p1l" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000077.png" id="77_yq5mv"]
+[ext_resource type="Texture2D" uid="uid://bjrslcbg6hn3j" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000078.png" id="78_0vaky"]
+[ext_resource type="Texture2D" uid="uid://ya2b0fmds52x" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000079.png" id="79_4i668"]
+[ext_resource type="Texture2D" uid="uid://dtb3x1fu7axsl" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000080.png" id="80_nxwkr"]
+[ext_resource type="Texture2D" uid="uid://chq5uacpkhyjk" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000081.png" id="81_wfsr0"]
+[ext_resource type="Texture2D" uid="uid://io28ky0vgikl" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000082.png" id="82_igwao"]
+[ext_resource type="Texture2D" uid="uid://bcnwqxl1n8uh8" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000083.png" id="83_bv10f"]
+[ext_resource type="Texture2D" uid="uid://nb44qykqhnmj" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000084.png" id="84_bwtkp"]
+[ext_resource type="Texture2D" uid="uid://cr5byt2hn1b5v" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000085.png" id="85_7uu6g"]
+[ext_resource type="Texture2D" uid="uid://b4dxtyaoee40" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000086.png" id="86_o6ei7"]
+[ext_resource type="Texture2D" uid="uid://bsh3rbyglqmvf" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000087.png" id="87_1kgrb"]
+[ext_resource type="Texture2D" uid="uid://ddksj6mn2gksw" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000088.png" id="88_yau7p"]
+[ext_resource type="Texture2D" uid="uid://ba0asu2rp15kc" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000089.png" id="89_pnsg4"]
+[ext_resource type="Texture2D" uid="uid://tosauok3ct8x" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000090.png" id="90_xgqb0"]
+[ext_resource type="Texture2D" uid="uid://bdsg4ulo8adf2" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000091.png" id="91_hjcwc"]
+[ext_resource type="Texture2D" uid="uid://5cai2rhaqbh7" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000092.png" id="92_s5vs5"]
+[ext_resource type="Texture2D" uid="uid://dtaq7rtf18g8b" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000093.png" id="93_q0hos"]
+[ext_resource type="Texture2D" uid="uid://dmd36c7jsr233" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000094.png" id="94_t1krp"]
+[ext_resource type="Texture2D" uid="uid://pc4vvmnc3rdw" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000095.png" id="95_sye42"]
+[ext_resource type="Texture2D" uid="uid://c1denge7xib2k" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000096.png" id="96_31qxv"]
+[ext_resource type="Texture2D" uid="uid://ki4sm0urq7jp" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000097.png" id="97_6jjvc"]
+[ext_resource type="Texture2D" uid="uid://0tkk6laiel6y" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000098.png" id="98_e1f72"]
+[ext_resource type="Texture2D" uid="uid://bbcd7veax6u8s" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000099.png" id="99_afwpo"]
+[ext_resource type="Texture2D" uid="uid://dmb26bslptnu5" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000100.png" id="100_luxtf"]
+[ext_resource type="Texture2D" uid="uid://d4b8h3k4gyov8" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000101.png" id="101_02s1k"]
+[ext_resource type="Texture2D" uid="uid://b6cr388oppen6" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000102.png" id="102_l3wfm"]
+[ext_resource type="Texture2D" uid="uid://ea2oi1mwvuxi" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000103.png" id="103_djbvh"]
+[ext_resource type="Texture2D" uid="uid://dmr0b0jfmusj1" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000104.png" id="104_x68ma"]
+[ext_resource type="Texture2D" uid="uid://c2i7lwg061skw" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000105.png" id="105_kkfdx"]
+[ext_resource type="Texture2D" uid="uid://cqipmumnydqeq" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000106.png" id="106_2p3dm"]
+[ext_resource type="Texture2D" uid="uid://b1odxfmxsxups" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000107.png" id="107_shon8"]
+[ext_resource type="Texture2D" uid="uid://ds8mc384eh2i5" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000108.png" id="108_fmbq4"]
+[ext_resource type="Texture2D" uid="uid://bd1gomay5ofxe" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000109.png" id="109_hk22h"]
+[ext_resource type="Texture2D" uid="uid://btyerqwg841rt" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000110.png" id="110_y6yb1"]
+[ext_resource type="Texture2D" uid="uid://5hsd03mfdipi" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000111.png" id="111_hfsc8"]
+[ext_resource type="Texture2D" uid="uid://cf1pcyitmhfvd" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000112.png" id="112_5u8g5"]
+[ext_resource type="Texture2D" uid="uid://dyi4vn1l4ix4a" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000113.png" id="113_k1bp2"]
+[ext_resource type="Texture2D" uid="uid://bcyhrwlmhvaid" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000114.png" id="114_wm8ap"]
+[ext_resource type="Texture2D" uid="uid://lvtfchywlmmr" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000115.png" id="115_pllt2"]
+[ext_resource type="Texture2D" uid="uid://8ec4n57qy1vf" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000116.png" id="116_0kvhl"]
+[ext_resource type="Texture2D" uid="uid://ce4fbqrjmehw7" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000117.png" id="117_rphan"]
+[ext_resource type="Texture2D" uid="uid://ck4n055oq0k61" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000118.png" id="118_584ra"]
+[ext_resource type="Texture2D" uid="uid://b3qc71r2llfyb" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000119.png" id="119_gc7rn"]
+[ext_resource type="Texture2D" uid="uid://c6k6jj7hbpm33" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000120.png" id="120_6p7w4"]
+[ext_resource type="Texture2D" uid="uid://cw3aajo4npwhh" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000121.png" id="121_k760a"]
+[ext_resource type="Texture2D" uid="uid://dyu4n03ercio3" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000122.png" id="122_3hd0e"]
+[ext_resource type="Texture2D" uid="uid://cyv3sgrj1gflo" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000123.png" id="123_bapdq"]
+[ext_resource type="Texture2D" uid="uid://b3rug0gr5f7jd" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000124.png" id="124_elrma"]
+[ext_resource type="Texture2D" uid="uid://c5bk8hc4qimaq" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000125.png" id="125_eqco7"]
+[ext_resource type="Texture2D" uid="uid://dbd01rg03pno4" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000126.png" id="126_7koxj"]
+[ext_resource type="Texture2D" uid="uid://b1jey3jnq6ybp" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000127.png" id="127_5opgn"]
+[ext_resource type="Texture2D" uid="uid://bbm0x8qymshsx" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000128.png" id="128_3odpm"]
+[ext_resource type="Texture2D" uid="uid://i8x0vim44eln" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000129.png" id="129_lwckn"]
+[ext_resource type="Texture2D" uid="uid://bxbvw4mw7cjck" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000130.png" id="130_j016b"]
+[ext_resource type="Texture2D" uid="uid://cfw3qph46uy24" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000131.png" id="131_8eokl"]
+[ext_resource type="Texture2D" uid="uid://dk6b5as434c6y" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000132.png" id="132_trxv7"]
+[ext_resource type="Texture2D" uid="uid://dal1b0sx1kkrn" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000133.png" id="133_dyxsp"]
+[ext_resource type="Texture2D" uid="uid://d0303uop7d4md" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000134.png" id="134_fgrfk"]
+[ext_resource type="Texture2D" uid="uid://u8s7oi8w176y" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000135.png" id="135_8j16u"]
+[ext_resource type="Texture2D" uid="uid://bfg3wo3h8jnol" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000136.png" id="136_sbc1b"]
+[ext_resource type="Texture2D" uid="uid://dnscd0ulxuypb" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000137.png" id="137_bmyrc"]
+[ext_resource type="Texture2D" uid="uid://ql8acce6qx06" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000138.png" id="138_piype"]
+[ext_resource type="Texture2D" uid="uid://cj7dokcvlhcec" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000139.png" id="139_h8he7"]
+[ext_resource type="Texture2D" uid="uid://bckmwk3j2i6dm" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000140.png" id="140_pa31v"]
+[ext_resource type="Texture2D" uid="uid://qqi36knw2h5i" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000141.png" id="141_1ypa0"]
+[ext_resource type="Texture2D" uid="uid://cg7lv7urts7er" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000142.png" id="142_sdmoa"]
+[ext_resource type="Texture2D" uid="uid://cac2gfchkcy2" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000143.png" id="143_sf11r"]
+[ext_resource type="Texture2D" uid="uid://cfltql5ydabn4" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000144.png" id="144_aks1p"]
+[ext_resource type="Texture2D" uid="uid://b7n217xmjigmb" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000145.png" id="145_u5xn1"]
+[ext_resource type="Texture2D" uid="uid://7pg1uftr0xm1" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000146.png" id="146_qe4py"]
+[ext_resource type="Texture2D" uid="uid://x3n8sac2vixl" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000147.png" id="147_nlbpv"]
+[ext_resource type="Texture2D" uid="uid://cyqkefyt35ehn" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000148.png" id="148_snirr"]
+[ext_resource type="Texture2D" uid="uid://7g0rs1172vyj" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000149.png" id="149_7kp3s"]
+[ext_resource type="Texture2D" uid="uid://bcn5f3i6l2bwb" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000150.png" id="150_gqubb"]
+[ext_resource type="Texture2D" uid="uid://dnqg4jwoxt1tb" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000151.png" id="151_meuuc"]
+[ext_resource type="Texture2D" uid="uid://carxm5opvpdnd" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000152.png" id="152_480mo"]
+[ext_resource type="Texture2D" uid="uid://bjh7dy7i85p3d" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000153.png" id="153_frets"]
+[ext_resource type="Texture2D" uid="uid://1frx75p5tyt7" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000154.png" id="154_74823"]
+[ext_resource type="Texture2D" uid="uid://ua80p6egfxbb" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000155.png" id="155_j6d37"]
+[ext_resource type="Texture2D" uid="uid://di6m1refp7sdv" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000156.png" id="156_mamnh"]
+[ext_resource type="Texture2D" uid="uid://cgsyar2lga1e8" path="res://Resources/Animations/Frienship Powers/Friendship Star/PSI Rockin Ω_000157.png" id="157_r221u"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qghia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_58bsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jkh8n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4lxnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4ef53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_m0wvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tno4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ast33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_q0rj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cswyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vgv8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_wswaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3ahnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d6sts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_eou06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_7iawn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_uwcoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_k28fb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6ohq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_srbwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_a7tib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_wnnr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_kfoe0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_qt80u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_7slfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_jdkj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_n0n76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_qgbrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_xk2ny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_76xgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ijrkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_o7ln4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_115wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_705k7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_450r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_cs2y2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_43ihl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_3qh20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_kedxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6wyu7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_v64ng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_w22pa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_b67np")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_a4m1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_n5wg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_8te2w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_2enb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_m2p7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_dx8e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_lg8si")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_cijfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_c8dle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_yyxon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_q24gj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_lhkbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_0pwkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_2itur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_4w5eo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_8eumd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_42gqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_c3c3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_0k8cy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_imnxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_tatx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_lwqnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_7u3rc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_ak4jv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_qa8by")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_dr8pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_kwfs7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_bt75n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_1nhd2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_lunqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_h1o60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_wtu2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_am8s3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_yq5mv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_0vaky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_4i668")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_nxwkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_wfsr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_igwao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_bv10f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_bwtkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_7uu6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_o6ei7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_1kgrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_yau7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_pnsg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_xgqb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_hjcwc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_s5vs5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_q0hos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_t1krp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_sye42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_31qxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_6jjvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_e1f72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_afwpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_luxtf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_02s1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_l3wfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_djbvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_x68ma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_kkfdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_2p3dm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_shon8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_fmbq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_hk22h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_y6yb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_hfsc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_5u8g5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_k1bp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_wm8ap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_pllt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_0kvhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_rphan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_584ra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_gc7rn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_6p7w4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_k760a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_3hd0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_bapdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_elrma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_eqco7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_7koxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_5opgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_3odpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_lwckn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_j016b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_8eokl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_trxv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_dyxsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_fgrfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_8j16u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_sbc1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_bmyrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_piype")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_h8he7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_pa31v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_1ypa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_sdmoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_sf11r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_aks1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_u5xn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_qe4py")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_nlbpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_snirr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_7kp3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_gqubb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_meuuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_480mo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_frets")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_74823")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_j6d37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_mamnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_r221u")
+}],
+"loop": false,
+"name": &"Friendship Star",
+"speed": 30.0
+}]

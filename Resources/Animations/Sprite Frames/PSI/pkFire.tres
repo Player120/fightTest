@@ -1,0 +1,274 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://w0hxh55g7vn2"]
+
+[ext_resource type="Texture2D" uid="uid://byvrk0iqsxrt4" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000001.png" id="1_b1way"]
+[ext_resource type="Texture2D" uid="uid://dshopveuu8hqy" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000002.png" id="2_p585p"]
+[ext_resource type="Texture2D" uid="uid://cnobm8c0pv5ux" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000003.png" id="3_6jcv6"]
+[ext_resource type="Texture2D" uid="uid://chrqoukrs34w4" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000004.png" id="4_odrtu"]
+[ext_resource type="Texture2D" uid="uid://c0w801q8kqu8h" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000005.png" id="5_wsey3"]
+[ext_resource type="Texture2D" uid="uid://660okwunl8m8" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000006.png" id="6_3gq28"]
+[ext_resource type="Texture2D" uid="uid://btdg53tqsc6eq" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000007.png" id="7_r6ku4"]
+[ext_resource type="Texture2D" uid="uid://yv1kskarjphs" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000008.png" id="8_8yiv5"]
+[ext_resource type="Texture2D" uid="uid://bxk3jx8t0a0gl" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000009.png" id="9_bq24q"]
+[ext_resource type="Texture2D" uid="uid://c3rchwqetmoe1" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000010.png" id="10_phi84"]
+[ext_resource type="Texture2D" uid="uid://bootd0a08a765" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000011.png" id="11_6my86"]
+[ext_resource type="Texture2D" uid="uid://cilkna4wnuc04" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000012.png" id="12_ip7e7"]
+[ext_resource type="Texture2D" uid="uid://bqkby1sejv6qe" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000013.png" id="13_byytw"]
+[ext_resource type="Texture2D" uid="uid://eu5djwbjj86i" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000014.png" id="14_2mx43"]
+[ext_resource type="Texture2D" uid="uid://b6107vctxakm" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000015.png" id="15_esioi"]
+[ext_resource type="Texture2D" uid="uid://c0sgf3hiwvxrd" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000016.png" id="16_ox4ra"]
+[ext_resource type="Texture2D" uid="uid://c7smdjwn3l4wq" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000017.png" id="17_4lhlc"]
+[ext_resource type="Texture2D" uid="uid://ddn108fnshq5x" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000018.png" id="18_lj5te"]
+[ext_resource type="Texture2D" uid="uid://dhoyx14k0plxi" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000019.png" id="19_47il3"]
+[ext_resource type="Texture2D" uid="uid://4fht7xenm4me" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000020.png" id="20_6id3x"]
+[ext_resource type="Texture2D" uid="uid://ne68kk28box1" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000021.png" id="21_331tp"]
+[ext_resource type="Texture2D" uid="uid://c1fgy7eu4hcw1" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000022.png" id="22_etpn5"]
+[ext_resource type="Texture2D" uid="uid://1f58f6tkatpg" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000023.png" id="23_khcsw"]
+[ext_resource type="Texture2D" uid="uid://csq60u2xey2na" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000024.png" id="24_26wgc"]
+[ext_resource type="Texture2D" uid="uid://bwlj8uopcfe34" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000025.png" id="25_i7wj3"]
+[ext_resource type="Texture2D" uid="uid://jak5ltam0vr8" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000026.png" id="26_6405p"]
+[ext_resource type="Texture2D" uid="uid://bv24ttl0klfsa" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000027.png" id="27_nhu5b"]
+[ext_resource type="Texture2D" uid="uid://depdnnvyabpg2" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000028.png" id="28_eoy1u"]
+[ext_resource type="Texture2D" uid="uid://5arsfik7btlq" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000029.png" id="29_ifl4d"]
+[ext_resource type="Texture2D" uid="uid://bqj4vdrtyor52" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000030.png" id="30_ep1kb"]
+[ext_resource type="Texture2D" uid="uid://7275fyx0573u" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000031.png" id="31_k3lnl"]
+[ext_resource type="Texture2D" uid="uid://crdm5w6upeodf" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000032.png" id="32_pq8fd"]
+[ext_resource type="Texture2D" uid="uid://djgmbkoco17hl" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000033.png" id="33_yllcq"]
+[ext_resource type="Texture2D" uid="uid://dc874lv0bpsy6" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000034.png" id="34_ddlau"]
+[ext_resource type="Texture2D" uid="uid://o755q36nduay" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000035.png" id="35_334ak"]
+[ext_resource type="Texture2D" uid="uid://dtm31hsabkknn" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000036.png" id="36_ia3hn"]
+[ext_resource type="Texture2D" uid="uid://bsv5jcnbacvyn" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000037.png" id="37_kcyng"]
+[ext_resource type="Texture2D" uid="uid://cy2ya606rchxe" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000038.png" id="38_l0ke3"]
+[ext_resource type="Texture2D" uid="uid://1kee3hfa56bf" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000039.png" id="39_r4i86"]
+[ext_resource type="Texture2D" uid="uid://gsshtmic6vs2" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000040.png" id="40_ex7rs"]
+[ext_resource type="Texture2D" uid="uid://du755njod8wx2" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000041.png" id="41_5ette"]
+[ext_resource type="Texture2D" uid="uid://bi4g1apv4bub6" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000042.png" id="42_fjewy"]
+[ext_resource type="Texture2D" uid="uid://c7srehxwy0p6v" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000043.png" id="43_wiiru"]
+[ext_resource type="Texture2D" uid="uid://bkeu88223w6w3" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000044.png" id="44_yl1ff"]
+[ext_resource type="Texture2D" uid="uid://c2l5u23kmdr77" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000045.png" id="45_yb6vt"]
+[ext_resource type="Texture2D" uid="uid://ci77vwyrtck68" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000046.png" id="46_pyeup"]
+[ext_resource type="Texture2D" uid="uid://caro4542ocfjo" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000047.png" id="47_uy0qk"]
+[ext_resource type="Texture2D" uid="uid://dtqbken04jj1y" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000048.png" id="48_k4viv"]
+[ext_resource type="Texture2D" uid="uid://cxqpd7mfyqbse" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000049.png" id="49_rc2il"]
+[ext_resource type="Texture2D" uid="uid://dwol8dgqmactj" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000050.png" id="50_fn0af"]
+[ext_resource type="Texture2D" uid="uid://b20utpvg2qcj0" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000051.png" id="51_fgc74"]
+[ext_resource type="Texture2D" uid="uid://ddaqf53dd6brm" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000052.png" id="52_giqfx"]
+[ext_resource type="Texture2D" uid="uid://rsx61vcrdakp" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000053.png" id="53_8m8c4"]
+[ext_resource type="Texture2D" uid="uid://bdxrd8xrj6gsf" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000054.png" id="54_2jh6i"]
+[ext_resource type="Texture2D" uid="uid://mdvbqp3i5sx2" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000055.png" id="55_3mt65"]
+[ext_resource type="Texture2D" uid="uid://l0a3b16cbln2" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000056.png" id="56_gp254"]
+[ext_resource type="Texture2D" uid="uid://cpef473m6aa5a" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000057.png" id="57_10npo"]
+[ext_resource type="Texture2D" uid="uid://dnk8hwwhh4i2x" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000058.png" id="58_873nc"]
+[ext_resource type="Texture2D" uid="uid://c68chc5mmvc14" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000059.png" id="59_dseyi"]
+[ext_resource type="Texture2D" uid="uid://cngc42pu6tt1x" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000060.png" id="60_vwdnp"]
+[ext_resource type="Texture2D" uid="uid://bny4c8gtm1c2o" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000061.png" id="61_xji6i"]
+[ext_resource type="Texture2D" uid="uid://dbtvxda5meouj" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000062.png" id="62_r0s5g"]
+[ext_resource type="Texture2D" uid="uid://dfm07h8hqlmkq" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000063.png" id="63_urn50"]
+[ext_resource type="Texture2D" uid="uid://dopffppof71ki" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000064.png" id="64_eyotc"]
+[ext_resource type="Texture2D" uid="uid://b0h4s37itc38d" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000065.png" id="65_jbbdf"]
+[ext_resource type="Texture2D" uid="uid://v707ineej6wn" path="res://Resources/Animations/PSI/PK Fire/PSI Fire e - MCCircuitDC (720p, h264)_000066.png" id="66_kfj3t"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_b1way")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_p585p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6jcv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_odrtu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wsey3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3gq28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_r6ku4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8yiv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bq24q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_phi84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_6my86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ip7e7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_byytw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_2mx43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_esioi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ox4ra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_4lhlc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_lj5te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_47il3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_6id3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_331tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_etpn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_khcsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_26wgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_i7wj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_6405p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_nhu5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_eoy1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ifl4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ep1kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_k3lnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pq8fd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_yllcq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ddlau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_334ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ia3hn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_kcyng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_l0ke3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_r4i86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ex7rs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_5ette")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_fjewy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_wiiru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_yl1ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_yb6vt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_pyeup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_uy0qk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_k4viv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_rc2il")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_fn0af")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_fgc74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_giqfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_8m8c4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_2jh6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_3mt65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_gp254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_10npo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_873nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_dseyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_vwdnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_xji6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_r0s5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_urn50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_eyotc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_jbbdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_kfj3t")
+}],
+"loop": false,
+"name": &"PK Fire",
+"speed": 30.0
+}]

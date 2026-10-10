@@ -1,0 +1,222 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://d4fxs0s0etu6p"]
+
+[ext_resource type="Texture2D" uid="uid://ccncx2bkmyokk" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000001.png" id="1_u6ecl"]
+[ext_resource type="Texture2D" uid="uid://ckipa1bc3ganm" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000002.png" id="2_iglhr"]
+[ext_resource type="Texture2D" uid="uid://buwctceau107l" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000003.png" id="3_elrlb"]
+[ext_resource type="Texture2D" uid="uid://c3m00kk7pt7wh" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000004.png" id="4_4axyl"]
+[ext_resource type="Texture2D" uid="uid://lodfbths4esu" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000005.png" id="5_ayqgq"]
+[ext_resource type="Texture2D" uid="uid://dorxa3nnq1j8p" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000006.png" id="6_mxn3q"]
+[ext_resource type="Texture2D" uid="uid://b4ix43p6nq4bv" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000007.png" id="7_vc4mk"]
+[ext_resource type="Texture2D" uid="uid://bmkqi28gofrj0" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000008.png" id="8_yqkwn"]
+[ext_resource type="Texture2D" uid="uid://bvh8kqd6m31ff" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000009.png" id="9_mjnne"]
+[ext_resource type="Texture2D" uid="uid://c0wy3uakr05ku" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000010.png" id="10_ytuhw"]
+[ext_resource type="Texture2D" uid="uid://cds3dq1vq7wxt" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000011.png" id="11_3t52v"]
+[ext_resource type="Texture2D" uid="uid://cuqyxortje44x" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000012.png" id="12_78egx"]
+[ext_resource type="Texture2D" uid="uid://v3trb2p15y7" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000013.png" id="13_4po6m"]
+[ext_resource type="Texture2D" uid="uid://bnt7jejjsuxcq" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000014.png" id="14_32nl2"]
+[ext_resource type="Texture2D" uid="uid://djc6y4jvga3xo" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000015.png" id="15_s8s87"]
+[ext_resource type="Texture2D" uid="uid://bt7vwew8ut3d4" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000016.png" id="16_iw1th"]
+[ext_resource type="Texture2D" uid="uid://dfsddqfn4t6ny" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000017.png" id="17_ba0te"]
+[ext_resource type="Texture2D" uid="uid://blh3dyt3h6h0f" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000018.png" id="18_h1lqv"]
+[ext_resource type="Texture2D" uid="uid://cqojkwpg4fven" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000019.png" id="19_8udj3"]
+[ext_resource type="Texture2D" uid="uid://t44mgxan21cu" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000020.png" id="20_tlkip"]
+[ext_resource type="Texture2D" uid="uid://du336f8n0dqfh" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000021.png" id="21_1v7c4"]
+[ext_resource type="Texture2D" uid="uid://bx4jg05vts1x1" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000022.png" id="22_xfakc"]
+[ext_resource type="Texture2D" uid="uid://ps35h7q1664" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000023.png" id="23_3q36m"]
+[ext_resource type="Texture2D" uid="uid://dq8o8gnuvyqeo" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000024.png" id="24_6gcs2"]
+[ext_resource type="Texture2D" uid="uid://cduoghwnwyt8n" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000025.png" id="25_wn0m7"]
+[ext_resource type="Texture2D" uid="uid://ds8vsntmbyewf" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000026.png" id="26_7j28l"]
+[ext_resource type="Texture2D" uid="uid://cqe0st6u0gx4u" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000027.png" id="27_6qa5f"]
+[ext_resource type="Texture2D" uid="uid://h7dkxkr8pmbg" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000028.png" id="28_nxufb"]
+[ext_resource type="Texture2D" uid="uid://pcf2x64rucn5" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000029.png" id="29_vdgs2"]
+[ext_resource type="Texture2D" uid="uid://b2hytuote4mn7" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000030.png" id="30_h2iff"]
+[ext_resource type="Texture2D" uid="uid://clwg7wytl5ts4" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000031.png" id="31_ruukn"]
+[ext_resource type="Texture2D" uid="uid://dat1d5qha5nbf" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000032.png" id="32_y8gup"]
+[ext_resource type="Texture2D" uid="uid://ch2l2lk2nugjw" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000033.png" id="33_vywr3"]
+[ext_resource type="Texture2D" uid="uid://cnfvbldbjn611" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000034.png" id="34_23vqx"]
+[ext_resource type="Texture2D" uid="uid://diaiwj5rigeq0" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000035.png" id="35_bapnb"]
+[ext_resource type="Texture2D" uid="uid://cemffok2xganw" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000036.png" id="36_hkgo2"]
+[ext_resource type="Texture2D" uid="uid://r8d6jhsg5cov" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000037.png" id="37_ew1kb"]
+[ext_resource type="Texture2D" uid="uid://c2ujyoudjl4m1" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000038.png" id="38_umiik"]
+[ext_resource type="Texture2D" uid="uid://hqid8obubigo" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000039.png" id="39_ryxth"]
+[ext_resource type="Texture2D" uid="uid://bfsximt6kgmwq" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000040.png" id="40_b1dhw"]
+[ext_resource type="Texture2D" uid="uid://bh7caiya5fli3" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000041.png" id="41_5v4cl"]
+[ext_resource type="Texture2D" uid="uid://by2jnj2fwhk5p" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000042.png" id="42_q04re"]
+[ext_resource type="Texture2D" uid="uid://c0x2qdtoh2gl3" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000043.png" id="43_gcgsc"]
+[ext_resource type="Texture2D" uid="uid://cve8lodcrxtwo" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000044.png" id="44_sck7l"]
+[ext_resource type="Texture2D" uid="uid://dwq3yu34wvnqy" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000045.png" id="45_bcqp6"]
+[ext_resource type="Texture2D" uid="uid://ihefeiapc6p2" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000046.png" id="46_3n1ab"]
+[ext_resource type="Texture2D" uid="uid://bdrrloygnc85c" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000047.png" id="47_um5sy"]
+[ext_resource type="Texture2D" uid="uid://784co2gy1gl" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000048.png" id="48_erg14"]
+[ext_resource type="Texture2D" uid="uid://bsx5cgew88t3" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000049.png" id="49_uq2r5"]
+[ext_resource type="Texture2D" uid="uid://b33xywmks6ces" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000050.png" id="50_wqa40"]
+[ext_resource type="Texture2D" uid="uid://i6t8oxycu0fv" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000051.png" id="51_7wt8l"]
+[ext_resource type="Texture2D" uid="uid://d06yofg356gl" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000052.png" id="52_v1h2w"]
+[ext_resource type="Texture2D" uid="uid://8f3fxrxu03ba" path="res://Resources/Animations/Dark Arts/Globalization/PSI Hypnosis O - MCCircuitDC (720p, h264)_000053.png" id="53_jrpmj"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_u6ecl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_iglhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_elrlb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4axyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ayqgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_mxn3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_vc4mk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yqkwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mjnne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ytuhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3t52v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_78egx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4po6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_32nl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_s8s87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_iw1th")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ba0te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_h1lqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_8udj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_tlkip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_1v7c4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_xfakc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3q36m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_6gcs2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_wn0m7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_7j28l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_6qa5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_nxufb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_vdgs2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_h2iff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ruukn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_y8gup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_vywr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_23vqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_bapnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_hkgo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ew1kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_umiik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ryxth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_b1dhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_5v4cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_q04re")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_gcgsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_sck7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_bcqp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_3n1ab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_um5sy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_erg14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_uq2r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_wqa40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_7wt8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_v1h2w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_jrpmj")
+}],
+"loop": false,
+"name": &"Globalization",
+"speed": 5.0
+}]

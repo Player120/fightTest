@@ -1,7 +1,7 @@
 extends Label
 
-var bossStatus : boss
+var enemyStatus : enemy
 
 func _ready() -> void:
-	bossStatus = boss.new()
-	self.text = str(bossStatus.health)
+	enemyStatus = enemy.new()
+	self.text = str(enemyStatus.health)

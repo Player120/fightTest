@@ -1,0 +1,530 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://drnfesllcaaq0"]
+
+[ext_resource type="Texture2D" uid="uid://6d7es7p3xi5d" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000001.png" id="1_8yxb5"]
+[ext_resource type="Texture2D" uid="uid://cl7gs5dcv4t6m" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000002.png" id="2_lkjt8"]
+[ext_resource type="Texture2D" uid="uid://cbcffltpv2mi0" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000003.png" id="3_a80y6"]
+[ext_resource type="Texture2D" uid="uid://dfiwx2041jj2c" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000004.png" id="4_l8bex"]
+[ext_resource type="Texture2D" uid="uid://b747ntnp6rf01" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000005.png" id="5_au4xw"]
+[ext_resource type="Texture2D" uid="uid://d4mwofifcjped" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000006.png" id="6_5aiwy"]
+[ext_resource type="Texture2D" uid="uid://dmywfogxfl2q0" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000007.png" id="7_f8lrc"]
+[ext_resource type="Texture2D" uid="uid://bymqy5o0kwo2x" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000008.png" id="8_ijo0b"]
+[ext_resource type="Texture2D" uid="uid://c8msvl4cv0l5j" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000009.png" id="9_v803f"]
+[ext_resource type="Texture2D" uid="uid://b7op3kwoeocw8" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000010.png" id="10_sbkut"]
+[ext_resource type="Texture2D" uid="uid://dirkayt0ki2jn" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000011.png" id="11_0avql"]
+[ext_resource type="Texture2D" uid="uid://ce3dpa0s3hkvj" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000012.png" id="12_77l7y"]
+[ext_resource type="Texture2D" uid="uid://dlp6ptsnugcgf" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000013.png" id="13_uohti"]
+[ext_resource type="Texture2D" uid="uid://b81ybpqjpvusm" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000014.png" id="14_j6523"]
+[ext_resource type="Texture2D" uid="uid://17cevakqot4a" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000015.png" id="15_iu5ks"]
+[ext_resource type="Texture2D" uid="uid://dfvr5g1jy8h4k" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000016.png" id="16_knao6"]
+[ext_resource type="Texture2D" uid="uid://cikx6u4n505e" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000017.png" id="17_huiyq"]
+[ext_resource type="Texture2D" uid="uid://kg112c82e0yd" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000018.png" id="18_ex5dg"]
+[ext_resource type="Texture2D" uid="uid://4fl2byam3y4u" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000019.png" id="19_3xq67"]
+[ext_resource type="Texture2D" uid="uid://cc70ihnd8jt2w" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000020.png" id="20_wujci"]
+[ext_resource type="Texture2D" uid="uid://bk4e3wm1xq5h6" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000021.png" id="21_nj46g"]
+[ext_resource type="Texture2D" uid="uid://citmutxpftxew" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000022.png" id="22_88fw5"]
+[ext_resource type="Texture2D" uid="uid://ckkf8y16lrkyv" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000023.png" id="23_dgwv6"]
+[ext_resource type="Texture2D" uid="uid://bihwt6ts53ngh" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000024.png" id="24_v36li"]
+[ext_resource type="Texture2D" uid="uid://bljqnlnwene3w" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000025.png" id="25_x2kgm"]
+[ext_resource type="Texture2D" uid="uid://7idu4ee7arls" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000026.png" id="26_hi4hw"]
+[ext_resource type="Texture2D" uid="uid://dx0sfpnlog4xv" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000027.png" id="27_oa1bc"]
+[ext_resource type="Texture2D" uid="uid://rcinwjmr4xlf" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000028.png" id="28_adkmh"]
+[ext_resource type="Texture2D" uid="uid://cjd0cos1k22i8" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000029.png" id="29_8vbko"]
+[ext_resource type="Texture2D" uid="uid://dlos7n67rfp8j" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000030.png" id="30_8aly3"]
+[ext_resource type="Texture2D" uid="uid://bhdelagqh3p4f" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000031.png" id="31_kk2qj"]
+[ext_resource type="Texture2D" uid="uid://dxkikv4jhk5i4" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000032.png" id="32_oawes"]
+[ext_resource type="Texture2D" uid="uid://by4dy04od6mnu" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000033.png" id="33_jwh32"]
+[ext_resource type="Texture2D" uid="uid://c86bvb6875o0m" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000034.png" id="34_hfmvv"]
+[ext_resource type="Texture2D" uid="uid://dwfc0fs68mogu" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000035.png" id="35_um4yq"]
+[ext_resource type="Texture2D" uid="uid://36r0g0y5r4qg" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000036.png" id="36_j7bm7"]
+[ext_resource type="Texture2D" uid="uid://bcd76f1u0wvuk" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000037.png" id="37_xb508"]
+[ext_resource type="Texture2D" uid="uid://kofdrsln21ul" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000038.png" id="38_v058p"]
+[ext_resource type="Texture2D" uid="uid://mutb02r63ve" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000039.png" id="39_qkixe"]
+[ext_resource type="Texture2D" uid="uid://ua2qw1jeskyl" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000040.png" id="40_aopqw"]
+[ext_resource type="Texture2D" uid="uid://jmmm51fcvbwn" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000041.png" id="41_4hxoj"]
+[ext_resource type="Texture2D" uid="uid://cfvn82o81o22w" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000042.png" id="42_jchn4"]
+[ext_resource type="Texture2D" uid="uid://ckrmbn7duf4nw" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000043.png" id="43_nj124"]
+[ext_resource type="Texture2D" uid="uid://bncdhkf0tqaoo" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000044.png" id="44_b66s8"]
+[ext_resource type="Texture2D" uid="uid://bkbhgxl6sli5i" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000045.png" id="45_046dq"]
+[ext_resource type="Texture2D" uid="uid://cuykrpn5umwlx" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000046.png" id="46_m51sf"]
+[ext_resource type="Texture2D" uid="uid://3jnubruwvacn" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000047.png" id="47_akamu"]
+[ext_resource type="Texture2D" uid="uid://dw3u77put6o7o" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000048.png" id="48_86nss"]
+[ext_resource type="Texture2D" uid="uid://be6pumqajo0k4" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000049.png" id="49_3yd4c"]
+[ext_resource type="Texture2D" uid="uid://oywu2f01axs0" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000050.png" id="50_kcc8m"]
+[ext_resource type="Texture2D" uid="uid://bxdkc566llkgu" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000051.png" id="51_1ya76"]
+[ext_resource type="Texture2D" uid="uid://bae0u8yc8fl76" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000052.png" id="52_px8yo"]
+[ext_resource type="Texture2D" uid="uid://cwngdogaw7tjk" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000053.png" id="53_fnw4i"]
+[ext_resource type="Texture2D" uid="uid://eaog6o7urdll" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000054.png" id="54_3laww"]
+[ext_resource type="Texture2D" uid="uid://cuj78fsqpb3vw" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000055.png" id="55_ewp07"]
+[ext_resource type="Texture2D" uid="uid://orcfm3fqor3q" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000056.png" id="56_1outt"]
+[ext_resource type="Texture2D" uid="uid://0atwa3vnvvpr" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000057.png" id="57_rye4b"]
+[ext_resource type="Texture2D" uid="uid://du0vpcobumfnv" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000058.png" id="58_v2phw"]
+[ext_resource type="Texture2D" uid="uid://cwsfpsfpwhiow" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000059.png" id="59_f4utj"]
+[ext_resource type="Texture2D" uid="uid://21ws4u7itd32" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000060.png" id="60_8j3qr"]
+[ext_resource type="Texture2D" uid="uid://t3sh3lm7ndtk" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000061.png" id="61_2ux1b"]
+[ext_resource type="Texture2D" uid="uid://d1vrrmdwmdlcx" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000062.png" id="62_siuuq"]
+[ext_resource type="Texture2D" uid="uid://eotqelgiykxi" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000063.png" id="63_6r38t"]
+[ext_resource type="Texture2D" uid="uid://cfw3bk7md0hsm" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000064.png" id="64_i2c6d"]
+[ext_resource type="Texture2D" uid="uid://dvmuo5wkbmnwc" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000065.png" id="65_2ms80"]
+[ext_resource type="Texture2D" uid="uid://dw2a4buv2tlhm" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000066.png" id="66_bttah"]
+[ext_resource type="Texture2D" uid="uid://btjnna4x0cqu5" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000067.png" id="67_timi0"]
+[ext_resource type="Texture2D" uid="uid://cbfd7yr5831od" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000068.png" id="68_4gjlo"]
+[ext_resource type="Texture2D" uid="uid://bsxf23f6o01sj" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000069.png" id="69_dy6e5"]
+[ext_resource type="Texture2D" uid="uid://b0g7lcpufxeed" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000070.png" id="70_qlrhj"]
+[ext_resource type="Texture2D" uid="uid://oxu2m48aj0l1" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000071.png" id="71_jddji"]
+[ext_resource type="Texture2D" uid="uid://bk6frw3icoqoe" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000072.png" id="72_kxyl2"]
+[ext_resource type="Texture2D" uid="uid://dem65oiptixjj" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000073.png" id="73_65s0u"]
+[ext_resource type="Texture2D" uid="uid://dako61i58d7dq" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000074.png" id="74_wtxty"]
+[ext_resource type="Texture2D" uid="uid://cwh0um2stwhel" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000075.png" id="75_eu6qs"]
+[ext_resource type="Texture2D" uid="uid://d080hncjavxj6" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000076.png" id="76_fn70q"]
+[ext_resource type="Texture2D" uid="uid://dq1w8edhxra8l" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000077.png" id="77_sas01"]
+[ext_resource type="Texture2D" uid="uid://cfwncr2cstb3g" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000078.png" id="78_bbjmx"]
+[ext_resource type="Texture2D" uid="uid://fr0wca0ak8ox" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000079.png" id="79_rmxxk"]
+[ext_resource type="Texture2D" uid="uid://h0dhskjy02qq" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000080.png" id="80_asnnv"]
+[ext_resource type="Texture2D" uid="uid://bhyynwykcsvcr" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000081.png" id="81_rgpc2"]
+[ext_resource type="Texture2D" uid="uid://dsoswinr6hdhu" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000082.png" id="82_m5hqu"]
+[ext_resource type="Texture2D" uid="uid://bw11opva082te" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000083.png" id="83_1nh8v"]
+[ext_resource type="Texture2D" uid="uid://b8wlgoinbc3k5" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000084.png" id="84_f1p6o"]
+[ext_resource type="Texture2D" uid="uid://wooi0nixki07" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000085.png" id="85_fyyuh"]
+[ext_resource type="Texture2D" uid="uid://c453g0dgycr1u" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000086.png" id="86_gru83"]
+[ext_resource type="Texture2D" uid="uid://c4w861aa2lebj" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000087.png" id="87_jt6h3"]
+[ext_resource type="Texture2D" uid="uid://bt21md07pst1p" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000088.png" id="88_gekg0"]
+[ext_resource type="Texture2D" uid="uid://bdkvxdd301ybw" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000089.png" id="89_qifde"]
+[ext_resource type="Texture2D" uid="uid://drctn4j3m0npe" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000090.png" id="90_sviyr"]
+[ext_resource type="Texture2D" uid="uid://ct2wxg72a062d" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000091.png" id="91_xcp7h"]
+[ext_resource type="Texture2D" uid="uid://b4uehr524s4tn" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000092.png" id="92_hvu33"]
+[ext_resource type="Texture2D" uid="uid://tt2ugmogsg8f" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000093.png" id="93_atl8i"]
+[ext_resource type="Texture2D" uid="uid://b7kw13df4h8t2" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000094.png" id="94_0vwmp"]
+[ext_resource type="Texture2D" uid="uid://c7gyjup474kif" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000095.png" id="95_u2mxa"]
+[ext_resource type="Texture2D" uid="uid://c2fcd16d6ttof" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000096.png" id="96_y2pt1"]
+[ext_resource type="Texture2D" uid="uid://byhe4qlkhm63b" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000097.png" id="97_06ja2"]
+[ext_resource type="Texture2D" uid="uid://ceyqmdyxyufuy" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000098.png" id="98_i1m25"]
+[ext_resource type="Texture2D" uid="uid://bbxt7oqo0ab44" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000099.png" id="99_bqfow"]
+[ext_resource type="Texture2D" uid="uid://buun0xim84723" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000100.png" id="100_mevfb"]
+[ext_resource type="Texture2D" uid="uid://b133hflvgbkf3" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000101.png" id="101_20o6p"]
+[ext_resource type="Texture2D" uid="uid://70tf7bsucket" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000102.png" id="102_115d7"]
+[ext_resource type="Texture2D" uid="uid://dnpqcouel1shb" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000103.png" id="103_vl4xw"]
+[ext_resource type="Texture2D" uid="uid://cte47xticup82" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000104.png" id="104_dehnu"]
+[ext_resource type="Texture2D" uid="uid://rgto3rm5out2" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000105.png" id="105_bke7q"]
+[ext_resource type="Texture2D" uid="uid://bkxvhk5bee2oj" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000106.png" id="106_chpqm"]
+[ext_resource type="Texture2D" uid="uid://c013n5uqtmnvx" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000107.png" id="107_cbahb"]
+[ext_resource type="Texture2D" uid="uid://b0i4blosdae30" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000108.png" id="108_g1m5g"]
+[ext_resource type="Texture2D" uid="uid://dsgtwpodka7be" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000109.png" id="109_pafjb"]
+[ext_resource type="Texture2D" uid="uid://c1u6swif8mkwr" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000110.png" id="110_vixhu"]
+[ext_resource type="Texture2D" uid="uid://dvb5xty0qcopy" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000111.png" id="111_vaqkn"]
+[ext_resource type="Texture2D" uid="uid://82ebpqjpwcov" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000112.png" id="112_uxkxg"]
+[ext_resource type="Texture2D" uid="uid://snd42elgcvda" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000113.png" id="113_kkvk3"]
+[ext_resource type="Texture2D" uid="uid://cfouyxj11qsu4" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000114.png" id="114_p6xhj"]
+[ext_resource type="Texture2D" uid="uid://b5lh025dsdn55" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000115.png" id="115_bsrcm"]
+[ext_resource type="Texture2D" uid="uid://uv1fc4lvmif0" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000116.png" id="116_mlh0d"]
+[ext_resource type="Texture2D" uid="uid://ceokvq2arjhnt" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000117.png" id="117_h40xc"]
+[ext_resource type="Texture2D" uid="uid://ce1c7gukmqiqo" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000118.png" id="118_lougx"]
+[ext_resource type="Texture2D" uid="uid://d0u5pwu064hpb" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000119.png" id="119_gx3bk"]
+[ext_resource type="Texture2D" uid="uid://d18q4g5xrrjj6" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000120.png" id="120_4udjw"]
+[ext_resource type="Texture2D" uid="uid://cglx71sd4fsvs" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000121.png" id="121_301he"]
+[ext_resource type="Texture2D" uid="uid://m4h6mxhxwfm1" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000122.png" id="122_36a1c"]
+[ext_resource type="Texture2D" uid="uid://c8eyuxv4r2fdj" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000123.png" id="123_yi7aj"]
+[ext_resource type="Texture2D" uid="uid://dbu6tcb21ogsw" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000124.png" id="124_ug7tp"]
+[ext_resource type="Texture2D" uid="uid://d0ss0fp6kdej0" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000125.png" id="125_ta2vi"]
+[ext_resource type="Texture2D" uid="uid://cfmj284gjbu2y" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000126.png" id="126_nducf"]
+[ext_resource type="Texture2D" uid="uid://btopxl6kw24sg" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000127.png" id="127_h1yi6"]
+[ext_resource type="Texture2D" uid="uid://3i7k27ugcxqb" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000128.png" id="128_d462q"]
+[ext_resource type="Texture2D" uid="uid://bw8ukqlxfapd0" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000129.png" id="129_qolae"]
+[ext_resource type="Texture2D" uid="uid://blaau4s5pshc5" path="res://Resources/Animations/Dark Arts/Logarithms/PSI Brainshock O - MCCircuitDC (720p, h264)_000130.png" id="130_phh3p"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8yxb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lkjt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a80y6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_l8bex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_au4xw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5aiwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_f8lrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ijo0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_v803f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_sbkut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0avql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_77l7y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_uohti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_j6523")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_iu5ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_knao6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_huiyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ex5dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3xq67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_wujci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_nj46g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_88fw5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_dgwv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_v36li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_x2kgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_hi4hw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_oa1bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_adkmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_8vbko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_8aly3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_kk2qj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_oawes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jwh32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_hfmvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_um4yq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_j7bm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_xb508")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_v058p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_qkixe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_aopqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_4hxoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_jchn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_nj124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_b66s8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_046dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_m51sf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_akamu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_86nss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_3yd4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_kcc8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_1ya76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_px8yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_fnw4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_3laww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_ewp07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_1outt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_rye4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_v2phw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_f4utj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_8j3qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_2ux1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_siuuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_6r38t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_i2c6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_2ms80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_bttah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_timi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_4gjlo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_dy6e5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_qlrhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_jddji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_kxyl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_65s0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_wtxty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_eu6qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_fn70q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_sas01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_bbjmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_rmxxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_asnnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_rgpc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_m5hqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_1nh8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_f1p6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_fyyuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_gru83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_jt6h3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_gekg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_qifde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_sviyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_xcp7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_hvu33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_atl8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_0vwmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_u2mxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_y2pt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_06ja2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_i1m25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_bqfow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_mevfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_20o6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_115d7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_vl4xw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_dehnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_bke7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_chpqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_cbahb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_g1m5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_pafjb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_vixhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_vaqkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_uxkxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_kkvk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_p6xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_bsrcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_mlh0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_h40xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_lougx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_gx3bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_4udjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_301he")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_36a1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_yi7aj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_ug7tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_ta2vi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_nducf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_h1yi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_d462q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_qolae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_phh3p")
+}],
+"loop": false,
+"name": &"Logarithms",
+"speed": 30.0
+}]

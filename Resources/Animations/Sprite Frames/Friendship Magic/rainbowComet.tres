@@ -1,0 +1,398 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://xfmxjbk6hg5f"]
+
+[ext_resource type="Texture2D" uid="uid://bjegq6jtcfx8s" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000001.png" id="1_40wh2"]
+[ext_resource type="Texture2D" uid="uid://owswrgjlsaik" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000002.png" id="2_2ddg1"]
+[ext_resource type="Texture2D" uid="uid://47c8ak3aumqu" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000003.png" id="3_f8x1j"]
+[ext_resource type="Texture2D" uid="uid://2s0iv0x14eg" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000004.png" id="4_y5h7o"]
+[ext_resource type="Texture2D" uid="uid://bewrviyud5l6d" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000005.png" id="5_01457"]
+[ext_resource type="Texture2D" uid="uid://j48k1tr6vtmv" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000006.png" id="6_4vjxl"]
+[ext_resource type="Texture2D" uid="uid://bomwynmd54xo3" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000007.png" id="7_7axq1"]
+[ext_resource type="Texture2D" uid="uid://btl25qmmogll2" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000008.png" id="8_tmkja"]
+[ext_resource type="Texture2D" uid="uid://dqvcm5y672oyx" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000009.png" id="9_mq6ru"]
+[ext_resource type="Texture2D" uid="uid://dxauvd2opbigs" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000010.png" id="10_grl05"]
+[ext_resource type="Texture2D" uid="uid://df7lx2n3fffvj" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000011.png" id="11_m8bc7"]
+[ext_resource type="Texture2D" uid="uid://cunuk6mwarfh4" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000012.png" id="12_843v1"]
+[ext_resource type="Texture2D" uid="uid://cxtutc5dhhtcb" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000013.png" id="13_ghcci"]
+[ext_resource type="Texture2D" uid="uid://b866xmyax8osm" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000014.png" id="14_esoih"]
+[ext_resource type="Texture2D" uid="uid://i36kgqjmx6m8" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000015.png" id="15_g1xq0"]
+[ext_resource type="Texture2D" uid="uid://c267uw8byjds1" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000016.png" id="16_bqeyp"]
+[ext_resource type="Texture2D" uid="uid://csi1ppw6juiis" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000017.png" id="17_nbnm5"]
+[ext_resource type="Texture2D" uid="uid://chk1sivfkwo1a" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000018.png" id="18_vmnx1"]
+[ext_resource type="Texture2D" uid="uid://buuk36x017li" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000019.png" id="19_jppe3"]
+[ext_resource type="Texture2D" uid="uid://dr37iofyquu5l" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000020.png" id="20_mmae8"]
+[ext_resource type="Texture2D" uid="uid://cski86ore4jb0" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000021.png" id="21_3t70w"]
+[ext_resource type="Texture2D" uid="uid://cqg7ioknpn1st" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000022.png" id="22_3eqbt"]
+[ext_resource type="Texture2D" uid="uid://wu101bp8c4m6" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000023.png" id="23_f6yea"]
+[ext_resource type="Texture2D" uid="uid://pqrau8rjb6us" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000024.png" id="24_4xowr"]
+[ext_resource type="Texture2D" uid="uid://b31v58cvuevr5" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000025.png" id="25_uqbjl"]
+[ext_resource type="Texture2D" uid="uid://cygqwh7i637h7" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000026.png" id="26_yymlc"]
+[ext_resource type="Texture2D" uid="uid://cnpo4pgaybr5j" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000027.png" id="27_k08ky"]
+[ext_resource type="Texture2D" uid="uid://3d67kcve8lub" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000028.png" id="28_03lps"]
+[ext_resource type="Texture2D" uid="uid://cy386kr10trdu" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000029.png" id="29_kyln3"]
+[ext_resource type="Texture2D" uid="uid://iiu4nw6tdpq8" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000030.png" id="30_b2r4e"]
+[ext_resource type="Texture2D" uid="uid://lvyasfdvk6u4" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000031.png" id="31_1vvjn"]
+[ext_resource type="Texture2D" uid="uid://bvosudt84o0pe" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000032.png" id="32_exqfw"]
+[ext_resource type="Texture2D" uid="uid://co8was25heb0s" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000033.png" id="33_t5miy"]
+[ext_resource type="Texture2D" uid="uid://0rpatxd66hjy" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000034.png" id="34_sv5bx"]
+[ext_resource type="Texture2D" uid="uid://bcxb53gjtkr0o" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000035.png" id="35_pjvr5"]
+[ext_resource type="Texture2D" uid="uid://dfcrosg47no65" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000036.png" id="36_p0ul0"]
+[ext_resource type="Texture2D" uid="uid://bue36rtphufwk" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000037.png" id="37_3bmqy"]
+[ext_resource type="Texture2D" uid="uid://cx7guxxrb5sx3" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000038.png" id="38_7essl"]
+[ext_resource type="Texture2D" uid="uid://dmvtw2c0bjc38" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000039.png" id="39_isnyx"]
+[ext_resource type="Texture2D" uid="uid://coh26ryc7u6lq" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000040.png" id="40_btpe3"]
+[ext_resource type="Texture2D" uid="uid://ck7r6vgwcfurl" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000041.png" id="41_24ccl"]
+[ext_resource type="Texture2D" uid="uid://e8boi7nfcfk" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000042.png" id="42_ymt0u"]
+[ext_resource type="Texture2D" uid="uid://dgmpxobe55vm3" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000043.png" id="43_yhai1"]
+[ext_resource type="Texture2D" uid="uid://b7r45x0augb4o" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000044.png" id="44_6wfty"]
+[ext_resource type="Texture2D" uid="uid://d2uv3ffryhllj" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000045.png" id="45_3jrxp"]
+[ext_resource type="Texture2D" uid="uid://csltjwe0lgfph" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000046.png" id="46_jg6lw"]
+[ext_resource type="Texture2D" uid="uid://blb8op5tn5vh2" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000047.png" id="47_7trf5"]
+[ext_resource type="Texture2D" uid="uid://b54wusdpoh7l" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000048.png" id="48_gy0wp"]
+[ext_resource type="Texture2D" uid="uid://cl0dxdq8bwlkh" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000049.png" id="49_n4fxg"]
+[ext_resource type="Texture2D" uid="uid://mg2dcuw6f5yo" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000050.png" id="50_wsupf"]
+[ext_resource type="Texture2D" uid="uid://bvq78lk7k8uh" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000051.png" id="51_3jkly"]
+[ext_resource type="Texture2D" uid="uid://bhsxsy4twrkh1" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000052.png" id="52_xpg58"]
+[ext_resource type="Texture2D" uid="uid://ddpcnv6kdpg1n" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000053.png" id="53_d1ebt"]
+[ext_resource type="Texture2D" uid="uid://4h4kjml4anpq" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000054.png" id="54_8meq7"]
+[ext_resource type="Texture2D" uid="uid://eugrl715j4fy" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000055.png" id="55_htoc3"]
+[ext_resource type="Texture2D" uid="uid://74dieeupr5sf" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000056.png" id="56_4w8qr"]
+[ext_resource type="Texture2D" uid="uid://bwsa6y21e4jt2" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000057.png" id="57_mx775"]
+[ext_resource type="Texture2D" uid="uid://383npeq3kfof" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000058.png" id="58_4t2e0"]
+[ext_resource type="Texture2D" uid="uid://kvttnwckf6ga" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000059.png" id="59_yb5cd"]
+[ext_resource type="Texture2D" uid="uid://djfv3cgie464w" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000060.png" id="60_sw878"]
+[ext_resource type="Texture2D" uid="uid://krohg5ic5dh3" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000061.png" id="61_3nfvl"]
+[ext_resource type="Texture2D" uid="uid://78x6ytb7oydh" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000062.png" id="62_lgtiq"]
+[ext_resource type="Texture2D" uid="uid://drg3odc08brul" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000063.png" id="63_2gh1h"]
+[ext_resource type="Texture2D" uid="uid://bqf37m4ncftvl" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000064.png" id="64_ywexn"]
+[ext_resource type="Texture2D" uid="uid://jvwavppjsanj" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000065.png" id="65_sd3wy"]
+[ext_resource type="Texture2D" uid="uid://b85kexp6tq48b" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000066.png" id="66_y4fl8"]
+[ext_resource type="Texture2D" uid="uid://c0p0fixrd4fsd" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000067.png" id="67_8lbmr"]
+[ext_resource type="Texture2D" uid="uid://cywa1tlqqpbxj" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000068.png" id="68_54wgf"]
+[ext_resource type="Texture2D" uid="uid://b6bfbw8t5caff" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000069.png" id="69_mnkwp"]
+[ext_resource type="Texture2D" uid="uid://cnadeh647kq10" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000070.png" id="70_qdass"]
+[ext_resource type="Texture2D" uid="uid://b0tys6lxt4wub" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000071.png" id="71_7vng1"]
+[ext_resource type="Texture2D" uid="uid://w4e3xw10n3oa" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000072.png" id="72_uiiv7"]
+[ext_resource type="Texture2D" uid="uid://dbw72ggohfjnu" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000073.png" id="73_rrvyk"]
+[ext_resource type="Texture2D" uid="uid://5h2qqkrrsjx7" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000074.png" id="74_a5jrs"]
+[ext_resource type="Texture2D" uid="uid://bk8gu8jnmkgce" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000075.png" id="75_oerre"]
+[ext_resource type="Texture2D" uid="uid://4q13p3t3ohqo" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000076.png" id="76_auclj"]
+[ext_resource type="Texture2D" uid="uid://282wkcq74aie" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000077.png" id="77_pulib"]
+[ext_resource type="Texture2D" uid="uid://dxvgxkpxcw3ft" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000078.png" id="78_afqqa"]
+[ext_resource type="Texture2D" uid="uid://b4ufd5kjf01ls" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000079.png" id="79_ty4e4"]
+[ext_resource type="Texture2D" uid="uid://clyxdoe2hknns" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000080.png" id="80_mgy64"]
+[ext_resource type="Texture2D" uid="uid://db8t1sweqkguw" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000081.png" id="81_n3x7s"]
+[ext_resource type="Texture2D" uid="uid://c225fc2letbmh" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000082.png" id="82_8ny8i"]
+[ext_resource type="Texture2D" uid="uid://b7e0wurq3epvl" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000083.png" id="83_4kxpk"]
+[ext_resource type="Texture2D" uid="uid://12ice1bpq73s" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000084.png" id="84_if3fu"]
+[ext_resource type="Texture2D" uid="uid://dvbke2fg5b4ke" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000085.png" id="85_nsgtq"]
+[ext_resource type="Texture2D" uid="uid://ceypq8l2ua6ub" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000086.png" id="86_72ues"]
+[ext_resource type="Texture2D" uid="uid://browhka4lymkj" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000087.png" id="87_1yvre"]
+[ext_resource type="Texture2D" uid="uid://cdaa31fjnjn6d" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000088.png" id="88_pbnpe"]
+[ext_resource type="Texture2D" uid="uid://bpfbyixnp720g" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000089.png" id="89_lhnjj"]
+[ext_resource type="Texture2D" uid="uid://cnns4372yjvlx" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000090.png" id="90_8nmw8"]
+[ext_resource type="Texture2D" uid="uid://tvirl08pl1if" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000091.png" id="91_742ak"]
+[ext_resource type="Texture2D" uid="uid://bmtdwhsu0vue5" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000092.png" id="92_u7nfg"]
+[ext_resource type="Texture2D" uid="uid://ceavgw88w0i13" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000093.png" id="93_jpwma"]
+[ext_resource type="Texture2D" uid="uid://b3rj0skrwitkn" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000094.png" id="94_025ui"]
+[ext_resource type="Texture2D" uid="uid://s1xmgwqphcvs" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000095.png" id="95_318op"]
+[ext_resource type="Texture2D" uid="uid://dna4644hennek" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000096.png" id="96_28gyx"]
+[ext_resource type="Texture2D" uid="uid://chcntbyip57xm" path="res://Resources/Animations/Frienship Powers/Rainbow Star/PSI Shield a - MCCircuitDC (720p, h264)_000097.png" id="97_fvrue"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_40wh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2ddg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f8x1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_y5h7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_01457")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_4vjxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7axq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_tmkja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mq6ru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_grl05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_m8bc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_843v1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ghcci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_esoih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_g1xq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_bqeyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_nbnm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_vmnx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jppe3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_mmae8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3t70w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_3eqbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_f6yea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_4xowr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_uqbjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yymlc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_k08ky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_03lps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kyln3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_b2r4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_1vvjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_exqfw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_t5miy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_sv5bx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pjvr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_p0ul0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_3bmqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_7essl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_isnyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_btpe3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_24ccl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_ymt0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_yhai1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_6wfty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_3jrxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_jg6lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_7trf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_gy0wp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_n4fxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_wsupf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_3jkly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_xpg58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_d1ebt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_8meq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_htoc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_4w8qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_mx775")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_4t2e0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_yb5cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_sw878")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_3nfvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_lgtiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_2gh1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_ywexn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_sd3wy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_y4fl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_8lbmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_54wgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_mnkwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_qdass")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_7vng1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_uiiv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_rrvyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_a5jrs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_oerre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_auclj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_pulib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_afqqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_ty4e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_mgy64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_n3x7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_8ny8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_4kxpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_if3fu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_nsgtq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_72ues")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_1yvre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_pbnpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_lhnjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_8nmw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_742ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_u7nfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_jpwma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_025ui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_318op")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_28gyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_fvrue")
+}],
+"loop": false,
+"name": &"Rainbow Comet",
+"speed": 30.0
+}]
