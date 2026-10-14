@@ -9,10 +9,10 @@ func burn(affected : Node) -> void:
 	if (stopBurning > 1 && affected.alive):
 		await owner.showHappeningText(["%s is toasting!" % [affected.charName]])
 		var damage : int = randi_range(44, 101)
-		var damageMessage : String = "%s took %d HP of damage from the severe toasting!" % [affected.charName, damage]
+		var damageMessage : String = " HP of damage from the severe toasting!" % [affected.charName, damage]
 		
 		print("BURNTARGET BEFORE:: %d HP" % [affected.health])
-		await damageHandler(affected, damage, damageMessage)
+		await Global.damageHandler(affected, affected, damage, damageMessage, false, "%s took " % [affected.charName])
 		print("BURNTARGET AFTER:: %d HP" % [affected.health])
 	else:
 		affected.statusEffect.erase("burn")
@@ -48,6 +48,7 @@ func paralysis(affected : Node) -> bool:
 	var willRemove : int = randi_range(1, 10)
 	if (willRemove == 1):
 		affected.statusEffect.erase("paralysis")
+		affected.speed *= 2
 		await owner.showHappeningText(["%s's paralysis is gone!" % [affected.charName]])
 		return true
 	
@@ -63,7 +64,7 @@ func shield(attacker : Node, affected : Node, damage : int) -> Array:
 	var info : Array = []
 	var reflectedDamage : int = ceil(damage * 0.4)
 	print("DAMAGE BEFORE SHIELD:: ", damage)
-	damage *= 0.5
+	damage = floor(damage * 0.5)
 	print("DAMAGE AFTER SHIELD:: ", damage)
 	info.append(damage) # [0]
 	info.append(reflectedDamage) # [1]
@@ -79,12 +80,3 @@ func shield(attacker : Node, affected : Node, damage : int) -> Array:
 		info.append("%s's power shield dissapeared!" % [affected.charName]) # [4]
 		
 	return info
-
-
-func damageHandler(deffender : Node, damage : int, message : String) -> void:
-	deffender.health -= damage
-	owner.updateHealthText(deffender)
-	
-	await owner.showHappeningText([message])
-	
-	await owner.testForDeath(deffender)

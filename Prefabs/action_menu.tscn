@@ -8,11 +8,10 @@
 [ext_resource type="Script" uid="uid://qk11ogunc0ag" path="res://Scripts/UI/tooltip_formating.gd" id="6_e734a"]
 
 [node name="ActionMenu" type="Control" unique_id=1012500843]
-custom_minimum_size = Vector2(1152, 120)
+custom_minimum_size = Vector2(1152, 100)
 layout_mode = 3
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 120.0
 grow_horizontal = 2
 theme = ExtResource("1_5jcrk")
 script = ExtResource("1_7wp0d")
@@ -328,11 +327,14 @@ script = ExtResource("6_e734a")
 tooltipSize = 650.0
 
 [node name="Actions" type="Control" parent="." unique_id=1415464548]
-custom_minimum_size = Vector2(1152, 120)
+custom_minimum_size = Vector2(1152, 110)
 layout_mode = 1
-anchors_preset = 10
+anchors_preset = 14
+anchor_top = 0.5
 anchor_right = 1.0
+anchor_bottom = 0.5
 grow_horizontal = 2
+grow_vertical = 2
 
 [node name="ColorRect" type="ColorRect" parent="Actions" unique_id=561226312]
 layout_mode = 1
@@ -351,6 +353,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_c6etk")
+expand_mode = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Actions" unique_id=100344430]
 layout_mode = 1

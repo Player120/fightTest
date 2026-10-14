@@ -63,20 +63,21 @@ func darkRoom(user : Node):
 			await owner.showHappeningText(["%s's defense went down by %d!" % [member.charName, updatedStats]])
 			
 			updatedStats = randi_range(50, 110) # For damage
-			var damageMessage : String = "%s took %d HP of damage from the horrid smell!" % [member.charName, updatedStats]
-			await damageHandler(member, updatedStats, damageMessage)
+			var damageMessage : String = " HP of damage from the horrid smell!" % [member.charName, updatedStats]
+			await Global.damageHandler(user, member, updatedStats, damageMessage, true, "%s took " % [member.charName])
 
 func mysqlHack(user : Node):
 	await owner.showHappeningText(["%s showed %s a never-seen-before MySQL hack!" % [user.charName, user.target.charName]])
 	
 	var damage : int = randi_range(30, 90)
-	var damageMessage : String = "%d HP of damage to %s from the overwhelming amount of innovation!" % [damage, user.target.charName]
-	await damageHandler(user.target, damage, damageMessage)
+	var damageMessage : String = " HP of damage from the overwhelming amount of innovation!" % [damage, user.target.charName]
+	await Global.damageHandler(user, user.target, damage, damageMessage, true, "%s took " % [user.target.charName])
 	
 	var willParalyse = randi_range(1, 3)
 	if (user.target.alive && willParalyse == 1 && !user.target.statusEffect.has("paralysis")):
 		await owner.showHappeningText(["The shock from the deadly levels of innovation left %s paralysed!" % [user.target.charName]])
 		user.target.statusEffect.append("paralysis")
+		user.speed = floor(user.speed / 2)
 
 func innovationSingularity(user : Node):
 	await owner.showHappeningText(["%s achieved the Ultra Innovation Singularity!" % [user.charName]])
@@ -105,11 +106,3 @@ func innovationSingularity(user : Node):
 	user.action = randomSpecialClass
 	user.specialMoveName = randomSpecialMove
 	await owner.moveManager(user, user.target)
-
-func damageHandler(defender : Node, damage : int, message : String) -> void:
-	defender.health -= damage
-	owner.updateHealthText(defender)
-	
-	await owner.showHappeningText([message])
-	
-	await owner.testForDeath(defender)

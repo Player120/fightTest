@@ -87,6 +87,7 @@ size_flags_vertical = 4
 [node name="Character" type="TextureRect" parent="NamingArea/HBoxContainer" unique_id=1740689348]
 layout_mode = 2
 texture = ExtResource("4_dxdeg")
+stretch_mode = 2
 
 [node name="Spacing" type="Control" parent="NamingArea/HBoxContainer" unique_id=455930782]
 custom_minimum_size = Vector2(30, 0)
@@ -117,7 +118,7 @@ layout_mode = 2
 custom_minimum_size = Vector2(140, 0)
 layout_mode = 2
 size_flags_horizontal = 0
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 30
 text = "Don't Care"
 
 [node name="Spacing 2" type="Control" parent="NamingArea/HBoxContainer/VBoxContainer" unique_id=187783868]
@@ -129,7 +130,7 @@ custom_minimum_size = Vector2(90, 0)
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 8
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 30
 text = "Done"
 
 [connection signal="pressed" from="BackToStart" to="." method="_on_back_to_start_pressed"]

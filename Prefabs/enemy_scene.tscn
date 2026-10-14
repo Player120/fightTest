@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://csrm0lakyqsyw" path="res://Resources/Sprites/Characters/bigGus.svg" id="2_poafv"]
 
 [node name="EnemyScene" type="Control" unique_id=351384679]
-custom_minimum_size = Vector2(301, 468)
+custom_minimum_size = Vector2(300, 0)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,14 +22,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -150.5
-offset_top = -234.0
-offset_right = 150.5
-offset_bottom = 234.0
+offset_left = -136.0
+offset_top = -211.5
+offset_right = 136.0
+offset_bottom = 211.5
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_poafv")
-stretch_mode = 5
+stretch_mode = 3
 
 [node name="enemyHpNumber" type="Label" parent="EnemySprite" unique_id=1289980285]
 layout_mode = 1
@@ -38,10 +38,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -21.0
-offset_top = -7.0
-offset_right = 3.0
-offset_bottom = 71.172
+offset_left = -12.0
+offset_top = -5.0859985
+offset_right = 12.0
+offset_bottom = 73.086
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.890505, 0, 0.0595209, 1)

@@ -53,9 +53,5 @@ func changeBackground(imagePath : String):
 	# Change the backgroud while it's fully transparent
 	backgroundTween.tween_callback(func(): battleBackground.texture = newBackground)
 	
-	# Set the background expand to fit width proportional and stetch to scale
-	battleBackground.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
-	battleBackground.stretch_mode = TextureRect.STRETCH_SCALE
-	
-	# Mae the background visible again
+	# Make the background visible again
 	backgroundTween.tween_property(battleBackground, "modulate:a", 1.0, 1.0)

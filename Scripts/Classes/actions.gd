@@ -15,7 +15,7 @@ func attack(attacker : Node, defender : Node) -> void:
 	if (defender.alive):
 		var dodgeChance : int = randi_range(1, 100)
 		
-		if (dodgeChance > defender.speed):
+		if (dodgeChance > defender.speed or defender.statusEffect.has("paralysis") or defender.statusEffect.has("freeze")):
 			const constantScale : float = 100.0
 			var defenseMultiplier : float = constantScale / (constantScale + defender.defense)
 			
@@ -36,7 +36,7 @@ func attack(attacker : Node, defender : Node) -> void:
 			
 			var damageMessage : String = " HP of damage to %s!" % [defender.charName]
 			
-			await damageHandler(attacker, defender, damage, damageMessage, criticalMessage)
+			await Global.damageHandler(attacker, defender, damage, damageMessage, true, criticalMessage)
 		else:
 			await owner.showHappeningText(["%s dodged with style!" % [defender.charName]])
 	else:
@@ -117,30 +117,3 @@ func innovationManager(user : Node, target : Node, playerTeam : Array[player]):
 			await innovationTactics.mysqlHack(user)
 		"Innovation Singularity":
 			await innovationTactics.innovationSingularity(user)
-
-func damageHandler(attacker : Node, defender : Node, damage : int, message : String, criticalMessage : String) -> void:
-	var finalMessage : Array = []
-	var shieldInfo : Array = []
-	if (defender.statusEffect.has("shield")):
-		shieldInfo = effects.shield(attacker, defender, damage)
-		# shieldInfo positions: [0] damage | [1] reflected damage | [2] reflected message 1 | [3] reflected message 2 | [4] dissapeared message
-		damage = shieldInfo[0]
-		
-	defender.health -= damage
-	owner.updateHealthText(defender)
-	finalMessage.append(criticalMessage + str(damage) + message)
-	await owner.showHappeningText(finalMessage)
-	await owner.testForDeath(defender)
-	
-	if (owner.isPlayerTeamAlive and owner.isEnemyTeamAlive and not shieldInfo.is_empty() and attacker.alive):
-		var reflectedMessages : Array[String] = [shieldInfo[2], shieldInfo[3]]
-		finalMessage = reflectedMessages
-		
-		attacker.health -= shieldInfo[1]
-		
-		await owner.showHappeningText([finalMessage[0]])
-		owner.updateHealthText(attacker)
-		await owner.showHappeningText([finalMessage[1]])
-		await owner.testForDeath(attacker)
-		if (shieldInfo.size() > 4 and owner.isPlayerTeamAlive and owner.isEnemyTeamAlive):
-			await owner.showHappeningText([shieldInfo[4]])

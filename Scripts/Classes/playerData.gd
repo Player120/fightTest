@@ -8,8 +8,8 @@ var info : Array[Dictionary] = [
 		"powerPoints": 100,
 		"offense": 45,
 		"defense": 28,
-		"speed": 22,
-		"determination": 35,
+		"speed": 36,
+		"determination": 37,
 		"specialAbility": "PSI",
 		"themeColor": "eee411",
 		"sprite": "res://Resources/Sprites/Characters/rafa.svg"
@@ -18,9 +18,9 @@ var info : Array[Dictionary] = [
 		"charName": Global.customPlayerNames[1] if not Global.customPlayerNames.is_empty() else Global.defaultPlayerNames[1], # Otávio
 		"health": 250,
 		"powerPoints": 0,
-		"offense": 110,
+		"offense": 120,
 		"defense": 52,
-		"speed": 14,
+		"speed": 16,
 		"determination": 17,
 		"specialAbility": "Dark Arts",
 		"themeColor": "7d00fa",
@@ -30,8 +30,8 @@ var info : Array[Dictionary] = [
 		"charName": Global.customPlayerNames[2] if not Global.customPlayerNames.is_empty() else Global.defaultPlayerNames[2], # Gabriel
 		"health": 300,
 		"powerPoints": 0,
-		"offense": 170,
-		"defense": 95,
+		"offense": 182,
+		"defense": 105,
 		"speed": 7,
 		"determination": 21,
 		"specialAbility": "Dev Tools",

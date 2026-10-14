@@ -28,7 +28,7 @@ var info : Array[Dictionary] = [
 		"charName": "Small Gus",
 		"health": 1460,
 		"offense": 80,
-		"defense": 30,
+		"defense": 20,
 		"speed": 80,
 		"determination": 33,
 		"specialAbility": "Innovation",

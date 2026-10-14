@@ -22,6 +22,7 @@ extends Control
 @export var availableEnemies : enemyData
 @export var organizationTeam : organization
 @export var assignTeams : teamAssignments
+var damageVisual : damageVisualEffect = damageVisualEffect.new()
 
 # New Variables !!!
 var playerTeam : Array[player] = []
@@ -45,6 +46,8 @@ func _ready() -> void:
 	actionMenu.togglePlayerActions()
 	
 	backgroundMusic.playMusic("res://Resources/Music/Inova x Paizão.mp3")
+	
+	Global.fightScript = self
 	
 	setupButtonSounds(self)
 	
@@ -241,9 +244,11 @@ func testForDeath(deffender : Node) -> void:
 		print("TESTFORDEATH:: %s died!" % [deffender.charName])
 		
 		if (deffender is player):
-			deffender.myUI.background.modulate = Color.BLACK
+			add_child(damageVisual)
+			await damageVisual.playerDied(deffender.myUI.background)
 		else:
-			deffender.myUI.visible = false
+			add_child(damageVisual)
+			await damageVisual.enemyDied(deffender.myUI, deffender.myUI.enemySprite)
 		
 		await showHappeningText([deffender.deathMessage])
 	

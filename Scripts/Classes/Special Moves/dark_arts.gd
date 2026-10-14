@@ -33,9 +33,10 @@ func antiInnovation(user : Node, target : Node) -> void:
 				await owner.testForDeath(defender)
 			else:
 				await owner.showHappeningText(["It did not work very well on %s!" % [defender.charName], "The dark art backfired to %s!" % [user.charName]])
-				var damage : int = floor(user.health * 0.9)
-				var damageMessage : String = "%d HP of recoil damage to %s!" % [damage, user.charName]
-				await damageHandler(user, damage, damageMessage)
+				var damage : int = floor(user.health * 0.8)
+				if (user is enemy): damage = floor(user.health * 0.5)
+				var damageMessage : String = " HP of recoil damage to %s!" % [user.charName]
+				await Global.damageHandler(user, user, damage, damageMessage, false)
 
 func globalization(user : Node, target : Node) -> void:
 	var finalTarget : Array = user.rivalTeam
@@ -53,15 +54,22 @@ func globalization(user : Node, target : Node) -> void:
 		finalTarget = user.allyTeam
 	# --------------------------------------------------
 	
-	var damage : int = 242
-	await owner.showHappeningText(["Globalization deems equality.", "Globalization will make %s lose %d HP and the enemy lose %d HP!" % [user.charName, damage, damage * 4]])
+	var damage : int = randi_range(1, user.maxHealth)
+	var targetDamage : int = damage
 	
-	await damageHandler(user, damage, "%d HP of equalization damage to %s!" % [damage, user.charName])
+	if (user.target is enemy):
+		targetDamage *= 4
+	elif (user.target is player):
+		targetDamage = floor(targetDamage / 4)
+	
+	await owner.showHappeningText(["Globalization deems equality.", "Globalization will make %s lose %d HP and the enemy lose %d HP!" % [user.charName, damage, targetDamage]])
+	
+	await Global.damageHandler(user, user, damage, " HP of equalization damage to %s!" % [user.charName], false)
 	
 	if (owner.isPlayerTeamAlive && owner.isEnemyTeamAlive):
 		for defender in finalTarget:
 			if (defender.alive):
-				await damageHandler(defender, damage * 4, "%d HP of equalization damage to %s!" % [damage * 4, defender.charName])
+				await Global.damageHandler(user, defender, targetDamage, " HP of equalization damage to %s!" % [defender.charName], false)
 
 func logarithms(user : Node, target : Node) -> void:
 	var finalTarget : Array = user.rivalTeam
@@ -94,11 +102,3 @@ func logarithms(user : Node, target : Node) -> void:
 				await owner.showHappeningText(["%s's offense went up by %d!" % [defender.charName, increaseOffense]])
 			else:
 				await owner.showHappeningText(["It had no visible effect on %s!" % [defender.charName]])
-
-func damageHandler(defender : Node, damage : int, message : String) -> void:
-	defender.health -= damage
-	owner.updateHealthText(defender)
-	
-	await owner.showHappeningText([message])
-	
-	await owner.testForDeath(defender)

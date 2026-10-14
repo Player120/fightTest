@@ -57,7 +57,7 @@ offset_top = -360.0
 offset_right = 64.0
 offset_bottom = 360.0
 grow_horizontal = 2
-stretch_mode = 6
+expand_mode = 2
 
 [node name="EnemyContainer" type="HBoxContainer" parent="EnemyArea" unique_id=2060299401]
 layout_mode = 1
@@ -73,7 +73,7 @@ grow_vertical = 2
 alignment = 1
 
 [node name="HappeningArea" type="Control" parent="." unique_id=319200587]
-custom_minimum_size = Vector2(1152, 120)
+custom_minimum_size = Vector2(1152, 110)
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
@@ -82,12 +82,12 @@ grow_horizontal = 2
 [node name="BackgroundSprite" type="TextureRect" parent="HappeningArea" unique_id=1370510805]
 self_modulate = Color(0.80378455, 0.8224475, 0.8641076, 1)
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = 10
 anchor_right = 1.0
-anchor_bottom = 1.0
+offset_bottom = 110.0
 grow_horizontal = 2
-grow_vertical = 2
 texture = ExtResource("4_xgr32")
+expand_mode = 3
 script = ExtResource("3_x3o65")
 
 [node name="HappeningText" type="Label" parent="HappeningArea" unique_id=799280050]
@@ -102,6 +102,7 @@ offset_bottom = -4.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
 text = "Placeholder Text"
 autowrap_mode = 3
 max_lines_visible = 2
@@ -124,8 +125,8 @@ theme_override_font_sizes/font_size = 32
 text = "press enter"
 
 [node name="ActionMenu" parent="HappeningArea" unique_id=1472340283 instance=ExtResource("4_hcub5")]
+custom_minimum_size = Vector2(1152, 110)
 layout_mode = 1
-offset_bottom = 0.0
 
 [node name="PlayerArea" type="Control" parent="." unique_id=1554892357]
 custom_minimum_size = Vector2(1152, 120)

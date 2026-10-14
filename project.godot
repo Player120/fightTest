@@ -20,6 +20,9 @@ config/version="1.0.0"
 run/main_scene="uid://c4qbwuphwicio"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+config/windows_native_icon="res://Resources/Sprites/File Icon/icon.ico"
+run/stretch/mode="viewport"
+run/stretch/aspect="expand"
 
 [autoload]
 
@@ -30,6 +33,9 @@ Transition="*uid://cvtg0ut8hjp8l"
 [display]
 
 window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/main_scene="uid://c4qbwuphwicio"
 
 [editor_plugins]
 
@@ -49,3 +55,4 @@ theme/custom_font="uid://bm83o664xax62"
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0, 0, 0.21568628, 1)

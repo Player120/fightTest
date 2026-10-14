@@ -26,6 +26,7 @@ var currentPlayer : player
 func _ready() -> void:
 	get_tree().call_group("specialActions", "hide")
 	specialActionsBackground.hide()
+	Global.hoveringEnemy.connect(changeTargetNameLabel)
 	
 	# Connect normal action buttons --------------------------------
 	for button in buttons:
@@ -62,7 +63,6 @@ func _process(delta: float) -> void:
 		for button in buttons:
 			button.disabled = true
 			askTarget.visible = true
-		Global.hoveringEnemy.connect(changeTargetNameLabel)
 	else:
 		for button in buttons:
 			button.disabled = false

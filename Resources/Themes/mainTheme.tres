@@ -79,6 +79,6 @@ Button/styles/hover = SubResource("StyleBoxTexture_behnk")
 Button/styles/normal = SubResource("StyleBoxTexture_026rk")
 Button/styles/pressed = SubResource("StyleBoxTexture_6m40w")
 Label/font_sizes/font_size = 48
-TooltipLabel/font_sizes/font_size = 24
+TooltipLabel/font_sizes/font_size = 30
 TooltipLabel/styles/normal = SubResource("StyleBoxFlat_026rk")
 TooltipPanel/styles/panel = SubResource("StyleBoxFlat_behnk")

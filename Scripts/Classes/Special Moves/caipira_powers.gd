@@ -36,11 +36,12 @@ func thunderStorm(user : Node, target : Node):
 				var damage : int = randi_range(60, 104)
 				var damageMessage : String = " HP of shocking damage to %s!" % [randomTarget.charName]
 		
-				await damageHandler(user, randomTarget, damage, damageMessage)
+				await Global.damageHandler(user, randomTarget, damage, damageMessage)
 				
 				var paralysisChance = randi_range(1, 10)
 				if (paralysisChance == 1 && !randomTarget.statusEffect.has("paralysis") && randomTarget.alive):
 					randomTarget.statusEffect.append("paralysis")
+					randomTarget.speed = floor(randomTarget.speed / 2)
 					await owner.showHappeningText(["%s's body became numb!" % [randomTarget.charName], "%s may not be able to move!" % [randomTarget.charName]])
 			else:
 				await owner.showHappeningText(["The lighting strike didn't hit anyone!"])
@@ -72,7 +73,7 @@ func natureBeam(user : Node, target : Node):
 				var damage : int = randi_range(606, 808)
 				var damageMessage : String = " HP of nature fury damage to %s!" % [defender.charName]
 		
-				await damageHandler(user, defender,damage, damageMessage)
+				await Global.damageHandler(user, defender,damage, damageMessage)
 				
 				user.statusEffect.erase("charging")
 				
@@ -133,7 +134,7 @@ func organizationAttack(targetTeam : Array):
 			var damage : int = randi_range(33, 64)
 			var damageMessage : String = " HP of gratification damage to %s!" % [randomTarget.charName]
 	
-			await damageHandler(user, randomTarget, damage, damageMessage)
+			await Global.damageHandler(user, randomTarget, damage, damageMessage, false)
 
 func ppDepleteHandler(user : Node, amount : int) -> bool:
 	if (user.powerPoints >= amount):
@@ -144,32 +145,3 @@ func ppDepleteHandler(user : Node, amount : int) -> bool:
 	else:
 		await owner.showHappeningText(["Not enough PP!"])
 		return false
-
-func damageHandler(attacker : Node, defender : Node, damage : int, message : String) -> void:
-	var finalMessage : Array = []
-	var shieldInfo : Array = []
-	if (defender.statusEffect.has("shield") and attacker is not organization):
-		shieldInfo = effects.shield(attacker, defender, damage)
-		# shieldInfo positions: [0] damage | [1] reflected damage | [2] reflected message 1 | [3] reflected message 2 | [4] dissapeared message
-		damage = shieldInfo[0]
-		
-	defender.health -= damage
-	owner.updateHealthText(defender)
-	finalMessage.append(str(damage) + message)
-	await owner.showHappeningText(finalMessage)
-	await owner.testForDeath(defender)
-	
-	if (owner.isPlayerTeamAlive and owner.isEnemyTeamAlive and not shieldInfo.is_empty() and attacker.alive):
-		var reflectedMessages : Array[String] = [shieldInfo[2], shieldInfo[3]]
-		finalMessage = reflectedMessages
-		
-		attacker.health -= shieldInfo[1]
-		
-		await owner.showHappeningText([finalMessage[0]])
-		owner.updateHealthText(attacker)
-		await owner.showHappeningText([finalMessage[1]])
-		await owner.testForDeath(attacker)
-		if (shieldInfo.size() > 4 and owner.isPlayerTeamAlive and owner.isEnemyTeamAlive):
-			await owner.showHappeningText([shieldInfo[4]])
-	elif (owner.isPlayerTeamAlive and owner.isEnemyTeamAlive and shieldInfo.size() > 4):
-		await owner.showHappeningText([shieldInfo[4]])
