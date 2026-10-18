@@ -81,7 +81,7 @@ func pkFreeze(user : Node, target : Node) -> void:
 		await vfx.tree_exited
 		
 		if (target.alive):
-			var damage : int = randi_range(260, 360)
+			var damage : int = randi_range(320, 380)
 			var willFreeze : int = randi_range(1, 3)
 			
 			var damageMessage : String = " HP of freezing damage to %s!" % [target.charName]
@@ -90,6 +90,8 @@ func pkFreeze(user : Node, target : Node) -> void:
 			
 			if (willFreeze == 1 && !target.statusEffect.has("freeze") && target.alive):
 				target.statusEffect.append("freeze")
+				if (target is enemy):
+					Global.stopEnemyAnimation.emit(target)
 				await owner.showHappeningText(["%s was frozen!" % [target.charName]])
 		else:
 			await owner.showHappeningText(["%s is already dead idiot!" % [target.charName]])

@@ -19,11 +19,13 @@ func burn(affected : Node) -> void:
 		await owner.showHappeningText(["%s stopped toasting!" % [affected.charName]])
 
 func freeze(affected : Node) -> void:
-	var unfreeze : int = randi_range(1, 3)
+	var unfreeze : int = randi_range(1, 4)
 	if (unfreeze != 1):
 		await owner.showHappeningText(["%s is frozen and can't move!" % [affected.charName]])
 	elif (affected.alive):
 		affected.statusEffect.erase("freeze")
+		if (affected is enemy):
+			Global.startEnemyAnimation.emit(affected)
 		await owner.showHappeningText(["%s has unfrozen!" % [affected.charName]])
 
 func confusion(affected : Node, playerTeam : Array[player], enemyTeam : Array[enemy]) -> void:
@@ -49,6 +51,8 @@ func paralysis(affected : Node) -> bool:
 	if (willRemove == 1):
 		affected.statusEffect.erase("paralysis")
 		affected.speed *= 2
+		if (affected is enemy):
+			Global.startEnemyAnimation.emit(affected)
 		await owner.showHappeningText(["%s's paralysis is gone!" % [affected.charName]])
 		return true
 	

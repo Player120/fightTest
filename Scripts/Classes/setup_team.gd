@@ -26,6 +26,8 @@ func setup(
 		newPlayer.deathMessage = "%s was hurt and beaten..." % [newPlayer.charName]
 		newPlayer.themeColor = data[i].themeColor
 		newPlayer.sprite = data[i].sprite
+		newPlayer.ghostSprite = data[i].ghostSprite
+		newPlayer.deathIconSprite = data[i].deathIconSprite
 		
 		# Creates UI window with name and HP/PP values
 		var newWindow : Control = playerWindowScene.instantiate()

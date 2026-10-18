@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://t5x3swtavw5y"]
+
+[ext_resource type="Theme" uid="uid://b73treqs10hdc" path="res://Resources/Themes/titleScreenTheme.tres" id="1_l61dg"]
+[ext_resource type="Script" uid="uid://c4cep7k3mjjpe" path="res://Scripts/UI/disclaimer.gd" id="2_lxaew"]
+[ext_resource type="Texture2D" uid="uid://bf1oho3xpsi2u" path="res://Resources/Sprites/Background/main_menu_background.png" id="2_mtboa"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lxaew"]
+bg_color = Color(0.1867581, 0.20365289, 0.2842308, 0.42745098)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+expand_margin_left = 15.0
+expand_margin_top = 15.0
+expand_margin_right = 15.0
+expand_margin_bottom = 15.0
+
+[node name="Disclaimer" type="Control" unique_id=1981885647]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_l61dg")
+script = ExtResource("2_lxaew")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1068265402]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_mtboa")
+expand_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=855291397]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.6745098)
+
+[node name="TextArea" type="PanelContainer" parent="." unique_id=808612992]
+custom_minimum_size = Vector2(700, 570)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -487.0
+offset_top = -285.0
+offset_right = 487.0
+offset_bottom = 285.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lxaew")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextArea" unique_id=869292018]
+layout_mode = 2
+
+[node name="Warning" type="Label" parent="TextArea/VBoxContainer" unique_id=1307639228]
+custom_minimum_size = Vector2(970, 100)
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0.93846613, 0, 0.10629525, 1)
+theme_override_font_sizes/font_size = 100
+text = "Warning!"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Information" type="Label" parent="TextArea/VBoxContainer" unique_id=1461018398]
+custom_minimum_size = Vector2(512, 320)
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 50
+text = "This game contains flashing lights, loud sounds, and other visual effects that could be harmful to sensitive people.
+
+If you are prone to epilepsy or are sensitive to any of those effects, please close the game and do not proceed."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Spacing" type="Control" parent="TextArea/VBoxContainer" unique_id=1274276669]
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="ProceedButton" type="Button" parent="TextArea/VBoxContainer" unique_id=1644278410]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 30
+text = "I understand and wish to proceed."
+
+[connection signal="pressed" from="TextArea/VBoxContainer/ProceedButton" to="." method="_on_proceed_button_pressed"]

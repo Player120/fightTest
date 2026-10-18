@@ -41,6 +41,8 @@ func thunderStorm(user : Node, target : Node):
 				var paralysisChance = randi_range(1, 10)
 				if (paralysisChance == 1 && !randomTarget.statusEffect.has("paralysis") && randomTarget.alive):
 					randomTarget.statusEffect.append("paralysis")
+					if (randomTarget is enemy):
+						Global.stopEnemyAnimation.emit(randomTarget)
 					randomTarget.speed = floor(randomTarget.speed / 2)
 					await owner.showHappeningText(["%s's body became numb!" % [randomTarget.charName], "%s may not be able to move!" % [randomTarget.charName]])
 			else:
@@ -86,6 +88,8 @@ func natureBeam(user : Node, target : Node):
 							defender.statusEffect.append("burn")
 					2:
 						if (!defender.statusEffect.has("freeze")):
+							if (defender is enemy):
+								Global.stopEnemyAnimation.emit(defender)
 							await owner.showHappeningText(["The power of the attack froze %s!" % [defender.charName]])
 							defender.statusEffect.append("freeze")
 

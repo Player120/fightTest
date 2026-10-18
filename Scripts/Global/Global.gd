@@ -1,7 +1,7 @@
 extends Node
 
 var isSelectingEnemy : bool = false
-var currentPlayer : player
+var currentCharacter : Node
 var playerTeam : Array[player] = []
 var enemyTeam : Array[enemy] = []
 var defaultPlayerNames : Array[String] = [
@@ -16,6 +16,9 @@ var effects : statusEffects = statusEffects.new()
 
 signal enemyChosen
 signal hoveringEnemy(enemyName : String)
+signal startEnemyAnimation(target : enemy)
+signal stopEnemyAnimation(defender : enemy)
+signal playerFinishedTurn
 
 const specialMoveslist : Dictionary = {
 	"PSI": ["PK Starstorm", "PK Fire", "PK Freeze"],
@@ -40,12 +43,12 @@ const assistanceSpecialMoves : Array[String] = [
 
 
 func trackPlayer(current : player) -> void:
-	currentPlayer = current
-	print("GLOBAL:: Current tracked Player is %s (Node Name: %s)" % [currentPlayer.charName, currentPlayer])
+	currentCharacter = current
+	print("GLOBAL:: Current tracked Character is %s (Node Name: %s)" % [currentCharacter.charName, currentCharacter])
 
 func setTarget(target) -> void:
-	currentPlayer.target = target
-	print("GLOBAL:: Player %s selected the enemy %s as a target" % [currentPlayer.charName, currentPlayer.target.charName])
+	currentCharacter.target = target
+	print("GLOBAL:: Current Character %s selected the character %s as a target" % [currentCharacter.charName, currentCharacter.target.charName])
 	enemyChosen.emit()
 
 func enableEnemySelection() -> void:
@@ -109,5 +112,5 @@ func damageHandler(attacker : Node, defender : Node, damage : int, message : Str
 		fightScript.updateHealthText(attacker)
 		await fightScript.showHappeningText([finalMessage[1]])
 		await fightScript.testForDeath(attacker)
-		if (shieldInfo.size() > 4 and fightScript.isPlayerTeamAlive and fightScript.isEnemyTeamAlive):
+		if (shieldInfo.size() > 4 and fightScript.isPlayerTeamAlive and fightScript.isEnemyTeamAlive and defender.alive):
 			await fightScript.showHappeningText([shieldInfo[4]])

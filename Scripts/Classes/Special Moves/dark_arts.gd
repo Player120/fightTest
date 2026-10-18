@@ -24,12 +24,18 @@ func antiInnovation(user : Node, target : Node) -> void:
 	
 	for defender in finalTarget:
 		if (defender.alive):
-			var instaKill : int = randi_range(1, 4)
+			var instaKill : int = randi_range(1, 5)
 			
 			if (instaKill == 1):
 				defender.health = 0
 				owner.updateHealthText(defender)
 				await owner.showHappeningText(["%s was obliterated from existence!" % [defender.charName]])
+				
+				if (defender is enemy):
+					var damageVisual : damageVisualEffect = damageVisualEffect.new()
+					add_child(damageVisual)
+					await damageVisual.enemyObliterated(defender.myUI.enemySprite)
+					
 				await owner.testForDeath(defender)
 			else:
 				await owner.showHappeningText(["It did not work very well on %s!" % [defender.charName], "The dark art backfired to %s!" % [user.charName]])

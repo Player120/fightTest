@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://ccvlxxunu1ai8" path="res://Resources/Sprites/Characters/rafa.svg" id="2_bjlgi"]
 [ext_resource type="Texture2D" uid="uid://dypx4ukbq0r5e" path="res://Resources/Sprites/Background/playerWindowUI.svg" id="2_s6f2e"]
 [ext_resource type="Script" uid="uid://qfeuvny3aylv" path="res://Scripts/UI/player_sprite.gd" id="3_reb84"]
+[ext_resource type="Texture2D" uid="uid://boywghahpa0p6" path="res://Resources/Sprites/Death/tombstone.svg" id="4_gkd8s"]
+[ext_resource type="Texture2D" uid="uid://bab0i8kk1gdrq" path="res://Resources/Sprites/Death/Tombstone Icons/rafaDead.svg" id="5_8fqs1"]
 
 [node name="PlayerWindow" type="Control" unique_id=1711051288]
 custom_minimum_size = Vector2(230, 160)
@@ -30,6 +32,34 @@ grow_horizontal = 2
 texture = ExtResource("2_bjlgi")
 stretch_mode = 4
 script = ExtResource("3_reb84")
+
+[node name="Tombstone" type="TextureRect" parent="." unique_id=1564184415]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+texture = ExtResource("4_gkd8s")
+stretch_mode = 3
+
+[node name="DeathIcon" type="TextureRect" parent="Tombstone" unique_id=2104545792]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.37500003
+anchor_right = 0.5
+anchor_bottom = 0.37500003
+offset_left = -20.0
+offset_top = -20.000004
+offset_right = 20.0
+offset_bottom = 19.999996
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_8fqs1")
+stretch_mode = 3
 
 [node name="BackgroundSprite" type="TextureRect" parent="." unique_id=858263512]
 custom_minimum_size = Vector2(230, 0)

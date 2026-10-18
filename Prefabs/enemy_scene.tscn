@@ -2,6 +2,10 @@
 
 [ext_resource type="Script" uid="uid://b0f6o0wl2e7if" path="res://Scripts/UI/enemy_scene.gd" id="1_fh721"]
 [ext_resource type="Texture2D" uid="uid://csrm0lakyqsyw" path="res://Resources/Sprites/Characters/bigGus.svg" id="2_poafv"]
+[ext_resource type="Shader" uid="uid://cmvyb7vlig0i3" path="res://Scripts/Visual Effects/enemy_death_effect.gdshader" id="2_rtgsc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_poafv"]
+shader = ExtResource("2_rtgsc")
 
 [node name="EnemyScene" type="Control" unique_id=351384679]
 custom_minimum_size = Vector2(300, 0)
@@ -16,6 +20,7 @@ size_flags_vertical = 4
 script = ExtResource("1_fh721")
 
 [node name="EnemySprite" type="TextureRect" parent="." unique_id=384723385]
+material = SubResource("ShaderMaterial_poafv")
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5

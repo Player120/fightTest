@@ -6,7 +6,6 @@
 [ext_resource type="Script" uid="uid://deuvyaeq4pnhc" path="res://Scripts/Classes/enemy.gd" id="4_34m47"]
 [ext_resource type="PackedScene" uid="uid://61qee0l6w8dn" path="res://Prefabs/action_menu.tscn" id="4_hcub5"]
 [ext_resource type="Texture2D" uid="uid://b835lipnge4ju" path="res://Resources/Sprites/Background/happeningBackground.svg" id="4_xgr32"]
-[ext_resource type="Script" uid="uid://cceuceg2xna77" path="res://Scripts/Gameplay/music_manager.gd" id="6_5morp"]
 [ext_resource type="Script" uid="uid://qy2b5tvi1dh2" path="res://Scripts/Classes/actions.gd" id="9_hcub5"]
 [ext_resource type="Script" uid="uid://ceroc8ieltt1q" path="res://Scripts/Classes/Special Moves/psi_moves.gd" id="10_2ssja"]
 [ext_resource type="Script" uid="uid://br3r6abel1o8w" path="res://Scripts/Classes/Special Moves/dark_arts.gd" id="10_rgwgi"]
@@ -92,10 +91,11 @@ script = ExtResource("3_x3o65")
 
 [node name="HappeningText" type="Label" parent="HappeningArea" unique_id=799280050]
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = -1
+anchor_left = 0.013
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 15.0
+offset_left = 0.024000168
 offset_top = 5.0
 offset_right = -7.0
 offset_bottom = -4.0
@@ -139,17 +139,6 @@ grow_horizontal = 2
 grow_vertical = 0
 script = ExtResource("4_1u4tr")
 
-[node name="ColorRect" type="ColorRect" parent="PlayerArea" unique_id=1933701095]
-visible = false
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = 38.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.165656, 0.165656, 0.165656, 1)
-
 [node name="WindowContainer" type="HBoxContainer" parent="PlayerArea" unique_id=337671634]
 custom_minimum_size = Vector2(1152, 160)
 layout_mode = 1
@@ -161,9 +150,6 @@ offset_top = -160.0
 grow_horizontal = 2
 grow_vertical = 0
 alignment = 1
-
-[node name="BackgroundMusic" type="AudioStreamPlayer" parent="." unique_id=2085493538]
-script = ExtResource("6_5morp")
 
 [node name="ButtonSoundEffect" type="AudioStreamPlayer" parent="." unique_id=253018458]
 

@@ -5,6 +5,8 @@ extends Control
 @onready var ppNumber : Label = $VBoxContainer/ppContainer/ppNumber
 @onready var background : TextureRect = $BackgroundSprite
 @onready var playerSprite : TextureRect = $PlayerSprite
+@onready var tombstoneSprite : TextureRect = $Tombstone
+@onready var deathIconSprite : TextureRect = $Tombstone/DeathIcon
 
 var trackedPlayer : player
 
@@ -13,9 +15,9 @@ func playerSpriteMove(direction : String) -> void:
 	var yTarget : int = 0
 	
 	if (direction == "up"):
-		yTarget = position.y - 115
+		yTarget = -115
 	elif (direction == "down"):
-		yTarget = position.y + 115
+		yTarget = 115
 	
 	# Transitions the property position:y to the target in 0.6 sec
 	myTween.tween_property(playerSprite, "position:y", yTarget, 0.6)\
@@ -27,6 +29,7 @@ func initializeWithPlayer(data : player) -> void:
 	nameText.text = trackedPlayer.charName
 	background.modulate = trackedPlayer.themeColor
 	playerSprite.texture = load(trackedPlayer.sprite)
+	deathIconSprite.texture = load(trackedPlayer.deathIconSprite)
 
 func updateUIText(stat : String, value : int) -> void:
 	match stat:

@@ -1,8 +1,0 @@
-[gd_scene format=3 uid="uid://qmdd3vstvg5v"]
-
-[ext_resource type="Script" uid="uid://kctvr5uvahdt" path="res://Scripts/UI/menu_background_music.gd" id="1_77ltc"]
-
-[node name="MenuBackgroundMusic" type="AudioStreamPlayer" unique_id=2045822102]
-script = ExtResource("1_77ltc")
-fadeTime = 0.5
-maxVolume = 10.0

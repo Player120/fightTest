@@ -23,6 +23,7 @@ var deathMessage : String = "%s was defeated!" % [charName]
 var shieldHealth : int = 0
 var sprite : String = ""
 var background : String = ""
+var spriteScale : float = 1.0
 var myUI : Control
 var enemyMoves : int = 0
 var allyTeam : Array[enemy] = []

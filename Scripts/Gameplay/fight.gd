@@ -30,7 +30,6 @@ var enemyTeam : Array[enemy] = []
 
 @onready var windowContainer : HBoxContainer = $PlayerArea/WindowContainer
 @onready var actionMenu : Control = $HappeningArea/ActionMenu
-@onready var backgroundMusic : AudioStreamPlayer = $BackgroundMusic
 @onready var buttonSoundEffect : AudioStreamPlayer = $ButtonSoundEffect
 # New Variables !!!
 
@@ -45,14 +44,16 @@ func _ready() -> void:
 	randomize()
 	actionMenu.togglePlayerActions()
 	
-	backgroundMusic.playMusic("res://Resources/Music/Inova x Paizão.mp3")
+	BackgroundMusic.maxVolume = 0.0
+	BackgroundMusic.fadeTime = 2.5
+	BackgroundMusic.playMusic("res://Resources/Music/Inova x Paizão.mp3")
 	
 	Global.fightScript = self
 	
 	setupButtonSounds(self)
 	
 	# Creates the player characters. Change the first number to change the amount of players (max of 5 by default), or checkout the playerData.gd file to create new players or modify pre-existing data
-	await createPlayers.setup(5, windowContainer, actionMenu, playerArea, playerTeam, availablePlayers.info)
+	createPlayers.setup(5, windowContainer, actionMenu, playerArea, playerTeam, availablePlayers.info)
 	
 	# Creates the enemy characters. Change the first number to change the amount of enemies (max of 3 by default), or checkout the enemyData.gd file to create new enemies or modify pre-existing data
 	await createEnemyTeam.setup(3, enemyArea, background, enemyContainer, enemyTeam, availableEnemies.info)
@@ -75,7 +76,11 @@ func _unhandled_input(event : InputEvent) -> void:
 
 func showHappeningText(message : Array) -> void:
 	for text in message:
+		happeningText.visible_ratio = 0
 		happeningText.text = text
+		while (happeningText.visible_ratio < 1.0):
+			happeningText.visible_ratio += 0.05
+			await get_tree().create_timer(0.001).timeout
 		await enterPressed
 
 func setupButtonSounds(currentNode : Node) -> void:
@@ -156,6 +161,7 @@ func turnManager() -> void:
 func executeTurn(charOrder : Array[Node]) -> void:
 	for userInfo in charOrder:
 		print("CURRENTTURN: %s" % [userInfo.name])
+		Global.currentCharacter = userInfo
 		if (userInfo is player and userInfo.alive):
 			userInfo.myUI.playerSpriteMove("up")
 		
@@ -187,6 +193,7 @@ func executeTurn(charOrder : Array[Node]) -> void:
 			
 			if (userInfo is player && isEnemyTeamAlive):
 				userInfo.myUI.playerSpriteMove("down")
+				Global.playerFinishedTurn.emit()
 			
 			if (!isPlayerTeamAlive || !isEnemyTeamAlive):
 				break
@@ -197,7 +204,7 @@ func executeTurn(charOrder : Array[Node]) -> void:
 				userInfo.enemyMoves += 1
 		elif (userInfo is organization):
 			await userActions.caipiraPowersManager(userInfo, userInfo.target)
-			var willLeave : int = randi_range(1, 19999999)
+			var willLeave : int = randi_range(1, 8)
 			if (willLeave == 1):
 				await showHappeningText(["The Organization team got tired from all their hard work and went to lunch."])
 				
@@ -245,9 +252,10 @@ func testForDeath(deffender : Node) -> void:
 		
 		if (deffender is player):
 			add_child(damageVisual)
-			await damageVisual.playerDied(deffender.myUI.background)
+			await damageVisual.playerDied(deffender, deffender.myUI.background, deffender.myUI.playerSprite)
 		else:
 			add_child(damageVisual)
+			Global.stopEnemyAnimation.emit(deffender)
 			await damageVisual.enemyDied(deffender.myUI, deffender.myUI.enemySprite)
 		
 		await showHappeningText([deffender.deathMessage])
@@ -267,23 +275,25 @@ func testForDeath(deffender : Node) -> void:
 
 func endBattle() -> void:
 	if (isPlayerTeamAlive):
-		backgroundMusic.switchMusic("res://Resources/Music/Coração verde e amarelo - Dr. Guilherme Berton.mp3")
+		BackgroundMusic.switchMusic("res://Resources/Music/Coração verde e amarelo - Dr. Guilherme Berton.mp3")
 		
 		# Signal that battle ended to trigger color change
 		happeningBackground.changeColors("victory")
 		
 		for member in playerTeam:
-			if (member.alive):
-				member.myUI.playerSpriteMove("up")
-			else:
-				member.myUI.playerSpriteMove("down")
+			if (member != Global.currentCharacter):
+				if (not member.alive):
+					damageVisual.moveTombstone(member, true)
+				else: 
+					member.myUI.playerSpriteMove("up")
 		
 		await showHappeningText(["You won! Vargem Grande do Sul and the universe are saved from Innovation!"])
 	else:
-		backgroundMusic.switchMusic("res://Resources/Music/MUSICA PARA MISTERIO - MUSIC FOR MYSTERY - MUSICA PARA RADIO Y TV - Chris Fernández.mp3")
+		BackgroundMusic.switchMusic("res://Resources/Music/MUSICA PARA MISTERIO - MUSIC FOR MYSTERY - MUSICA PARA RADIO Y TV - Chris Fernández.mp3")
 		
 		for member in Global.playerTeam:
 			member.myUI.playerSpriteMove("down")
+			Global.playerFinishedTurn.emit()
 		
 		# Signal that battle ended to trigger color change
 		happeningBackground.changeColors("defeat")

@@ -25,5 +25,7 @@ var themeColor : Color
 var canBeTargeted = true
 var shieldHealth : int = 0
 var sprite : String = ""
+var ghostSprite : String = ""
+var deathIconSprite : String = ""
 var allyTeam : Array[player] = []
 var rivalTeam : Array[enemy] = []

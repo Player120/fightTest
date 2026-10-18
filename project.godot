@@ -27,7 +27,7 @@ run/stretch/aspect="expand"
 [autoload]
 
 Global="*uid://b1o7vg8lsk8b"
-MenuBackgroundMusic="*uid://qmdd3vstvg5v"
+BackgroundMusic="*uid://qmdd3vstvg5v"
 Transition="*uid://cvtg0ut8hjp8l"
 
 [display]

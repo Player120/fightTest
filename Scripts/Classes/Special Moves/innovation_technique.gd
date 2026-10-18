@@ -67,17 +67,20 @@ func darkRoom(user : Node):
 			await Global.damageHandler(user, member, updatedStats, damageMessage, true, "%s took " % [member.charName])
 
 func mysqlHack(user : Node):
-	await owner.showHappeningText(["%s showed %s a never-seen-before MySQL hack!" % [user.charName, user.target.charName]])
-	
-	var damage : int = randi_range(30, 90)
-	var damageMessage : String = " HP of damage from the overwhelming amount of innovation!" % [damage, user.target.charName]
-	await Global.damageHandler(user, user.target, damage, damageMessage, true, "%s took " % [user.target.charName])
-	
-	var willParalyse = randi_range(1, 3)
-	if (user.target.alive && willParalyse == 1 && !user.target.statusEffect.has("paralysis")):
-		await owner.showHappeningText(["The shock from the deadly levels of innovation left %s paralysed!" % [user.target.charName]])
-		user.target.statusEffect.append("paralysis")
-		user.speed = floor(user.speed / 2)
+	if (user.target.alive):
+		await owner.showHappeningText(["%s showed %s a never-before-seen MySQL hack!" % [user.charName, user.target.charName]])
+		
+		var damage : int = randi_range(30, 90)
+		var damageMessage : String = " HP of damage from the overwhelming amount of innovation!" % [damage, user.target.charName]
+		await Global.damageHandler(user, user.target, damage, damageMessage, true, "%s took " % [user.target.charName])
+		
+		var willParalyse = randi_range(1, 3)
+		if (user.target.alive && willParalyse == 1 && !user.target.statusEffect.has("paralysis")):
+			await owner.showHappeningText(["The shock from the deadly levels of innovation left %s paralysed!" % [user.target.charName]])
+			user.target.statusEffect.append("paralysis")
+			user.speed = floor(user.speed / 2)
+	else:
+		await owner.showHappeningText(["%s tried to show %s a never-before-seen MySQL hack!" % [user.charName, user.target.charName], "But %s was already dead!" % [user.target.charName]])
 
 func innovationSingularity(user : Node):
 	await owner.showHappeningText(["%s achieved the Ultra Innovation Singularity!" % [user.charName]])

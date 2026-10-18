@@ -47,7 +47,7 @@ func _on_done_pressed() -> void:
 		currentCharacter += 1
 		
 		if (currentCharacter == 5):
-			MenuBackgroundMusic.stop()
+			BackgroundMusic.stop()
 			Transition.changeScene("res://Scenes/fight.tscn")
 		else:
 			character.texture = load(charSprites[currentCharacter])

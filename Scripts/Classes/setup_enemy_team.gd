@@ -45,7 +45,7 @@ func setup(quantity : int, enemyArea : Control, background : TextureRect, enemyC
 		# Storing the hp label inside of the own enemy if it is needed
 		newEnemy.myUI = newScene
 		newEnemy.healthLabel = newScene.hpNumber
-		print(newEnemy.healthLabel)
+		newEnemy.myUI.enemySprite.scale *= data[i].spriteScale
 		
 		# Adding the node logic in the tree (as child of fight area)
 		add_child(newEnemy)

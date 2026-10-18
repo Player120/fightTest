@@ -78,7 +78,7 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 tooltip_text = "Fire bursts from the user's fingers and all enemies receives toasting damage, with a 1/2 chance of being burned afterwards.
-PP Cost: 8"
+PP Cost: 12"
 text = "PK Fire"
 script = ExtResource("6_e734a")
 tooltipSize = 450.0
@@ -89,7 +89,7 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 tooltip_text = "A heavy cold wind is summoned from the user's hand and surrounds an enemy for freezing damage. Has a 1/3 chance of freezing the enemy completely.
-PP Cost: 6"
+PP Cost: 8"
 text = "PK Freeze"
 script = ExtResource("6_e734a")
 tooltipSize = 450.0
@@ -124,7 +124,7 @@ custom_minimum_size = Vector2(180, 65)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-tooltip_text = "A lethal dark art that can instantly erase any trace of inovation from existence. Targets all enemies. Has a low 1/4 chance of instantly killing an enemy, but if it fails, the user will receive heavy recoil damage.
+tooltip_text = "A lethal dark art that can instantly erase any trace of inovation from existence. Targets all enemies. Has a low 1/5 chance of instantly killing an enemy, but if it fails, the user will receive heavy recoil damage.
 PP Cost: 0"
 text = "Anti-Innovation"
 script = ExtResource("6_e734a")
